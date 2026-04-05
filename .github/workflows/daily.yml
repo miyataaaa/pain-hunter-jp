@@ -4,7 +4,12 @@ on:
   schedule:
     # JST 03:00 = UTC 18:00 / JST 15:00 = UTC 06:00
     - cron: '0 6,18 * * *'
-  workflow_dispatch:  # 手動実行も可能
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: '取得件数（空欄=全件）'
+        required: false
+        default: ''
 
 permissions:
   contents: write  # data/ と reports/ をコミットするため
@@ -31,7 +36,12 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
-        run: python -m src.main
+        run: |
+          if [ -n "${{ github.event.inputs.limit }}" ]; then
+            python -m src.main --limit ${{ github.event.inputs.limit }} --skip-notify
+          else
+            python -m src.main
+          fi
 
       - name: Commit results
         run: |
