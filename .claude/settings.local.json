@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(*)",
+      "Read(*)",
+      "Write(*)",
+      "Edit(*)",
+      "MultiEdit(*)",
+      "WebFetch(*)",
+      "TodoWrite(*)",
+      "Grep(*)",
+      "Glob(*)",
+      "LS(*)",
+      "WebSearch",
+      "Bash(curl *)",
+      "Skill(update-config)"
+    ],
+    "deny": [
+      "Bash(rm -rf /)",
+      "Bash(rm -rf /*)",
+      "Bash(rm -rf ~)",
+      "Bash(rm -rf ~/)",
+      "Bash(rm -rf .)",
+      "Bash(rm -rf ..)"
+    ]
+  },
+  "sandbox": {
+    "network": {
+      "allowedDomains": [
+        "chiebukuro.yahoo.co.jp",
+        "api.anthropic.com",
+        "ntfy.sh"
+      ]
+    }
+  }
+}
