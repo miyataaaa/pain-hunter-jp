@@ -1,0 +1,29 @@
+{
+  "name": "Claude Code Sandbox",
+  "image": "claude-sandbox",
+  "remoteUser": "node",
+  "capAdd": ["NET_ADMIN"],
+  "postStartCommand": "sudo /usr/local/bin/init-firewall.sh && test -s ~/.claude/settings.json || echo '{\"permissions\":{\"allow\":[\"Bash(*)\",\"Read(*)\",\"Write(*)\",\"Edit(*)\",\"MultiEdit(*)\",\"WebFetch(*)\",\"TodoWrite(*)\",\"Grep(*)\",\"Glob(*)\",\"LS(*)\"],\"deny\":[\"Bash(rm -rf /)\",\"Bash(rm -rf /*)\",\"Bash(rm -rf ~)\",\"Bash(rm -rf ~/)\",\"Bash(rm -rf .)\",\"Bash(rm -rf ..)\"]}}' > ~/.claude/settings.json",
+  "mounts": [
+    "source=claude-code-config,target=/home/node/.claude,type=volume",
+    "source=claude-code-bashhistory,target=/commandhistory,type=volume",
+    "source=${localEnv:HOME}/devcontainer-template/whitelist.txt,target=/etc/firewall/whitelist.txt,type=bind,readonly"
+  ],
+  "containerEnv": {
+    "NODE_OPTIONS": "--max-old-space-size=4096",
+    "CLAUDE_CONFIG_DIR": "/home/node/.claude"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "anthropic.claude-code",
+        "ms-python.python",
+        "ms-python.pylance"
+      ],
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "fish",
+        "python.defaultInterpreterPath": "/opt/pyenv/shims/python"
+      }
+    }
+  }
+}
