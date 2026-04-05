@@ -52,6 +52,7 @@ class NormalizedPain:
     canonical_job: str             # 正規化されたジョブ
     canonical_root_cause: str      # 正規化された根本原因
     tags: list[str] = field(default_factory=list)  # 検索用タグ群
+    fetched_date: str = ""         # 取得日 (YYYY-MM-DD)。Clustererでdate_count算出に使用
 
 
 @dataclass
@@ -67,6 +68,7 @@ class PainCluster:
     question_ids: list[str] = field(default_factory=list)
     pain_ids: list[str] = field(default_factory=list)
     cluster_size: int = 0
+    date_count: int = 1            # 何日分のデータから構成されるか（recurrence_score算出用）
     avg_severity: float = 0.0
     avg_urgency: float = 0.0
     avg_wtp_proxy: float = 0.0

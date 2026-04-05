@@ -202,6 +202,7 @@ class Normalizer:
         for i, pain in enumerate(pains_only):
             try:
                 n = self.normalize_one(pain, i)
+                n.fetched_date = date_str[:10]
                 normalized.append(n)
             except Exception as e:
                 self.logger.warning("正規化エラー question_id=%s  error=%s", pain.question_id, e)

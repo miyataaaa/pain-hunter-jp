@@ -38,8 +38,12 @@ def _load_past_normalized(today: date) -> list[NormalizedPain]:
             try:
                 with open(past_file, encoding="utf-8") as f:
                     data = json.load(f)
+                file_date = past_file.stem[:10]
                 for item in data:
-                    results.append(NormalizedPain(**item))
+                    pain = NormalizedPain(**item)
+                    if not pain.fetched_date:
+                        pain.fetched_date = file_date
+                    results.append(pain)
             except Exception as e:
                 logger.warning("過去normalizedデータ読み込みエラー: %s  error=%s", past_file, e)
     return results
@@ -153,6 +157,8 @@ class Clusterer:
             label = _make_cluster_label(pains)
             rep = pains[0]
 
+            date_count = len({p.fetched_date for p in pains if p.fetched_date}) or 1
+
             cluster = PainCluster(
                 cluster_id=cluster_id,
                 cluster_label=label,
@@ -163,6 +169,7 @@ class Clusterer:
                 question_ids=list({p.question_id for p in pains}),
                 pain_ids=[p.pain_id for p in pains],
                 cluster_size=len(pains),
+                date_count=date_count,
                 # スコアはScorer段階で計算するため仮値
                 avg_severity=0.0,
                 avg_urgency=0.0,
