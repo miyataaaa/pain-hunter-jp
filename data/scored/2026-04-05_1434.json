@@ -1,0 +1,126 @@
+[
+  {
+    "cluster_id": "cl_048ad4d3cb",
+    "cluster_label": "確定申告",
+    "canonical_problem": "フリーランス開始に必要な税務知識が全くわからず法的リスクを抱えている",
+    "representative_user": "フリーランス",
+    "representative_job": "確定申告",
+    "root_cause_summary": "基礎知識ゼロで相談先もない",
+    "question_ids": [
+      "03aff42b3c09",
+      "5ed8e91863a2",
+      "bb220acd7570",
+      "cbba82860a92",
+      "28efd35f783a",
+      "db3723470d9d",
+      "dbf89bb026d5",
+      "85d06ee78297",
+      "05d914d122bf",
+      "833dad0041e1",
+      "c6aed8623476",
+      "af2499d96850",
+      "74bb404942bd",
+      "c5ffca4abb35",
+      "48e3afc289b5",
+      "4b323c4e3b18",
+      "ba7d6171d979"
+    ],
+    "pain_ids": [
+      "252650a71c0f",
+      "9f5673cfabd4",
+      "5e7932c914f9",
+      "f4744072ca0a",
+      "31ce8b79f7ad",
+      "d4435285c368",
+      "172b68c38120",
+      "64ccbeeac91c",
+      "a248561219e4",
+      "2647fcd1b06d",
+      "2565cd2c039d",
+      "ecad99b2204c",
+      "4cfa57d61e53",
+      "493ec9872ab2",
+      "bc8c789e9e55",
+      "86c6ff569781",
+      "7e03c789abf5"
+    ],
+    "cluster_size": 17,
+    "avg_severity": 3.59,
+    "avg_urgency": 3.59,
+    "avg_wtp_proxy": 2.59,
+    "avg_builder_fit": 2.53,
+    "recurrence_score": 0.743,
+    "solution_gap_score": 0.9,
+    "productability_score": 0.376,
+    "opportunity_score": 0.613
+  },
+  {
+    "cluster_id": "cl_aae67d2268",
+    "cluster_label": "ネット環境維持",
+    "canonical_problem": "Surface Pro 5Gで起動後にネット接続が不安定になり都度対処が必要",
+    "representative_user": "その他",
+    "representative_job": "ネット環境維持",
+    "root_cause_summary": "ハード・ソフト・設定の不具合",
+    "question_ids": [
+      "ba13b6db4be5"
+    ],
+    "pain_ids": [
+      "2b23515e7ce9"
+    ],
+    "cluster_size": 1,
+    "avg_severity": 3.0,
+    "avg_urgency": 3.0,
+    "avg_wtp_proxy": 2.0,
+    "avg_builder_fit": 2.0,
+    "recurrence_score": 0.113,
+    "solution_gap_score": 0.5,
+    "productability_score": 1.0,
+    "opportunity_score": 0.398
+  },
+  {
+    "cluster_id": "cl_ba8904e0e5",
+    "cluster_label": "有給休暇取得",
+    "canonical_problem": "新課長が理由なく半日有給を拒否し、1日有給の取得を強制している",
+    "representative_user": "会社員",
+    "representative_job": "有給休暇取得",
+    "root_cause_summary": "新課長の方針変更で制度運用阻害",
+    "question_ids": [
+      "0f159d186703"
+    ],
+    "pain_ids": [
+      "d371c64db21c"
+    ],
+    "cluster_size": 1,
+    "avg_severity": 3.0,
+    "avg_urgency": 3.0,
+    "avg_wtp_proxy": 2.0,
+    "avg_builder_fit": 1.0,
+    "recurrence_score": 0.113,
+    "solution_gap_score": 0.5,
+    "productability_score": 0.8,
+    "opportunity_score": 0.34
+  },
+  {
+    "cluster_id": "cl_3038b5f942",
+    "cluster_label": "商品露出回復",
+    "canonical_problem": "ゲームトレードでおすすめ順表示が下位に沈み、回復方法や期間が分からず売上に影響している。",
+    "representative_user": "その他",
+    "representative_job": "商品露出回復",
+    "root_cause_summary": "プラットフォーム仕様が不透明",
+    "question_ids": [
+      "30a774d1dc9e"
+    ],
+    "pain_ids": [
+      "78b379926d27"
+    ],
+    "cluster_size": 1,
+    "avg_severity": 3.0,
+    "avg_urgency": 3.0,
+    "avg_wtp_proxy": 2.0,
+    "avg_builder_fit": 1.0,
+    "recurrence_score": 0.113,
+    "solution_gap_score": 0.5,
+    "productability_score": 0.4,
+    "opportunity_score": 0.3
+  }
+]
