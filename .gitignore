@@ -1,0 +1,26 @@
+# 環境変数（APIキー等）
+.env
+
+# Pythonキャッシュ
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# 仮想環境
+.venv/
+venv/
+env/
+
+# データ・ログ・レポート（生成物）
+data/
+logs/
+reports/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
