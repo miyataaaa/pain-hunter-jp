@@ -120,8 +120,7 @@ class Scorer:
         severity_score = (cluster.avg_severity - 1) / 4.0
 
         # recurrence_score: クラスタサイズ + 出現日数
-        # 簡易版: 日付情報がないので cluster_size のみ使用
-        cluster.recurrence_score = _calc_recurrence_score(cluster.cluster_size, date_count=1)
+        cluster.recurrence_score = _calc_recurrence_score(cluster.cluster_size, cluster.date_count)
 
         # solution_gap_score: workaroundの弱さを推定
         workarounds = " ".join(p.current_workaround for p in cluster_pains)
