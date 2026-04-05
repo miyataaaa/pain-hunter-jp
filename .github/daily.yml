@@ -1,0 +1,43 @@
+name: PainHunter JP Daily Run
+
+on:
+  schedule:
+    # JST 03:00 = UTC 18:00 (前日)
+    - cron: '0 18 * * *'
+  workflow_dispatch:  # 手動実行も可能
+
+permissions:
+  contents: write  # data/ と reports/ をコミットするため
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run PainHunter
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: python -m src.main
+
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ reports/ logs/
+          # 差分がなければコミットしない
+          git diff --staged --quiet || git commit -m "daily: $(date -u +%Y-%m-%d)"
+          git push
