@@ -14,9 +14,9 @@ from src.models import NormalizedPain, PainCluster
 def _cluster_key(pain: NormalizedPain) -> str:
     """クラスタリングキーを生成する（完全一致グルーピング用）。
 
-    canonical_problem + canonical_job + canonical_root_cause の組み合わせをキーにする。
+    v0.1.1: canonical_job 単独をキーにする（root_causeの微妙な違いでクラスタが分裂しないよう）。
     """
-    return f"{pain.canonical_job}|{pain.canonical_root_cause}"
+    return pain.canonical_job
 
 
 def _tag_overlap(tags_a: list[str], tags_b: list[str]) -> int:
@@ -51,12 +51,13 @@ def _make_cluster_id(key: str) -> str:
 
 
 def _make_cluster_label(pains: list[NormalizedPain]) -> str:
-    """クラスタのラベル（テーマ名）を生成する。"""
+    """クラスタのラベル（テーマ名）を生成する。
+
+    v0.1.1: canonical_job のみを使用（10文字以内）。root_causeはラベルに含めない。
+    """
     if not pains:
         return "不明なクラスタ"
-    # 代表ペインのcanonical_jobとcanonical_root_causeを組み合わせる
-    rep = pains[0]
-    return f"{rep.canonical_job}の{rep.canonical_root_cause}"
+    return pains[0].canonical_job or "不明なクラスタ"
 
 
 class Clusterer:
@@ -73,8 +74,45 @@ class Clusterer:
             groups[key].append(pain)
         return dict(groups)
 
+    def _merge_singleton_by_canonical_problem(
+        self, groups: dict[str, list[NormalizedPain]]
+    ) -> dict[str, list[NormalizedPain]]:
+        """Phase 3: 残りシングルトンを canonical_problem 一致でグルーピングする。
+
+        同じpain_categoryのシングルトン同士をまとめる。
+        """
+        singletons = {k: v for k, v in groups.items() if len(v) == 1}
+        non_singletons = {k: v for k, v in groups.items() if len(v) > 1}
+
+        # canonical_problem でグルーピング
+        problem_groups: dict[str, list[str]] = {}
+        for s_key, s_pains in singletons.items():
+            problem = s_pains[0].canonical_problem
+            if problem:
+                problem_groups.setdefault(problem, []).append(s_key)
+
+        merged: dict[str, list[NormalizedPain]] = {}
+        consumed: set[str] = set()
+        for problem, keys in problem_groups.items():
+            if len(keys) >= 2:
+                # 最初のキーを代表として他を合流
+                primary_key = keys[0]
+                merged_pains: list[NormalizedPain] = []
+                for k in keys:
+                    merged_pains.extend(singletons[k])
+                    consumed.add(k)
+                merged[primary_key] = merged_pains
+                self.logger.debug("Phase3合流: problem=%s keys=%s", problem, keys)
+
+        # 合流できなかったシングルトンをそのまま保持
+        for k, v in singletons.items():
+            if k not in consumed:
+                merged[k] = v
+
+        return {**non_singletons, **merged}
+
     def _merge_singleton_by_tags(
-        self, groups: dict[str, list[NormalizedPain]], min_overlap: int = 2
+        self, groups: dict[str, list[NormalizedPain]], min_overlap: int = 1
     ) -> dict[str, list[NormalizedPain]]:
         """Phase 2: 件数1のクラスタを近傍（タグ一致数が多い）クラスタへ合流させる試み。
 
@@ -164,9 +202,13 @@ class Clusterer:
         groups = self._group_by_key(all_pains)
         self.logger.info("Phase1グループ数: %d", len(groups))
 
-        # Phase 2: シングルトンのタグ近傍合流
+        # Phase 2: シングルトンのタグ近傍合流（しきい値1以上）
         groups = self._merge_singleton_by_tags(groups)
         self.logger.info("Phase2グループ数: %d", len(groups))
+
+        # Phase 3: 残りシングルトンをcanonical_problem一致でグルーピング
+        groups = self._merge_singleton_by_canonical_problem(groups)
+        self.logger.info("Phase3グループ数: %d", len(groups))
 
         clusters = self._build_clusters(groups)
 

@@ -17,14 +17,23 @@ _RECURRENCE_SCORE_MAP: dict[str, float] = {
     "unknown": 0.4,
 }
 
-# current_workaround の「弱さ」を示すキーワード（solution_gap推定用）
-_WEAK_WORKAROUND_PATTERNS = [
-    "Excel", "エクセル", "手動", "手入力", "目視", "コピー", "貼り付け",
-    "毎回確認", "税理士に聞く", "専門家に依頼", "仕方なく", "諦めて",
-    "とりあえず", "なんとか", "手書き",
+# 高スコア（代替手段が弱い = 事業機会がある）→ 0.7〜1.0
+_HIGH_GAP_KEYWORDS = [
+    "手動", "手作業", "手書き", "手入力", "目視",
+    "Excel", "エクセル", "コピー", "貼り付け",
+    "毎回", "都度", "ゼロから",
+    "対処なし", "放置", "我慢", "泣き寝入り",
+    "自力で調べ", "ネット検索", "毎回聞", "都度確認",
+    "紙", "FAX", "電話で確認",
+    "税理士に聞く", "専門家に依頼", "仕方なく", "諦めて",
+    "とりあえず", "なんとか",
 ]
-_STRONG_WORKAROUND_PATTERNS = [
-    "専用ソフト", "SaaS", "freee", "マネーフォワード", "クラウド会計",
+
+# 低スコア（既存の解決策がある = 参入が難しい）→ 0.1〜0.3
+_LOW_GAP_KEYWORDS = [
+    "SaaS", "専用ソフト", "専用ツール", "専用アプリ",
+    "freee", "マネーフォワード", "弥生",
+    "自動化済み", "API連携", "クラウド会計",
     "自動化できている", "解決済み",
 ]
 
@@ -38,14 +47,14 @@ def _estimate_solution_gap(workaround: str) -> float:
     if not workaround:
         return 0.5
 
-    weak_count = sum(1 for kw in _WEAK_WORKAROUND_PATTERNS if kw in workaround)
-    strong_count = sum(1 for kw in _STRONG_WORKAROUND_PATTERNS if kw in workaround)
+    high_count = sum(1 for kw in _HIGH_GAP_KEYWORDS if kw in workaround)
+    low_count = sum(1 for kw in _LOW_GAP_KEYWORDS if kw in workaround)
 
-    if strong_count > 0 and weak_count == 0:
-        return 0.3
-    if weak_count >= 2:
+    if low_count > 0 and high_count == 0:
+        return 0.2
+    if high_count >= 2:
         return 0.9
-    if weak_count == 1:
+    if high_count == 1:
         return 0.7
     return 0.5
 

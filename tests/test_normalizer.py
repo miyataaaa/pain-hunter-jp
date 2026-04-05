@@ -61,7 +61,7 @@ class TestNormalizer:
         assert isinstance(result, NormalizedPain)
         assert result.question_id == "abc123"
         assert result.canonical_user == "フリーランス"
-        assert result.canonical_job == "請求書・経理事務"
+        assert result.canonical_job == "請求書作成"
         assert len(result.tags) > 0
 
     def test_normalize_one_high_severity_tag(self):

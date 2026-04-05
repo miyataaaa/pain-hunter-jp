@@ -30,7 +30,7 @@ class Config:
 
     # スコアリング・クラスタリング
     PAIN_THRESHOLD: int = int(os.getenv("PAIN_THRESHOLD", "3"))
-    OPPORTUNITY_THRESHOLD: float = float(os.getenv("OPPORTUNITY_THRESHOLD", "3.8"))
+    OPPORTUNITY_THRESHOLD: float = float(os.getenv("OPPORTUNITY_THRESHOLD", "0.65"))
     CLUSTER_SIMILARITY_THRESHOLD: float = float(os.getenv("CLUSTER_SIMILARITY_THRESHOLD", "0.82"))
     LOOKBACK_DAYS: int = int(os.getenv("LOOKBACK_DAYS", "7"))
 

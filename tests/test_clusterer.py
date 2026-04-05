@@ -66,13 +66,21 @@ class TestClusterer:
         assert clusters[0].cluster_size == 2
 
     def test_run_separates_different_keys(self, tmp_path, monkeypatch):
-        """異なるキーのペインは別クラスタになること。"""
+        """異なるキーのペインは別クラスタになること（canonical_problemも異なる場合）。"""
         monkeypatch.setattr("src.config.config.DATA_DIR", str(tmp_path))
         monkeypatch.setattr("src.config.config.LOOKBACK_DAYS", 0)
 
         pains = [
-            make_normalized_pain(pain_id="p001", question_id="q001", canonical_job="請求書・経理事務"),
-            make_normalized_pain(pain_id="p002", question_id="q002", canonical_job="税務申告・確定申告"),
+            make_normalized_pain(
+                pain_id="p001", question_id="q001",
+                canonical_job="請求書作成",
+                canonical_problem="請求書作成の非効率",
+            ),
+            make_normalized_pain(
+                pain_id="p002", question_id="q002",
+                canonical_job="確定申告",
+                canonical_problem="確定申告の手続き負荷",
+            ),
         ]
         clusters = self.c.run(pains, date_str="2026-04-05")
 

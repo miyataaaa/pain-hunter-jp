@@ -3,6 +3,7 @@
 import hashlib
 import json
 import logging
+import re
 import time
 from pathlib import Path
 
@@ -12,46 +13,95 @@ from src.config import config
 from src.models import ExtractedPain, RawQuestion
 
 
-_EXTRACT_SYSTEM_PROMPT = """あなたはビジネス課題分析の専門家です。
-日本語のQ&A投稿を読み、そこに「構造的に繰り返す業務ペイン」があるかを判定し、
+_EXTRACT_SYSTEM_PROMPT = """あなたはニーズ分析の専門家です。
+日本語のQ&A投稿を読み、そこに「具体的なニーズ（困りごと・非効率・摩擦）」があるかを判定し、
 あれば詳細を構造化JSONで返してください。
 
-【重要な判定基準】
-- 「単なる知識不足」（調べれば分かること）はペインではない → is_pain: false
-- 「構造的に繰り返す課題」（制度・ツール・業務フローの問題で根本が解決されていない）はペイン → is_pain: true
-- workaround（今どう凌いでいるか）と root_cause（なぜ繰り返すか）を特に重視して抽出すること
+【判定基準 — is_pain の true/false】
 
-出力形式は必ずJSON配列で返してください。各要素は以下のスキーマに従うこと：
+以下はすべて is_pain: false にすること:
+- 単なる知識質問（調べれば分かること、「〜とは何ですか」型）
+- 比較・選択の相談（「AとBどちらがいい」型）
+- 感想・雑談・議論（具体的な困りごとがない）
+- 愚痴のみで具体的な障壁の記述がない
+
+以下は is_pain: true にすること（ジャンル不問）:
+- 具体的な困りごと・非効率・摩擦を抱えている
+- 「何かを達成しようとしているが、障壁がある」状態
+- 業務・事務作業、趣味、生活、IT環境など領域は問わない
+- 重要: workaround（今どう凌いでいるか）と root_cause（なぜ繰り返すか）を特に重視して抽出すること
+
+【フィールド制約 — 必ず守ること】
+
+■ persona_type: 以下の5択から1つ選ぶ（それ以外は禁止）
+  freelancer / consultant / small_biz_owner / employee / other
+
+■ job_to_be_done: **10文字以内**の短い作業名で書く。動詞で終わる。
+  良い例: 確定申告、請求書作成、契約書レビュー、経費精算、給与計算、
+          融資申請、商標出願、見積作成、月次決算、勤怠管理、
+          売上集計、在庫管理、顧客対応、採用面接、議事録作成、
+          MOD翻訳、PC環境構築、ファイル共有、評価管理、ツール選定
+  悪い例: オンライン販売での評価獲得・信頼構築（長すぎる）
+
+■ pain_category: 以下の11択から1つ選ぶ（それ以外は禁止）
+  manual_reentry / document_creation / knowledge_lookup /
+  tool_fragmentation / compliance_confusion / approval_bottleneck /
+  recurring_admin_work / exception_handling / customer_followup /
+  handoff_loss / other
+
+■ root_cause: **30文字以内**で、なぜ繰り返すかの構造的原因を書く。
+  良い例: 制度が複雑でツールが未対応
+  良い例: 手順が属人化し引き継ぎ不足
+  良い例: 複数システム間の連携がない
+  悪い例: プラットフォーム側のシステム不備で出品者側では制御できない（長すぎる）
+
+■ current_workaround: **30文字以内**で今の回避策を書く。
+  良い例: Excelで手動管理、税理士に毎回確認、都度ネット検索
+  回避策がない場合: 「対処なし（放置）」と書く
+
+■ recurrence_hint: 以下の5択から1つ選ぶ
+  daily / weekly / monthly / one_off / unknown
+
+■ severity / urgency / willingness_to_pay_proxy / builder_fit: 1〜5の整数
+  - severity: 1=軽微, 3=作業が止まることがある, 5=深刻・頻繁に損失が発生
+  - urgency: 1=後回しでいい, 3=今週中に解決したい, 5=今すぐ解決したい
+  - willingness_to_pay_proxy: 1=無料以外使わない, 3=月額1,000〜5,000円なら, 5=月額1万円以上
+  - builder_fit: 1=専門知識が必要, 3=汎用スキルで可能, 5=Python/LLM/APIで十分
+
+出力は必ずJSON配列で返す。各要素のスキーマ:
 
 [
   {
     "question_id": "<question_id>",
     "is_pain": true or false,
-    "pain_summary": "ペインの要約（1〜2文）",
-    "persona_type": "freelancer|consultant|small_biz_owner|employee|other",
-    "persona_detail": "例: 個人事業主のデザイナー",
-    "job_to_be_done": "例: 請求書作成、確定申告",
-    "pain_stage": "例: 月末処理時、提出前",
-    "pain_category": "manual_reentry|document_creation|knowledge_lookup|tool_fragmentation|compliance_confusion|approval_bottleneck|recurring_admin_work|exception_handling|customer_followup|handoff_loss|other",
-    "current_workaround": "現在の回避策（例: Excelで手動管理、税理士に毎回確認）",
-    "root_cause": "なぜこの問題が繰り返すか（例: 制度が複雑でツールが対応していない）",
-    "severity": 1〜5の整数,
-    "urgency": 1〜5の整数,
-    "recurrence_hint": "daily|weekly|monthly|one_off|unknown",
-    "willingness_to_pay_proxy": 1〜5の整数,
-    "builder_fit": 1〜5の整数,
+    "pain_summary": "ニーズの要約（1〜2文）",
+    "persona_type": "上記5択",
+    "persona_detail": "例: 建設業の二代目経営者",
+    "job_to_be_done": "10文字以内の作業名",
+    "pain_stage": "例: 月末処理時、申請準備中",
+    "pain_category": "上記11択",
+    "current_workaround": "30文字以内",
+    "root_cause": "30文字以内",
+    "severity": 1〜5,
+    "urgency": 1〜5,
+    "recurrence_hint": "上記5択",
+    "willingness_to_pay_proxy": 1〜5,
+    "builder_fit": 1〜5,
     "evidence_text": "根拠となる本文の抜粋（50〜150文字）"
   }
 ]
 
-severity, urgency, willingness_to_pay_proxy, builder_fit の採点基準：
-- severity: 1=軽微, 3=業務が止まることがある, 5=深刻・頻繁に損失が発生
-- urgency: 1=後回しでいい, 3=今週中に解決したい, 5=今すぐ解決したい
-- willingness_to_pay_proxy: 1=無料以外使わない, 3=月額1,000〜5,000円なら払う, 5=月額1万円以上でも払う
-- builder_fit: 1=専門的な業界知識が必要, 3=汎用スキルでカバー可能, 5=Python/LLM/APIで十分作れる
-
-is_pain=falseの場合、pain_summary以外のフィールドは空文字列・0でよい。
+is_pain=false の場合、pain_summary以外は空文字列・0でよい。
 """
+
+_VALID_PERSONA = {"freelancer", "consultant", "small_biz_owner", "employee", "other"}
+_VALID_CATEGORY = {
+    "manual_reentry", "document_creation", "knowledge_lookup",
+    "tool_fragmentation", "compliance_confusion", "approval_bottleneck",
+    "recurring_admin_work", "exception_handling", "customer_followup",
+    "handoff_loss", "other",
+}
+_VALID_RECURRENCE = {"daily", "weekly", "monthly", "one_off", "unknown"}
 
 
 def _make_question_id(url: str) -> str:
@@ -79,22 +129,52 @@ def _parse_extracted_pains(response_text: str, question_ids: list[str]) -> list[
         results: list[ExtractedPain] = []
         for item in parsed:
             try:
+                persona = str(item.get("persona_type", "other"))
+                if persona not in _VALID_PERSONA:
+                    persona = "other"
+
+                category = str(item.get("pain_category", "other"))
+                if category not in _VALID_CATEGORY:
+                    category = "other"
+
+                recurrence = str(item.get("recurrence_hint", "unknown"))
+                if recurrence not in _VALID_RECURRENCE:
+                    recurrence = "unknown"
+
+                job = str(item.get("job_to_be_done", ""))
+                if len(job) > 15:
+                    logger.debug("job_to_be_done切り詰め: %s → %s", job, job[:10])
+                    job = job[:10]
+
+                root_cause = str(item.get("root_cause", ""))
+                if len(root_cause) > 40:
+                    root_cause = root_cause[:30]
+
+                workaround = str(item.get("current_workaround", ""))
+                if len(workaround) > 40:
+                    workaround = workaround[:30]
+
+                severity = max(1, min(5, int(item.get("severity", 1))))
+                urgency = max(1, min(5, int(item.get("urgency", 1))))
+                wtp = max(1, min(5, int(item.get("willingness_to_pay_proxy", 1))))
+                builder_fit = max(1, min(5, int(item.get("builder_fit", 1))))
+
                 pain = ExtractedPain(
                     question_id=str(item.get("question_id", "")),
                     is_pain=bool(item.get("is_pain", False)),
                     pain_summary=str(item.get("pain_summary", "")),
-                    persona_type=str(item.get("persona_type", "other")),
+                    persona_type=persona,
                     persona_detail=str(item.get("persona_detail", "")),
-                    job_to_be_done=str(item.get("job_to_be_done", "")),
+                    job_to_be_done=job,
                     pain_stage=str(item.get("pain_stage", "")),
-                    pain_category=str(item.get("pain_category", "other")),
-                    current_workaround=str(item.get("current_workaround", "")),
-                    root_cause=str(item.get("root_cause", "")),
-                    severity=int(item.get("severity", 1)),
-                    urgency=int(item.get("urgency", 1)),
-                    recurrence_hint=str(item.get("recurrence_hint", "unknown")),
-                    willingness_to_pay_proxy=int(item.get("willingness_to_pay_proxy", 1)),
-                    builder_fit=int(item.get("builder_fit", 1)),
+                    pain_category=category,
+                    current_workaround=workaround,
+                    root_cause=root_cause,
+                    severity=severity,
+                    urgency=urgency,
+                    recurrence_hint=recurrence,
+                    willingness_to_pay_proxy=wtp,
+                    builder_fit=builder_fit,
                     evidence_text=str(item.get("evidence_text", "")),
                 )
                 results.append(pain)
@@ -127,9 +207,6 @@ def _parse_extracted_pains(response_text: str, question_ids: list[str]) -> list[
             )
             for qid in question_ids
         ]
-
-
-import re
 
 
 class Extractor:
