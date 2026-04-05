@@ -56,9 +56,9 @@ class TestChiebukuroScraper:
         result = scraper.scrape_category("存在しない", "カテゴリ", 5)
         assert result == []
 
-    def test_get_question_urls_empty_on_error(self):
+    def test_get_question_ids_empty_on_error(self):
         """HTTP失敗時は空リストを返すこと。"""
         scraper = ChiebukuroScraper()
         with patch.object(scraper, "_get", return_value=None):
-            urls = scraper._get_question_urls("https://example.com", 10)
-        assert urls == []
+            ids = scraper._get_question_ids("https://example.com", 10)
+        assert ids == []
