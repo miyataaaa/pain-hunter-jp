@@ -19,15 +19,19 @@ from abc import ABC, abstractmethod
 from src.config import config
 from src.models import RawQuestion
 
-# DNS解決で取得できるIPがブロックされる場合のフォールバックIP
-# Yahoo! JAPANの202.239.x.xセグメントはWSL2環境からアクセス可能
+# DNS解決で取得できるIPがブロックされる場合のフォールバックIP候補
+# Yahoo! JAPANのCDNは時間帯・環境によってアクセス可能なセグメントが変わるため複数列挙する
 _FALLBACK_IPS: dict[str, list[str]] = {
-    "chiebukuro.yahoo.co.jp": ["202.239.2.249"],
-    "detail.chiebukuro.yahoo.co.jp": ["202.239.3.249"],
+    "chiebukuro.yahoo.co.jp": ["183.79.48.248", "202.239.2.249", "183.79.49.248"],
+    "detail.chiebukuro.yahoo.co.jp": ["183.79.48.248", "202.239.3.249", "183.79.48.249", "183.79.49.249"],
 }
 
 # TCP接続テストのタイムアウト（秒）
 _TCP_TEST_TIMEOUT = 4
+
+# _get_working_ip のキャッシュ（失敗も含む）。プロセス内で再利用。
+# None = 到達不能確認済み、str = 接続可能IP
+_ip_cache: dict[str, str | None] = {}
 
 
 class _SimpleResponse:
@@ -82,19 +86,25 @@ class BaseScraper(ABC):
 
     def __init__(self) -> None:
         self.logger = logging.getLogger(self.__class__.__name__)
-        # ホスト→接続済みIPのキャッシュ（セッション内で再利用）
-        self._working_ip_cache: dict[str, str] = {}
 
     def _get_working_ip(self, host: str) -> str | None:
-        """ホストへの接続可能IPを返す（キャッシュあり）。"""
-        if host not in self._working_ip_cache:
+        """ホストへの接続可能IPを返す（プロセス内キャッシュあり）。
+
+        失敗（None）もキャッシュするため、同一プロセス内で到達不能ホストへの
+        IP探索を繰り返さない。
+        """
+        if host not in _ip_cache:
             ip = _resolve_working_ip(host)
             if ip:
-                self.logger.debug("接続IP確定: %s → %s", host, ip)
-                self._working_ip_cache[host] = ip
+                self.logger.info("接続IP確定: %s → %s", host, ip)
             else:
-                self.logger.warning("接続可能IPなし: %s", host)
-        return self._working_ip_cache.get(host)
+                self.logger.error(
+                    "接続可能IPなし: %s (試行IP: %s) — スクレイピングをスキップします",
+                    host,
+                    _FALLBACK_IPS.get(host, []),
+                )
+            _ip_cache[host] = ip  # None も記録して再探索を防ぐ
+        return _ip_cache[host]
 
     def _raw_https_get(self, host: str, path: str, ip: str, timeout: int = 15) -> _SimpleResponse:
         """raw socket経由でHTTPS GETリクエストを送信する。"""
