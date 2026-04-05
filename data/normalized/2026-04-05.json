@@ -1,0 +1,198 @@
+[
+  {
+    "pain_id": "e4de94d3bf90",
+    "question_id": "3f42492687e7",
+    "canonical_problem": "建設業の二代目経営者が財務知識なしで銀行融資に臨むため、準備不足で不安を抱えている。",
+    "canonical_user": "中小企業",
+    "canonical_job": "設備融資の申込み準備・面談対応",
+    "canonical_root_cause": "事業承継時に財務知識の引き継ぎが不十分で、毎回の融資時に同様の不安が発生",
+    "tags": [
+      "high_builder_fit",
+      "high_severity",
+      "high_urgency",
+      "knowledge_lookup",
+      "one_off"
+    ]
+  },
+  {
+    "pain_id": "0a5f8bf62256",
+    "question_id": "1c44c54bfeaf",
+    "canonical_problem": "多業種にわたる事業を一つの株式会社で運営する際の法的・手続き的な不安。",
+    "canonical_user": "中小企業",
+    "canonical_job": "株式会社設立と複数事業の運営開始",
+    "canonical_root_cause": "複数業種にまたがる事業の法的要件や許認可の関係が複雑で、一元的に相談できる場所がない",
+    "tags": [
+      "compliance_confusion",
+      "one_off"
+    ]
+  },
+  {
+    "pain_id": "78c332ba7b73",
+    "question_id": "833dad0041e1",
+    "canonical_problem": "商標出願時の複数住所管理と、複雑な手続き要件の理解が困難",
+    "canonical_user": "フリーランス",
+    "canonical_job": "商標出願手続き",
+    "canonical_root_cause": "商標出願システムの複雑さと、未成年特有の要件が不明確",
+    "tags": [
+      "compliance_confusion",
+      "one_off"
+    ]
+  },
+  {
+    "pain_id": "cf1f8f8a8730",
+    "question_id": "c5ffca4abb35",
+    "canonical_problem": "補助金制度の複雑な仕組みと支援業者への成功報酬支払いが理解困難",
+    "canonical_user": "中小企業",
+    "canonical_job": "AI導入補助金申請",
+    "canonical_root_cause": "制度・法規制の複雑性",
+    "tags": [
+      "compliance_confusion",
+      "one_off"
+    ]
+  },
+  {
+    "pain_id": "e43338a8adb5",
+    "question_id": "0f9f5ac3bf5c",
+    "canonical_problem": "新入社員研修が機能せず、教育担当も不明で適切なOJTが受けられない。",
+    "canonical_user": "会社員",
+    "canonical_job": "新入社員として業務を学習し、戦力になること",
+    "canonical_root_cause": "忙しい支店で研修制度・体制が整っておらず、教育担当が曖昧",
+    "tags": [
+      "handoff_loss",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ]
+  },
+  {
+    "pain_id": "188b126f36f1",
+    "question_id": "ca12eb72bf42",
+    "canonical_problem": "職場が問題ある同僚の行動を認知・対処せず、相談者が逆にトラブルメーカー扱いされる。",
+    "canonical_user": "会社員",
+    "canonical_job": "安全で健全な職場環境で働くこと",
+    "canonical_root_cause": "組織が問題を認めることのリスクを避け、事なかれ主義を取っている",
+    "tags": [
+      "approval_bottleneck",
+      "high_severity",
+      "unknown"
+    ]
+  },
+  {
+    "pain_id": "f6ac0a29b165",
+    "question_id": "23ddf88f290a",
+    "canonical_problem": "専門学生が扶養枠内で合法的に働きたいが、税制の仕組みが複雑で、どの働き方が扶養に影響しないか分からない状況が継続している。",
+    "canonical_user": "会社員",
+    "canonical_job": "扶養枠内での合法的なアルバイト",
+    "canonical_root_cause": "制度・法規制の複雑性",
+    "tags": [
+      "compliance_confusion",
+      "high_builder_fit",
+      "monthly"
+    ]
+  },
+  {
+    "pain_id": "6f81aca18b55",
+    "question_id": "d338c1209350",
+    "canonical_problem": "新卒社員が資産形成の選択肢が多すぎて、どの組み合わせが最適か判断できず、投資初心者には情報が複雑すぎる状況。",
+    "canonical_user": "会社員",
+    "canonical_job": "資産形成・投資配分の決定",
+    "canonical_root_cause": "投資商品が多様で初心者には比較・判断が困難、個人に最適化されたアドバイスがない",
+    "tags": [
+      "high_builder_fit",
+      "knowledge_lookup",
+      "monthly"
+    ]
+  },
+  {
+    "pain_id": "aaa49279e4b1",
+    "question_id": "ccd089c23a9a",
+    "canonical_problem": "新社会人が会社の保険加入を断りたいが、意向確認書に拒否の選択肢がなく、毎回このような状況で困惑している。",
+    "canonical_user": "会社員",
+    "canonical_job": "会社推奨保険への対応・意向表明",
+    "canonical_root_cause": "企業の意向確認書が加入前提で作られており、拒否の選択肢が用意されていない",
+    "tags": [
+      "document_creation",
+      "high_urgency",
+      "one_off"
+    ]
+  },
+  {
+    "pain_id": "be55855ebf6b",
+    "question_id": "05d914d122bf",
+    "canonical_problem": "評価システムのバグで顧客が最高評価をつけられず、販売実績に悪影響が出る",
+    "canonical_user": "中小企業",
+    "canonical_job": "オンライン販売での評価獲得・信頼構築",
+    "canonical_root_cause": "プラットフォーム側のシステム不備で出品者側では制御できない",
+    "tags": [
+      "high_severity",
+      "high_wtp",
+      "tool_fragmentation",
+      "weekly"
+    ]
+  },
+  {
+    "pain_id": "82a36a864354",
+    "question_id": "2c9f61f75a85",
+    "canonical_problem": "ゲームMODの翻訳ファイル作成時にJSONエラーが発生し、原因が特定できずに困っている",
+    "canonical_user": "その他",
+    "canonical_job": "MODの日本語翻訳ファイル作成",
+    "canonical_root_cause": "JSONの構文エラーの原因特定が困難で、デバッグツールも限定的",
+    "tags": [
+      "exception_handling",
+      "high_builder_fit",
+      "one_off"
+    ]
+  },
+  {
+    "pain_id": "2a9fa78e1b95",
+    "question_id": "37c8082a8edf",
+    "canonical_problem": "グラフィックボード選定で性能・予算・消費電力のトレードオフに迷い、上位モデルへの散財欲求をコントロールできない",
+    "canonical_user": "その他",
+    "canonical_job": "WQHD解像度でのゲーミング環境最適化、ゲーム起動しながらの作業",
+    "canonical_root_cause": "性能・価格・消費電力の複合的な最適化判断が困難で、上位モデルへの誘惑が常にある",
+    "tags": [
+      "high_wtp",
+      "one_off",
+      "other"
+    ]
+  },
+  {
+    "pain_id": "04255c735d6f",
+    "question_id": "84b73bc55726",
+    "canonical_problem": "OS変更後にダウンロード支援ツールが正常動作せず、業務ファイル配布に支障が発生",
+    "canonical_user": "フリーランス",
+    "canonical_job": "大容量ファイルの配布・受け渡し",
+    "canonical_root_cause": "OS変更によりツール設定がリセットされ、ファイル配布インフラが脆弱",
+    "tags": [
+      "daily",
+      "high_severity",
+      "high_urgency",
+      "tool_fragmentation"
+    ]
+  },
+  {
+    "pain_id": "bfc2f188fc89",
+    "question_id": "6b78c628dbae",
+    "canonical_problem": "検索技術不足により求人サイトで条件に合致する案件を効率的に見つけられない",
+    "canonical_user": "フリーランス",
+    "canonical_job": "求人検索・案件探し",
+    "canonical_root_cause": "検索システムの仕様理解不足と、求人サイトの検索機能が複雑",
+    "tags": [
+      "high_builder_fit",
+      "knowledge_lookup",
+      "weekly"
+    ]
+  },
+  {
+    "pain_id": "c6f16b5d45f5",
+    "question_id": "1a29b3d6f63b",
+    "canonical_problem": "PDFビューワーが突然ログイン必須になり、個人情報登録を避けたいため業務に支障",
+    "canonical_user": "その他",
+    "canonical_job": "PDFファイルの閲覧・検索",
+    "canonical_root_cause": "ソフトウェアの仕様変更により従来の使い方ができなくなった",
+    "tags": [
+      "daily",
+      "tool_fragmentation"
+    ]
+  }
+]

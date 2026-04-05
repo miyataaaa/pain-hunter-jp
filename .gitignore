@@ -14,9 +14,7 @@ venv/
 env/
 
 # データ・ログ・レポート（生成物）
-data/
 logs/
-reports/
 
 # IDE
 .vscode/

@@ -1,0 +1,321 @@
+[
+  {
+    "cluster_id": "cl_c65ef74419",
+    "cluster_label": "詐欺対応",
+    "canonical_problem": "在宅ワーク詐欺に巻き込まれ、催促メールに対する対応に困っている",
+    "representative_user": "その他",
+    "representative_job": "詐欺対応",
+    "root_cause_summary": "詐欺の見分け方と対処法が不明",
+    "question_ids": [
+      "02180d698444",
+      "05d914d122bf",
+      "ed30667af073",
+      "4fa783af8045",
+      "e71db3a7fa4c",
+      "c61a0a2d3c3d",
+      "19e2ba79b8af",
+      "ed541d852054",
+      "343f3784820a",
+      "c52eb3a5c39f",
+      "c010a582de46",
+      "05cd5fd28606",
+      "7b64e65e6f11",
+      "564bd2f42c71",
+      "9ae5657f7315",
+      "9e81dcefbe0c"
+    ],
+    "pain_ids": [
+      "63c8a4b4749e",
+      "0d0ae647cf25",
+      "bba1e231e7ed",
+      "454de243d86c",
+      "bec1b680cfee",
+      "be55855ebf6b",
+      "88614d6a7f34",
+      "c629aed10efe",
+      "a0c1ff64b8b1",
+      "5f0ce0e114e3",
+      "29fb8103b6ed",
+      "16d00f474fd9",
+      "032298e86f47",
+      "d7b045d1a637",
+      "02a8bc3b5c52",
+      "27e1e9aa59e8"
+    ],
+    "cluster_size": 16,
+    "avg_severity": 4.0,
+    "avg_urgency": 3.94,
+    "avg_wtp_proxy": 2.44,
+    "avg_builder_fit": 2.06,
+    "recurrence_score": 0.743,
+    "solution_gap_score": 0.9,
+    "productability_score": 0.375,
+    "opportunity_score": 0.61
+  },
+  {
+    "cluster_id": "cl_d846a75cb7",
+    "cluster_label": "PC性能最適化",
+    "canonical_problem": "VALORANTで期待するFPS値（300前後）が出ず、実際は200前後で安定しないため、ゲーム性能に不満がある。",
+    "representative_user": "その他",
+    "representative_job": "PC性能最適化",
+    "root_cause_summary": "設定やドライバー最適化不足",
+    "question_ids": [
+      "077054284b43"
+    ],
+    "pain_ids": [
+      "b931bc75d97b"
+    ],
+    "cluster_size": 1,
+    "avg_severity": 3.0,
+    "avg_urgency": 2.0,
+    "avg_wtp_proxy": 3.0,
+    "avg_builder_fit": 3.0,
+    "recurrence_score": 0.113,
+    "solution_gap_score": 0.9,
+    "productability_score": 1.0,
+    "opportunity_score": 0.553
+  },
+  {
+    "cluster_id": "cl_d47e143481",
+    "cluster_label": "転職活動",
+    "canonical_problem": "減免手続きの履歴が新しい会社にバレるかわからず不安を抱えている",
+    "representative_user": "会社員",
+    "representative_job": "転職活動",
+    "root_cause_summary": "減免制度の仕組みが不透明",
+    "question_ids": [
+      "643f2518e336",
+      "4a60e423c496",
+      "e5c77ea1d5bd",
+      "39e7a4aedb50",
+      "23ddf88f290a",
+      "bf09c5acf8ac",
+      "3c42c22af730",
+      "31b3d72ea7fa",
+      "574e29d83390",
+      "29ab38a55539",
+      "9c010a67f86c",
+      "2c9f61f75a85",
+      "1c5e4bbe8cec",
+      "2a9cfa28acde",
+      "f6f8f05fd2ea"
+    ],
+    "pain_ids": [
+      "e3c66f97ff8c",
+      "74df05f4643c",
+      "e18a8670bc0d",
+      "d12e7faa7941",
+      "604ae2d857e7",
+      "0612c6dbce6b",
+      "a326fbae9c95",
+      "da4cb86638d5",
+      "e1303ce7f3cd",
+      "3c9aa8d6a154",
+      "6f139761f875",
+      "a6c9ec138b30",
+      "a3d235e88550",
+      "0112c02aaf0d",
+      "eb624b8e081e"
+    ],
+    "cluster_size": 15,
+    "avg_severity": 2.93,
+    "avg_urgency": 3.2,
+    "avg_wtp_proxy": 1.93,
+    "avg_builder_fit": 2.33,
+    "recurrence_score": 0.743,
+    "solution_gap_score": 0.9,
+    "productability_score": 0.307,
+    "opportunity_score": 0.541
+  },
+  {
+    "cluster_id": "cl_cdfaa254f5",
+    "cluster_label": "PC環境構築",
+    "canonical_problem": "デュアルディスプレイ配信環境構築時にキャプチャーボードが認識されず、配信準備が進まない。",
+    "representative_user": "その他",
+    "representative_job": "PC環境構築",
+    "root_cause_summary": "ハード構成変更でドライバ競合",
+    "question_ids": [
+      "a408191be3b1",
+      "d1e409ab01ef",
+      "041d97478ec1",
+      "dedd17697c5f",
+      "8f101a5aea97"
+    ],
+    "pain_ids": [
+      "8d6662469118",
+      "2fb25dd7a22d",
+      "67b3f4277c47",
+      "addbd5166289",
+      "a36367d00baf"
+    ],
+    "cluster_size": 5,
+    "avg_severity": 3.2,
+    "avg_urgency": 3.0,
+    "avg_wtp_proxy": 2.0,
+    "avg_builder_fit": 3.0,
+    "recurrence_score": 0.393,
+    "solution_gap_score": 0.9,
+    "productability_score": 0.36,
+    "opportunity_score": 0.517
+  },
+  {
+    "cluster_id": "cl_73ae4c189b",
+    "cluster_label": "営業活動",
+    "canonical_problem": "複数人で営業している個人事業主がクラウドワークスの利用規約と実態の間で困っている",
+    "representative_user": "フリーランス",
+    "representative_job": "営業活動",
+    "root_cause_summary": "個人事業主向けグループ機能未整備",
+    "question_ids": [
+      "20a1ef28ddc9"
+    ],
+    "pain_ids": [
+      "da4273817512"
+    ],
+    "cluster_size": 1,
+    "avg_severity": 3.0,
+    "avg_urgency": 3.0,
+    "avg_wtp_proxy": 2.0,
+    "avg_builder_fit": 2.0,
+    "recurrence_score": 0.113,
+    "solution_gap_score": 0.9,
+    "productability_score": 1.0,
+    "opportunity_score": 0.478
+  },
+  {
+    "cluster_id": "cl_32937b0da7",
+    "cluster_label": "PC環境管理",
+    "canonical_problem": "身に覚えのないNortonとMcAfeeが勝手にインストールされ、デスクトップに次々と表示される",
+    "representative_user": "その他",
+    "representative_job": "PC環境管理",
+    "root_cause_summary": "プリインストールソフトの不明確な導入経路",
+    "question_ids": [
+      "f5012e31e77b"
+    ],
+    "pain_ids": [
+      "460838b4ef32"
+    ],
+    "cluster_size": 1,
+    "avg_severity": 3.0,
+    "avg_urgency": 3.0,
+    "avg_wtp_proxy": 2.0,
+    "avg_builder_fit": 2.0,
+    "recurrence_score": 0.113,
+    "solution_gap_score": 0.9,
+    "productability_score": 1.0,
+    "opportunity_score": 0.478
+  },
+  {
+    "cluster_id": "cl_9c809d6ff4",
+    "cluster_label": "給与計算",
+    "canonical_problem": "給与計算システムで特定従業員の所得税が正しく計算されない問題",
+    "representative_user": "中小企業",
+    "representative_job": "給与計算",
+    "root_cause_summary": "システム設定や税額計算ロジックが不明",
+    "question_ids": [
+      "037b02414aea"
+    ],
+    "pain_ids": [
+      "3747d6a9689a"
+    ],
+    "cluster_size": 1,
+    "avg_severity": 3.0,
+    "avg_urgency": 3.0,
+    "avg_wtp_proxy": 2.0,
+    "avg_builder_fit": 3.0,
+    "recurrence_score": 0.113,
+    "solution_gap_score": 0.9,
+    "productability_score": 0.6,
+    "opportunity_score": 0.475
+  },
+  {
+    "cluster_id": "cl_3a093ba4bd",
+    "cluster_label": "ゲーム環境調整",
+    "canonical_problem": "PCゲームプレイ時にCPUボトルネックでフレームレートが低下し、快適にプレイできない。",
+    "representative_user": "その他",
+    "representative_job": "ゲーム環境調整",
+    "root_cause_summary": "CPUスペック不足で処理が追跡",
+    "question_ids": [
+      "83c905abf8fc"
+    ],
+    "pain_ids": [
+      "d7ef583e57dc"
+    ],
+    "cluster_size": 1,
+    "avg_severity": 3.0,
+    "avg_urgency": 2.0,
+    "avg_wtp_proxy": 3.0,
+    "avg_builder_fit": 2.0,
+    "recurrence_score": 0.113,
+    "solution_gap_score": 0.7,
+    "productability_score": 1.0,
+    "opportunity_score": 0.475
+  },
+  {
+    "cluster_id": "cl_7365139186",
+    "cluster_label": "動画視聴",
+    "canonical_problem": "Chrome拡張のスピード表示が画面中央に常時表示され、動画視聴の邪魔になっている",
+    "representative_user": "その他",
+    "representative_job": "動画視聴",
+    "root_cause_summary": "拡張機能のバグまたは設定異常",
+    "question_ids": [
+      "edf1962428cb"
+    ],
+    "pain_ids": [
+      "d298999e3bc6"
+    ],
+    "cluster_size": 1,
+    "avg_severity": 3.0,
+    "avg_urgency": 3.0,
+    "avg_wtp_proxy": 2.0,
+    "avg_builder_fit": 4.0,
+    "recurrence_score": 0.113,
+    "solution_gap_score": 0.5,
+    "productability_score": 1.0,
+    "opportunity_score": 0.473
+  },
+  {
+    "cluster_id": "cl_dd81a0e06b",
+    "cluster_label": "副業獲得",
+    "canonical_problem": "クラウドワークスで案件に応募しても返信が来ず、副業を始められない状況",
+    "representative_user": "フリーランス",
+    "representative_job": "副業獲得",
+    "root_cause_summary": "初心者で実績がなく信頼獲得困難",
+    "question_ids": [
+      "cc0977747258"
+    ],
+    "pain_ids": [
+      "d91871d989fc"
+    ],
+    "cluster_size": 1,
+    "avg_severity": 3.0,
+    "avg_urgency": 2.0,
+    "avg_wtp_proxy": 2.0,
+    "avg_builder_fit": 3.0,
+    "recurrence_score": 0.113,
+    "solution_gap_score": 0.5,
+    "productability_score": 1.0,
+    "opportunity_score": 0.435
+  },
+  {
+    "cluster_id": "cl_442ba88fb5",
+    "cluster_label": "商品ページ作成",
+    "canonical_problem": "楽天の商品ページでリンク画像を横3列2段で配置したいが、縦並びになってしまい望む表示ができない",
+    "representative_user": "中小企業",
+    "representative_job": "商品ページ作成",
+    "root_cause_summary": "楽天の制限タグ下でのHTML知識不足",
+    "question_ids": [
+      "b9c4b353afb3"
+    ],
+    "pain_ids": [
+      "b426ebb1f111"
+    ],
+    "cluster_size": 1,
+    "avg_severity": 2.0,
+    "avg_urgency": 2.0,
+    "avg_wtp_proxy": 2.0,
+    "avg_builder_fit": 3.0,
+    "recurrence_score": 0.113,
+    "solution_gap_score": 0.5,
+    "productability_score": 0.8,
+    "opportunity_score": 0.365
+  }
+]

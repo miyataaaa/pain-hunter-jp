@@ -1,0 +1,573 @@
+[
+  {
+    "pain_id": "e18a8670bc0d",
+    "question_id": "23ddf88f290a",
+    "canonical_problem": "学生が扶養範囲内で働きたいが、適切な働き方や仕事の見つけ方がわからない",
+    "canonical_user": "その他",
+    "canonical_job": "扶養内労働",
+    "canonical_root_cause": "税制や働き方の知識不足",
+    "tags": [
+      "knowledge_lookup",
+      "monthly"
+    ]
+  },
+  {
+    "pain_id": "3747d6a9689a",
+    "question_id": "037b02414aea",
+    "canonical_problem": "給与計算システムで特定従業員の所得税が正しく計算されない問題",
+    "canonical_user": "中小企業",
+    "canonical_job": "給与計算",
+    "canonical_root_cause": "システム設定や税額計算ロジックが不明",
+    "tags": [
+      "exception_handling",
+      "monthly"
+    ]
+  },
+  {
+    "pain_id": "d12e7faa7941",
+    "question_id": "4a60e423c496",
+    "canonical_problem": "e-tax確定申告後の還付金振込遅延で進捗が不明な状況",
+    "canonical_user": "その他",
+    "canonical_job": "確定申告",
+    "canonical_root_cause": "処理状況の透明性が低い",
+    "tags": [
+      "approval_bottleneck",
+      "one_off",
+      "確定申告"
+    ]
+  },
+  {
+    "pain_id": "e3c66f97ff8c",
+    "question_id": "2a9cfa28acde",
+    "canonical_problem": "減免手続きの履歴が新しい会社にバレるかわからず不安を抱えている",
+    "canonical_user": "会社員",
+    "canonical_job": "転職活動",
+    "canonical_root_cause": "減免制度の仕組みが不透明",
+    "tags": [
+      "high_urgency",
+      "knowledge_lookup",
+      "one_off"
+    ]
+  },
+  {
+    "pain_id": "bba1e231e7ed",
+    "question_id": "ed541d852054",
+    "canonical_problem": "正規と偽物のアドバイザーを区別できず詐欺の不安を抱えている",
+    "canonical_user": "その他",
+    "canonical_job": "保険相談",
+    "canonical_root_cause": "本人確認の仕組みが曖昧",
+    "tags": [
+      "exception_handling",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ]
+  },
+  {
+    "pain_id": "74df05f4643c",
+    "question_id": "bf09c5acf8ac",
+    "canonical_problem": "傷病手当金受給前の就職開始タイミングについて判断に迷っている",
+    "canonical_user": "会社員",
+    "canonical_job": "転職活動",
+    "canonical_root_cause": "制度の適用ルールが複雑",
+    "tags": [
+      "compliance_confusion",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ]
+  },
+  {
+    "pain_id": "454de243d86c",
+    "question_id": "02180d698444",
+    "canonical_problem": "扶養内で働いているが収入上限を超えてしまい、扶養から外される可能性を心配している。",
+    "canonical_user": "会社員",
+    "canonical_job": "扶養範囲管理",
+    "canonical_root_cause": "扶養制度の複雑さと収入管理不足",
+    "tags": [
+      "compliance_confusion",
+      "high_builder_fit",
+      "high_severity",
+      "monthly"
+    ]
+  },
+  {
+    "pain_id": "604ae2d857e7",
+    "question_id": "643f2518e336",
+    "canonical_problem": "社会保険料の算定ルールが分からず、残業調整の効果的な戦略を立てられない。",
+    "canonical_user": "会社員",
+    "canonical_job": "社会保険料最適化",
+    "canonical_root_cause": "標準報酬月額制度の理解不足",
+    "tags": [
+      "high_builder_fit",
+      "knowledge_lookup",
+      "monthly"
+    ]
+  },
+  {
+    "pain_id": "bec1b680cfee",
+    "question_id": "e71db3a7fa4c",
+    "canonical_problem": "傷病手当金の申請書類で医師記入欄の日付に不整合があり、審査に通るか不安。",
+    "canonical_user": "会社員",
+    "canonical_job": "傷病手当申請",
+    "canonical_root_cause": "医師記入欄の日付整合性確認不足",
+    "tags": [
+      "exception_handling",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ]
+  },
+  {
+    "pain_id": "be55855ebf6b",
+    "question_id": "05d914d122bf",
+    "canonical_problem": "creemaで顧客が星5評価をつけられないバグにより、販売評価に悪影響が出ている",
+    "canonical_user": "中小企業",
+    "canonical_job": "評価管理",
+    "canonical_root_cause": "プラットフォームのシステム不具合",
+    "tags": [
+      "exception_handling",
+      "high_severity",
+      "unknown"
+    ]
+  },
+  {
+    "pain_id": "d91871d989fc",
+    "question_id": "cc0977747258",
+    "canonical_problem": "クラウドワークスで案件に応募しても返信が来ず、副業を始められない状況",
+    "canonical_user": "フリーランス",
+    "canonical_job": "副業獲得",
+    "canonical_root_cause": "初心者で実績がなく信頼獲得困難",
+    "tags": [
+      "customer_followup",
+      "daily"
+    ]
+  },
+  {
+    "pain_id": "da4273817512",
+    "question_id": "20a1ef28ddc9",
+    "canonical_problem": "複数人で営業している個人事業主がクラウドワークスの利用規約と実態の間で困っている",
+    "canonical_user": "フリーランス",
+    "canonical_job": "営業活動",
+    "canonical_root_cause": "個人事業主向けグループ機能未整備",
+    "tags": [
+      "compliance_confusion",
+      "daily"
+    ]
+  },
+  {
+    "pain_id": "0612c6dbce6b",
+    "question_id": "e5c77ea1d5bd",
+    "canonical_problem": "クラウドワークスで契約期間終了時のマイルストーン処理に困っている",
+    "canonical_user": "フリーランス",
+    "canonical_job": "契約変更",
+    "canonical_root_cause": "契約変更手順が複雑で不明確",
+    "tags": [
+      "exception_handling",
+      "high_urgency",
+      "one_off"
+    ]
+  },
+  {
+    "pain_id": "63c8a4b4749e",
+    "question_id": "19e2ba79b8af",
+    "canonical_problem": "在宅ワーク詐欺に巻き込まれ、催促メールに対する対応に困っている",
+    "canonical_user": "その他",
+    "canonical_job": "詐欺対応",
+    "canonical_root_cause": "詐欺の見分け方と対処法が不明",
+    "tags": [
+      "high_severity",
+      "high_urgency",
+      "one_off",
+      "other"
+    ]
+  },
+  {
+    "pain_id": "88614d6a7f34",
+    "question_id": "4fa783af8045",
+    "canonical_problem": "Xでのアフィリエイトでインプレッション数を増やせず収益が上がらない",
+    "canonical_user": "フリーランス",
+    "canonical_job": "集客活動",
+    "canonical_root_cause": "効果的なインプレッション獲得方法不明",
+    "tags": [
+      "daily",
+      "other"
+    ]
+  },
+  {
+    "pain_id": "a326fbae9c95",
+    "question_id": "31b3d72ea7fa",
+    "canonical_problem": "クラウドワークス案件の詐欺判定に困っており、安全性を見極められない",
+    "canonical_user": "フリーランス",
+    "canonical_job": "案件詐欺判定",
+    "canonical_root_cause": "専門知識不足",
+    "tags": [
+      "high_severity",
+      "high_urgency",
+      "knowledge_lookup",
+      "one_off"
+    ]
+  },
+  {
+    "pain_id": "da4cb86638d5",
+    "question_id": "3c42c22af730",
+    "canonical_problem": "ネット誹謗中傷に対する開示請求手続きが分からず困っている",
+    "canonical_user": "その他",
+    "canonical_job": "開示請求",
+    "canonical_root_cause": "法的手続きの知識と経験不足",
+    "tags": [
+      "knowledge_lookup",
+      "one_off"
+    ]
+  },
+  {
+    "pain_id": "e1303ce7f3cd",
+    "question_id": "9c010a67f86c",
+    "canonical_problem": "父の相続手続きを進めたいが知識がなく、司法書士費用15-20万円が高額で困っている",
+    "canonical_user": "その他",
+    "canonical_job": "相続手続き",
+    "canonical_root_cause": "制度の複雑さ",
+    "tags": [
+      "high_severity",
+      "knowledge_lookup",
+      "one_off"
+    ]
+  },
+  {
+    "pain_id": "c629aed10efe",
+    "question_id": "ed30667af073",
+    "canonical_problem": "複雑な相続関係で権利放棄書類作成が必要だが、母の死後の費用負担でもうボロボロの状態",
+    "canonical_user": "その他",
+    "canonical_job": "相続放棄",
+    "canonical_root_cause": "複雑な相続関係と専門書類要求",
+    "tags": [
+      "document_creation",
+      "high_severity",
+      "one_off"
+    ]
+  },
+  {
+    "pain_id": "3c9aa8d6a154",
+    "question_id": "574e29d83390",
+    "canonical_problem": "塾の広告に個人情報が使われ続け、友達に見られたくないが同意書があり対処法がわからない",
+    "canonical_user": "その他",
+    "canonical_job": "広告削除依頼",
+    "canonical_root_cause": "同意書の法的効力範囲が不明",
+    "tags": [
+      "compliance_confusion",
+      "one_off"
+    ]
+  },
+  {
+    "pain_id": "0d0ae647cf25",
+    "question_id": "c52eb3a5c39f",
+    "canonical_problem": "妻の高額パワーストーン購入を詐欺として対処したいが法的手続きが分からない。",
+    "canonical_user": "その他",
+    "canonical_job": "詐欺対応",
+    "canonical_root_cause": "消費者保護の法的知識が不足",
+    "tags": [
+      "knowledge_lookup",
+      "one_off"
+    ]
+  },
+  {
+    "pain_id": "6f139761f875",
+    "question_id": "2c9f61f75a85",
+    "canonical_problem": "ゲームMODの日本語翻訳ファイルが作成後に反映されなくなる技術的問題",
+    "canonical_user": "その他",
+    "canonical_job": "MOD翻訳",
+    "canonical_root_cause": "JSON構文エラーの原因特定困難",
+    "tags": [
+      "exception_handling",
+      "high_builder_fit",
+      "one_off"
+    ]
+  },
+  {
+    "pain_id": "67b3f4277c47",
+    "question_id": "8f101a5aea97",
+    "canonical_problem": "AccessのVBAからJavaScriptファイルを実行する必要があるが、cscriptでエラーが発生し動作しない",
+    "canonical_user": "会社員",
+    "canonical_job": "VBA連携",
+    "canonical_root_cause": "VBAとJavaScript間の実行方法が不明",
+    "tags": [
+      "high_builder_fit",
+      "one_off",
+      "tool_fragmentation"
+    ]
+  },
+  {
+    "pain_id": "b426ebb1f111",
+    "question_id": "b9c4b353afb3",
+    "canonical_problem": "楽天の商品ページでリンク画像を横3列2段で配置したいが、縦並びになってしまい望む表示ができない",
+    "canonical_user": "中小企業",
+    "canonical_job": "商品ページ作成",
+    "canonical_root_cause": "楽天の制限タグ下でのHTML知識不足",
+    "tags": [
+      "document_creation",
+      "weekly"
+    ]
+  },
+  {
+    "pain_id": "addbd5166289",
+    "question_id": "041d97478ec1",
+    "canonical_problem": "Ubuntuのconky設定で画面右上配置と色変更が上手くできない技術的困りごと",
+    "canonical_user": "その他",
+    "canonical_job": "conky設定",
+    "canonical_root_cause": "設定方法の知識不足",
+    "tags": [
+      "one_off",
+      "tool_fragmentation"
+    ]
+  },
+  {
+    "pain_id": "a6c9ec138b30",
+    "question_id": "f6f8f05fd2ea",
+    "canonical_problem": "ポケモン金銀でのバイナリエディタ導入後、設定ミスでわざマシン17が起動できない状況",
+    "canonical_user": "その他",
+    "canonical_job": "バイナリ編集",
+    "canonical_root_cause": "設定手順の理解不足",
+    "tags": [
+      "exception_handling",
+      "one_off"
+    ]
+  },
+  {
+    "pain_id": "8d6662469118",
+    "question_id": "dedd17697c5f",
+    "canonical_problem": "デュアルディスプレイ配信環境構築時にキャプチャーボードが認識されず、配信準備が進まない。",
+    "canonical_user": "その他",
+    "canonical_job": "PC環境構築",
+    "canonical_root_cause": "ハード構成変更でドライバ競合",
+    "tags": [
+      "high_severity",
+      "one_off",
+      "tool_fragmentation"
+    ]
+  },
+  {
+    "pain_id": "a0c1ff64b8b1",
+    "question_id": "564bd2f42c71",
+    "canonical_problem": "PC初期化後もパスワード画面が残り、パスワード不明でログインできない。",
+    "canonical_user": "その他",
+    "canonical_job": "PC復旧作業",
+    "canonical_root_cause": "初期化手順が不完全だった",
+    "tags": [
+      "exception_handling",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ]
+  },
+  {
+    "pain_id": "a3d235e88550",
+    "question_id": "1c5e4bbe8cec",
+    "canonical_problem": "転職時の資格証コピーを1枚ずつしか取れず、10枚の処理に手間がかかる。",
+    "canonical_user": "会社員",
+    "canonical_job": "書類準備",
+    "canonical_root_cause": "コピー機の効率的操作法不明",
+    "tags": [
+      "manual_reentry",
+      "one_off"
+    ]
+  },
+  {
+    "pain_id": "d7ef583e57dc",
+    "question_id": "83c905abf8fc",
+    "canonical_problem": "PCゲームプレイ時にCPUボトルネックでフレームレートが低下し、快適にプレイできない。",
+    "canonical_user": "その他",
+    "canonical_job": "ゲーム環境調整",
+    "canonical_root_cause": "CPUスペック不足で処理が追跡",
+    "tags": [
+      "daily",
+      "exception_handling"
+    ]
+  },
+  {
+    "pain_id": "a36367d00baf",
+    "question_id": "a408191be3b1",
+    "canonical_problem": "PowerToysでCapsLockにAlt+Tabを割り当てたらキーボードが効かなくなり、操作効率化の妨げになっている",
+    "canonical_user": "その他",
+    "canonical_job": "画面切り替え",
+    "canonical_root_cause": "キーの役割理解とツール設定が不適切",
+    "tags": [
+      "daily",
+      "high_builder_fit",
+      "tool_fragmentation"
+    ]
+  },
+  {
+    "pain_id": "5f0ce0e114e3",
+    "question_id": "c61a0a2d3c3d",
+    "canonical_problem": "ゲームデータをSSDに移動後、スクリーンショットの保存場所が不明になり画像が見つからない",
+    "canonical_user": "その他",
+    "canonical_job": "画像保存",
+    "canonical_root_cause": "データ移動後のパス設定が不整合",
+    "tags": [
+      "daily",
+      "exception_handling",
+      "high_severity",
+      "high_urgency"
+    ]
+  },
+  {
+    "pain_id": "0112c02aaf0d",
+    "question_id": "39e7a4aedb50",
+    "canonical_problem": "カーナビのイルミ連動で夜間に画面が暗くなり見づらいが、設定で無効化する方法が見つからない",
+    "canonical_user": "その他",
+    "canonical_job": "画面設定",
+    "canonical_root_cause": "設定項目の場所が不明",
+    "tags": [
+      "daily",
+      "knowledge_lookup"
+    ]
+  },
+  {
+    "pain_id": "d298999e3bc6",
+    "question_id": "edf1962428cb",
+    "canonical_problem": "Chrome拡張のスピード表示が画面中央に常時表示され、動画視聴の邪魔になっている",
+    "canonical_user": "その他",
+    "canonical_job": "動画視聴",
+    "canonical_root_cause": "拡張機能のバグまたは設定異常",
+    "tags": [
+      "daily",
+      "exception_handling",
+      "high_builder_fit"
+    ]
+  },
+  {
+    "pain_id": "29fb8103b6ed",
+    "question_id": "9e81dcefbe0c",
+    "canonical_problem": "OW（OverWatch）プレイ中にカーソルが画面中央に固定され、操作できなくなる問題で、ゲーム体験が阻害されている。",
+    "canonical_user": "その他",
+    "canonical_job": "ゲームプレイ",
+    "canonical_root_cause": "ハードウェア老朽化かソフト競合",
+    "tags": [
+      "exception_handling",
+      "high_severity",
+      "unknown"
+    ]
+  },
+  {
+    "pain_id": "2fb25dd7a22d",
+    "question_id": "d1e409ab01ef",
+    "canonical_problem": "MacでキャプチャーボードからOBSにゲーム画面が表示されず、配信・録画作業ができない状態。",
+    "canonical_user": "その他",
+    "canonical_job": "PC環境構築",
+    "canonical_root_cause": "MacとWindowsツール間の互換性",
+    "tags": [
+      "high_severity",
+      "high_urgency",
+      "one_off",
+      "tool_fragmentation"
+    ]
+  },
+  {
+    "pain_id": "16d00f474fd9",
+    "question_id": "c010a582de46",
+    "canonical_problem": "新品のWindows11 PCが突然電源が入らなくなり、充電も反応せず、急ぎで使用したいが対処できない状態。",
+    "canonical_user": "その他",
+    "canonical_job": "PC環境復旧",
+    "canonical_root_cause": "ハードウェア初期不良",
+    "tags": [
+      "exception_handling",
+      "high_severity",
+      "high_urgency",
+      "high_wtp",
+      "one_off"
+    ]
+  },
+  {
+    "pain_id": "b931bc75d97b",
+    "question_id": "077054284b43",
+    "canonical_problem": "VALORANTで期待するFPS値（300前後）が出ず、実際は200前後で安定しないため、ゲーム性能に不満がある。",
+    "canonical_user": "その他",
+    "canonical_job": "PC性能最適化",
+    "canonical_root_cause": "設定やドライバー最適化不足",
+    "tags": [
+      "daily",
+      "exception_handling"
+    ]
+  },
+  {
+    "pain_id": "032298e86f47",
+    "question_id": "7b64e65e6f11",
+    "canonical_problem": "18歳になったがGoogleアカウントが13歳未満設定のまま固定され、ファミリーリンク管理から解除できない",
+    "canonical_user": "その他",
+    "canonical_job": "年齢設定更新",
+    "canonical_root_cause": "年齢更新メールを逃し直接問い合わせ手段なし",
+    "tags": [
+      "exception_handling",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ]
+  },
+  {
+    "pain_id": "460838b4ef32",
+    "question_id": "f5012e31e77b",
+    "canonical_problem": "身に覚えのないNortonとMcAfeeが勝手にインストールされ、デスクトップに次々と表示される",
+    "canonical_user": "その他",
+    "canonical_job": "PC環境管理",
+    "canonical_root_cause": "プリインストールソフトの不明確な導入経路",
+    "tags": [
+      "daily",
+      "exception_handling"
+    ]
+  },
+  {
+    "pain_id": "d7b045d1a637",
+    "question_id": "343f3784820a",
+    "canonical_problem": "光回線の乗り換え後、新ルーターにケーブルを繋いでもWiFiに接続できない",
+    "canonical_user": "その他",
+    "canonical_job": "回線切替作業",
+    "canonical_root_cause": "切替手順の説明不足と設定作業の複雑さ",
+    "tags": [
+      "exception_handling",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ]
+  },
+  {
+    "pain_id": "eb624b8e081e",
+    "question_id": "29ab38a55539",
+    "canonical_problem": "動画生成ツールが有料化・サービス終了し、無料の代替手段を探している",
+    "canonical_user": "その他",
+    "canonical_job": "動画生成",
+    "canonical_root_cause": "無料ツールの継続性が低い",
+    "tags": [
+      "high_urgency",
+      "one_off",
+      "tool_fragmentation"
+    ]
+  },
+  {
+    "pain_id": "02a8bc3b5c52",
+    "question_id": "05cd5fd28606",
+    "canonical_problem": "リミスタからの重要なメール（抽選結果・支払い案内）が届かず、当選商品の購入ができない",
+    "canonical_user": "その他",
+    "canonical_job": "商品購入",
+    "canonical_root_cause": "メール配信システムの不具合",
+    "tags": [
+      "exception_handling",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ]
+  },
+  {
+    "pain_id": "27e1e9aa59e8",
+    "question_id": "9ae5657f7315",
+    "canonical_problem": "GMOとくとくBBのカスタマーサポートが機能せず、プラン変更や問い合わせ対応が全くできない状態",
+    "canonical_user": "その他",
+    "canonical_job": "プラン変更",
+    "canonical_root_cause": "サポート体制の不備",
+    "tags": [
+      "customer_followup",
+      "high_severity",
+      "high_urgency",
+      "monthly"
+    ]
+  }
+]

@@ -1,0 +1,347 @@
+[
+  {
+    "cluster_id": "cl_2abc86ea3e",
+    "cluster_label": "オンライン販売での評価獲得・信頼構築のプラットフォーム側のシステム不備で出品者側では制御できない",
+    "canonical_problem": "評価システムのバグで顧客が最高評価をつけられず、販売実績に悪影響が出る",
+    "representative_user": "中小企業",
+    "representative_job": "オンライン販売での評価獲得・信頼構築",
+    "root_cause_summary": "プラットフォーム側のシステム不備で出品者側では制御できない",
+    "question_ids": [
+      "05d914d122bf"
+    ],
+    "pain_ids": [
+      "be55855ebf6b"
+    ],
+    "cluster_size": 1,
+    "avg_severity": 4.0,
+    "avg_urgency": 3.0,
+    "avg_wtp_proxy": 4.0,
+    "avg_builder_fit": 2.0,
+    "recurrence_score": 0.113,
+    "solution_gap_score": 0.5,
+    "productability_score": 0.8,
+    "opportunity_score": 0.503
+  },
+  {
+    "cluster_id": "cl_376ce94fa7",
+    "cluster_label": "大容量ファイルの配布・受け渡しのOS変更によりツール設定がリセットされ、ファイル配布インフラが脆弱",
+    "canonical_problem": "OS変更後にダウンロード支援ツールが正常動作せず、業務ファイル配布に支障が発生",
+    "representative_user": "フリーランス",
+    "representative_job": "大容量ファイルの配布・受け渡し",
+    "root_cause_summary": "OS変更によりツール設定がリセットされ、ファイル配布インフラが脆弱",
+    "question_ids": [
+      "84b73bc55726"
+    ],
+    "pain_ids": [
+      "04255c735d6f"
+    ],
+    "cluster_size": 1,
+    "avg_severity": 4.0,
+    "avg_urgency": 4.0,
+    "avg_wtp_proxy": 3.0,
+    "avg_builder_fit": 2.0,
+    "recurrence_score": 0.113,
+    "solution_gap_score": 0.5,
+    "productability_score": 1.0,
+    "opportunity_score": 0.485
+  },
+  {
+    "cluster_id": "cl_4f1ad54cf4",
+    "cluster_label": "設備融資の申込み準備・面談対応の事業承継時に財務知識の引き継ぎが不十分で、毎回の融資時に同様の不安が発生",
+    "canonical_problem": "建設業の二代目経営者が財務知識なしで銀行融資に臨むため、準備不足で不安を抱えている。",
+    "representative_user": "中小企業",
+    "representative_job": "設備融資の申込み準備・面談対応",
+    "root_cause_summary": "事業承継時に財務知識の引き継ぎが不十分で、毎回の融資時に同様の不安が発生",
+    "question_ids": [
+      "3f42492687e7"
+    ],
+    "pain_ids": [
+      "e4de94d3bf90"
+    ],
+    "cluster_size": 1,
+    "avg_severity": 4.0,
+    "avg_urgency": 4.0,
+    "avg_wtp_proxy": 3.0,
+    "avg_builder_fit": 4.0,
+    "recurrence_score": 0.113,
+    "solution_gap_score": 0.5,
+    "productability_score": 0.2,
+    "opportunity_score": 0.48
+  },
+  {
+    "cluster_id": "cl_d6fce55614",
+    "cluster_label": "求人検索・案件探しの検索システムの仕様理解不足と、求人サイトの検索機能が複雑",
+    "canonical_problem": "検索技術不足により求人サイトで条件に合致する案件を効率的に見つけられない",
+    "representative_user": "フリーランス",
+    "representative_job": "求人検索・案件探し",
+    "root_cause_summary": "検索システムの仕様理解不足と、求人サイトの検索機能が複雑",
+    "question_ids": [
+      "6b78c628dbae"
+    ],
+    "pain_ids": [
+      "bfc2f188fc89"
+    ],
+    "cluster_size": 1,
+    "avg_severity": 3.0,
+    "avg_urgency": 3.0,
+    "avg_wtp_proxy": 2.0,
+    "avg_builder_fit": 4.0,
+    "recurrence_score": 0.113,
+    "solution_gap_score": 0.5,
+    "productability_score": 0.8,
+    "opportunity_score": 0.453
+  },
+  {
+    "cluster_id": "cl_e44dae2151",
+    "cluster_label": "PDFファイルの閲覧・検索のソフトウェアの仕様変更により従来の使い方ができなくなった",
+    "canonical_problem": "PDFビューワーが突然ログイン必須になり、個人情報登録を避けたいため業務に支障",
+    "representative_user": "その他",
+    "representative_job": "PDFファイルの閲覧・検索",
+    "root_cause_summary": "ソフトウェアの仕様変更により従来の使い方ができなくなった",
+    "question_ids": [
+      "1a29b3d6f63b"
+    ],
+    "pain_ids": [
+      "c6f16b5d45f5"
+    ],
+    "cluster_size": 1,
+    "avg_severity": 3.0,
+    "avg_urgency": 3.0,
+    "avg_wtp_proxy": 2.0,
+    "avg_builder_fit": 3.0,
+    "recurrence_score": 0.113,
+    "solution_gap_score": 0.5,
+    "productability_score": 1.0,
+    "opportunity_score": 0.435
+  },
+  {
+    "cluster_id": "cl_237ff3ae60",
+    "cluster_label": "扶養枠内での合法的なアルバイトの制度・法規制の複雑性",
+    "canonical_problem": "専門学生が扶養枠内で合法的に働きたいが、税制の仕組みが複雑で、どの働き方が扶養に影響しないか分からない状況が継続している。",
+    "representative_user": "会社員",
+    "representative_job": "扶養枠内での合法的なアルバイト",
+    "root_cause_summary": "制度・法規制の複雑性",
+    "question_ids": [
+      "23ddf88f290a"
+    ],
+    "pain_ids": [
+      "f6ac0a29b165"
+    ],
+    "cluster_size": 1,
+    "avg_severity": 3.0,
+    "avg_urgency": 3.0,
+    "avg_wtp_proxy": 2.0,
+    "avg_builder_fit": 4.0,
+    "recurrence_score": 0.113,
+    "solution_gap_score": 0.5,
+    "productability_score": 0.6,
+    "opportunity_score": 0.433
+  },
+  {
+    "cluster_id": "cl_86592efc19",
+    "cluster_label": "資産形成・投資配分の決定の投資商品が多様で初心者には比較・判断が困難、個人に最適化されたアドバイスがない",
+    "canonical_problem": "新卒社員が資産形成の選択肢が多すぎて、どの組み合わせが最適か判断できず、投資初心者には情報が複雑すぎる状況。",
+    "representative_user": "会社員",
+    "representative_job": "資産形成・投資配分の決定",
+    "root_cause_summary": "投資商品が多様で初心者には比較・判断が困難、個人に最適化されたアドバイスがない",
+    "question_ids": [
+      "d338c1209350"
+    ],
+    "pain_ids": [
+      "6f81aca18b55"
+    ],
+    "cluster_size": 1,
+    "avg_severity": 2.0,
+    "avg_urgency": 3.0,
+    "avg_wtp_proxy": 3.0,
+    "avg_builder_fit": 4.0,
+    "recurrence_score": 0.113,
+    "solution_gap_score": 0.5,
+    "productability_score": 0.6,
+    "opportunity_score": 0.42
+  },
+  {
+    "cluster_id": "cl_54a9a8d395",
+    "cluster_label": "株式会社設立と複数事業の運営開始の複数業種にまたがる事業の法的要件や許認可の関係が複雑で、一元的に相談できる場所がない",
+    "canonical_problem": "多業種にわたる事業を一つの株式会社で運営する際の法的・手続き的な不安。",
+    "representative_user": "中小企業",
+    "representative_job": "株式会社設立と複数事業の運営開始",
+    "root_cause_summary": "複数業種にまたがる事業の法的要件や許認可の関係が複雑で、一元的に相談できる場所がない",
+    "question_ids": [
+      "1c44c54bfeaf"
+    ],
+    "pain_ids": [
+      "0a5f8bf62256"
+    ],
+    "cluster_size": 1,
+    "avg_severity": 3.0,
+    "avg_urgency": 3.0,
+    "avg_wtp_proxy": 3.0,
+    "avg_builder_fit": 3.0,
+    "recurrence_score": 0.113,
+    "solution_gap_score": 0.5,
+    "productability_score": 0.2,
+    "opportunity_score": 0.393
+  },
+  {
+    "cluster_id": "cl_bb53c45339",
+    "cluster_label": "安全で健全な職場環境で働くことの組織が問題を認めることのリスクを避け、事なかれ主義を取っている",
+    "canonical_problem": "職場が問題ある同僚の行動を認知・対処せず、相談者が逆にトラブルメーカー扱いされる。",
+    "representative_user": "会社員",
+    "representative_job": "安全で健全な職場環境で働くこと",
+    "root_cause_summary": "組織が問題を認めることのリスクを避け、事なかれ主義を取っている",
+    "question_ids": [
+      "ca12eb72bf42"
+    ],
+    "pain_ids": [
+      "188b126f36f1"
+    ],
+    "cluster_size": 1,
+    "avg_severity": 4.0,
+    "avg_urgency": 3.0,
+    "avg_wtp_proxy": 3.0,
+    "avg_builder_fit": 1.0,
+    "recurrence_score": 0.113,
+    "solution_gap_score": 0.5,
+    "productability_score": 0.4,
+    "opportunity_score": 0.388
+  },
+  {
+    "cluster_id": "cl_19b1721e55",
+    "cluster_label": "WQHD解像度でのゲーミング環境最適化、ゲーム起動しながらの作業の性能・価格・消費電力の複合的な最適化判断が困難で、上位モデルへの誘惑が常にある",
+    "canonical_problem": "グラフィックボード選定で性能・予算・消費電力のトレードオフに迷い、上位モデルへの散財欲求をコントロールできない",
+    "representative_user": "その他",
+    "representative_job": "WQHD解像度でのゲーミング環境最適化、ゲーム起動しながらの作業",
+    "root_cause_summary": "性能・価格・消費電力の複合的な最適化判断が困難で、上位モデルへの誘惑が常にある",
+    "question_ids": [
+      "37c8082a8edf"
+    ],
+    "pain_ids": [
+      "2a9fa78e1b95"
+    ],
+    "cluster_size": 1,
+    "avg_severity": 2.0,
+    "avg_urgency": 2.0,
+    "avg_wtp_proxy": 4.0,
+    "avg_builder_fit": 3.0,
+    "recurrence_score": 0.113,
+    "solution_gap_score": 0.5,
+    "productability_score": 0.2,
+    "opportunity_score": 0.38
+  },
+  {
+    "cluster_id": "cl_5400ade9ee",
+    "cluster_label": "新入社員として業務を学習し、戦力になることの忙しい支店で研修制度・体制が整っておらず、教育担当が曖昧",
+    "canonical_problem": "新入社員研修が機能せず、教育担当も不明で適切なOJTが受けられない。",
+    "representative_user": "会社員",
+    "representative_job": "新入社員として業務を学習し、戦力になること",
+    "root_cause_summary": "忙しい支店で研修制度・体制が整っておらず、教育担当が曖昧",
+    "question_ids": [
+      "0f9f5ac3bf5c"
+    ],
+    "pain_ids": [
+      "e43338a8adb5"
+    ],
+    "cluster_size": 1,
+    "avg_severity": 4.0,
+    "avg_urgency": 4.0,
+    "avg_wtp_proxy": 2.0,
+    "avg_builder_fit": 2.0,
+    "recurrence_score": 0.113,
+    "solution_gap_score": 0.5,
+    "productability_score": 0.2,
+    "opportunity_score": 0.368
+  },
+  {
+    "cluster_id": "cl_551660b25e",
+    "cluster_label": "商標出願手続きの商標出願システムの複雑さと、未成年特有の要件が不明確",
+    "canonical_problem": "商標出願時の複数住所管理と、複雑な手続き要件の理解が困難",
+    "representative_user": "フリーランス",
+    "representative_job": "商標出願手続き",
+    "root_cause_summary": "商標出願システムの複雑さと、未成年特有の要件が不明確",
+    "question_ids": [
+      "833dad0041e1"
+    ],
+    "pain_ids": [
+      "78c332ba7b73"
+    ],
+    "cluster_size": 1,
+    "avg_severity": 3.0,
+    "avg_urgency": 3.0,
+    "avg_wtp_proxy": 3.0,
+    "avg_builder_fit": 2.0,
+    "recurrence_score": 0.113,
+    "solution_gap_score": 0.5,
+    "productability_score": 0.2,
+    "opportunity_score": 0.355
+  },
+  {
+    "cluster_id": "cl_a035a0e740",
+    "cluster_label": "AI導入補助金申請の制度・法規制の複雑性",
+    "canonical_problem": "補助金制度の複雑な仕組みと支援業者への成功報酬支払いが理解困難",
+    "representative_user": "中小企業",
+    "representative_job": "AI導入補助金申請",
+    "root_cause_summary": "制度・法規制の複雑性",
+    "question_ids": [
+      "c5ffca4abb35"
+    ],
+    "pain_ids": [
+      "cf1f8f8a8730"
+    ],
+    "cluster_size": 1,
+    "avg_severity": 3.0,
+    "avg_urgency": 2.0,
+    "avg_wtp_proxy": 2.0,
+    "avg_builder_fit": 3.0,
+    "recurrence_score": 0.113,
+    "solution_gap_score": 0.5,
+    "productability_score": 0.2,
+    "opportunity_score": 0.355
+  },
+  {
+    "cluster_id": "cl_c55df9e0bf",
+    "cluster_label": "MODの日本語翻訳ファイル作成のJSONの構文エラーの原因特定が困難で、デバッグツールも限定的",
+    "canonical_problem": "ゲームMODの翻訳ファイル作成時にJSONエラーが発生し、原因が特定できずに困っている",
+    "representative_user": "その他",
+    "representative_job": "MODの日本語翻訳ファイル作成",
+    "root_cause_summary": "JSONの構文エラーの原因特定が困難で、デバッグツールも限定的",
+    "question_ids": [
+      "2c9f61f75a85"
+    ],
+    "pain_ids": [
+      "82a36a864354"
+    ],
+    "cluster_size": 1,
+    "avg_severity": 2.0,
+    "avg_urgency": 2.0,
+    "avg_wtp_proxy": 1.0,
+    "avg_builder_fit": 4.0,
+    "recurrence_score": 0.113,
+    "solution_gap_score": 0.5,
+    "productability_score": 0.2,
+    "opportunity_score": 0.305
+  },
+  {
+    "cluster_id": "cl_bcf1043c00",
+    "cluster_label": "会社推奨保険への対応・意向表明の企業の意向確認書が加入前提で作られており、拒否の選択肢が用意されていない",
+    "canonical_problem": "新社会人が会社の保険加入を断りたいが、意向確認書に拒否の選択肢がなく、毎回このような状況で困惑している。",
+    "representative_user": "会社員",
+    "representative_job": "会社推奨保険への対応・意向表明",
+    "root_cause_summary": "企業の意向確認書が加入前提で作られており、拒否の選択肢が用意されていない",
+    "question_ids": [
+      "ccd089c23a9a"
+    ],
+    "pain_ids": [
+      "aaa49279e4b1"
+    ],
+    "cluster_size": 1,
+    "avg_severity": 2.0,
+    "avg_urgency": 4.0,
+    "avg_wtp_proxy": 1.0,
+    "avg_builder_fit": 2.0,
+    "recurrence_score": 0.113,
+    "solution_gap_score": 0.7,
+    "productability_score": 0.2,
+    "opportunity_score": 0.27
+  }
+]
