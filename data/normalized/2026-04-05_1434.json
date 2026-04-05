@@ -1,0 +1,268 @@
+[
+  {
+    "pain_id": "5e7932c914f9",
+    "question_id": "c6aed8623476",
+    "canonical_problem": "税務申告書の別表4で数字が一致せず、計算方法がわからない",
+    "canonical_user": "会社員",
+    "canonical_job": "税務申告",
+    "canonical_root_cause": "税務知識が不足し手順未確立",
+    "tags": [
+      "compliance_confusion",
+      "high_severity",
+      "high_urgency",
+      "monthly"
+    ]
+  },
+  {
+    "pain_id": "252650a71c0f",
+    "question_id": "cbba82860a92",
+    "canonical_problem": "フリーランス開始に必要な税務知識が全くわからず法的リスクを抱えている",
+    "canonical_user": "フリーランス",
+    "canonical_job": "確定申告",
+    "canonical_root_cause": "基礎知識ゼロで相談先もない",
+    "tags": [
+      "high_builder_fit",
+      "high_severity",
+      "high_urgency",
+      "knowledge_lookup",
+      "one_off",
+      "確定申告"
+    ]
+  },
+  {
+    "pain_id": "f4744072ca0a",
+    "question_id": "28efd35f783a",
+    "canonical_problem": "開業タイミングと失業手当の両立で適切な手続き時期が不明",
+    "canonical_user": "その他",
+    "canonical_job": "開業届提出",
+    "canonical_root_cause": "制度の複雑さで手続き順序が不明",
+    "tags": [
+      "compliance_confusion",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ]
+  },
+  {
+    "pain_id": "31ce8b79f7ad",
+    "question_id": "4b323c4e3b18",
+    "canonical_problem": "出張時の便乗案件で適切な価格設定方法が分からない",
+    "canonical_user": "フリーランス",
+    "canonical_job": "見積作成",
+    "canonical_root_cause": "地域別価格設定の基準が曖昧",
+    "tags": [
+      "knowledge_lookup",
+      "monthly"
+    ]
+  },
+  {
+    "pain_id": "d4435285c368",
+    "question_id": "833dad0041e1",
+    "canonical_problem": "商標出願の手続きが複雑で、住所の扱いや未成年の要件が不明確",
+    "canonical_user": "その他",
+    "canonical_job": "商標出願",
+    "canonical_root_cause": "制度の複雑さ",
+    "tags": [
+      "compliance_confusion",
+      "one_off"
+    ]
+  },
+  {
+    "pain_id": "172b68c38120",
+    "question_id": "c5ffca4abb35",
+    "canonical_problem": "AI導入補助金の仕組みが複雑で、支援業者への成功報酬が予想外の負担",
+    "canonical_user": "中小企業",
+    "canonical_job": "補助金申請",
+    "canonical_root_cause": "制度設計が複雑で理解困難",
+    "tags": [
+      "compliance_confusion",
+      "high_severity",
+      "one_off"
+    ]
+  },
+  {
+    "pain_id": "64ccbeeac91c",
+    "question_id": "74bb404942bd",
+    "canonical_problem": "転職3日目で退職を考えており、早期退職の手続きについて悩んでいる",
+    "canonical_user": "会社員",
+    "canonical_job": "退職手続き",
+    "canonical_root_cause": "受け入れ難い状況への対処法不明",
+    "tags": [
+      "high_severity",
+      "high_urgency",
+      "one_off",
+      "other"
+    ]
+  },
+  {
+    "pain_id": "d371c64db21c",
+    "question_id": "0f159d186703",
+    "canonical_problem": "新課長が理由なく半日有給を拒否し、1日有給の取得を強制している",
+    "canonical_user": "会社員",
+    "canonical_job": "有給休暇取得",
+    "canonical_root_cause": "新課長の方針変更で制度運用阻害",
+    "tags": [
+      "approval_bottleneck",
+      "weekly"
+    ]
+  },
+  {
+    "pain_id": "a248561219e4",
+    "question_id": "48e3afc289b5",
+    "canonical_problem": "日米帰国時の税制が複雑で、資産処理方法が不明で不安を感じている",
+    "canonical_user": "その他",
+    "canonical_job": "帰国税務処理",
+    "canonical_root_cause": "日米税制の複雑性と専門知識不足",
+    "tags": [
+      "compliance_confusion",
+      "high_severity",
+      "high_wtp",
+      "one_off"
+    ]
+  },
+  {
+    "pain_id": "9f5673cfabd4",
+    "question_id": "5ed8e91863a2",
+    "canonical_problem": "海外FX取引の税務処理が分からず、確定申告で何を申告すべきか混乱している",
+    "canonical_user": "会社員",
+    "canonical_job": "確定申告",
+    "canonical_root_cause": "海外FX税制の複雑性と経験不足",
+    "tags": [
+      "compliance_confusion",
+      "high_urgency",
+      "monthly",
+      "確定申告"
+    ]
+  },
+  {
+    "pain_id": "2647fcd1b06d",
+    "question_id": "dbf89bb026d5",
+    "canonical_problem": "給与未払い・会社倒産リスクの中で傷病手当申請手続きが分からず不安",
+    "canonical_user": "会社員",
+    "canonical_job": "傷病手当申請",
+    "canonical_root_cause": "制度の複雑さ",
+    "tags": [
+      "compliance_confusion",
+      "high_severity",
+      "high_urgency",
+      "high_wtp",
+      "one_off"
+    ]
+  },
+  {
+    "pain_id": "2565cd2c039d",
+    "question_id": "db3723470d9d",
+    "canonical_problem": "扶養の収入管理で公社債利子の扱いが不明確で、130万円上限を正確に管理できない",
+    "canonical_user": "会社員",
+    "canonical_job": "扶養管理",
+    "canonical_root_cause": "制度の複雑さ",
+    "tags": [
+      "compliance_confusion",
+      "high_builder_fit",
+      "high_severity",
+      "high_urgency",
+      "monthly"
+    ]
+  },
+  {
+    "pain_id": "ecad99b2204c",
+    "question_id": "05d914d122bf",
+    "canonical_problem": "creemaで顧客が星5評価を付けられないバグにより、評価が実際より低くなり売上に影響する",
+    "canonical_user": "中小企業",
+    "canonical_job": "評価管理",
+    "canonical_root_cause": "プラットフォーム側のバグ",
+    "tags": [
+      "high_severity",
+      "other",
+      "weekly"
+    ]
+  },
+  {
+    "pain_id": "4cfa57d61e53",
+    "question_id": "03aff42b3c09",
+    "canonical_problem": "貸主都合の退去要請に対し、適正な立退料等の補償交渉が必要だが法的知識不足で困っている。",
+    "canonical_user": "その他",
+    "canonical_job": "立退交渉",
+    "canonical_root_cause": "借地借家法の知識不足",
+    "tags": [
+      "compliance_confusion",
+      "high_severity",
+      "high_wtp",
+      "one_off"
+    ]
+  },
+  {
+    "pain_id": "78b379926d27",
+    "question_id": "30a774d1dc9e",
+    "canonical_problem": "ゲームトレードでおすすめ順表示が下位に沈み、回復方法や期間が分からず売上に影響している。",
+    "canonical_user": "その他",
+    "canonical_job": "商品露出回復",
+    "canonical_root_cause": "プラットフォーム仕様が不透明",
+    "tags": [
+      "exception_handling",
+      "unknown"
+    ]
+  },
+  {
+    "pain_id": "493ec9872ab2",
+    "question_id": "af2499d96850",
+    "canonical_problem": "マイクラのモブ作成でアニメーション設定とコンポーネント編集の具体的な手順が分からない。",
+    "canonical_user": "その他",
+    "canonical_job": "モブ設定変更",
+    "canonical_root_cause": "技術文書が複雑で実装不明",
+    "tags": [
+      "knowledge_lookup",
+      "one_off"
+    ]
+  },
+  {
+    "pain_id": "bc8c789e9e55",
+    "question_id": "ba7d6171d979",
+    "canonical_problem": "Steamアカウントのパスワードを忘れてマイクラにアクセスできない",
+    "canonical_user": "その他",
+    "canonical_job": "ゲームアクセス",
+    "canonical_root_cause": "パスワード管理が不十分",
+    "tags": [
+      "knowledge_lookup",
+      "one_off"
+    ]
+  },
+  {
+    "pain_id": "86c6ff569781",
+    "question_id": "85d06ee78297",
+    "canonical_problem": "ノートPCのネット接続が異常に遅く、各種エラーで途中で切断される",
+    "canonical_user": "その他",
+    "canonical_job": "PC環境構築",
+    "canonical_root_cause": "特定PCのネットワーク設定異常",
+    "tags": [
+      "daily",
+      "exception_handling",
+      "high_severity",
+      "high_urgency"
+    ]
+  },
+  {
+    "pain_id": "7e03c789abf5",
+    "question_id": "bb220acd7570",
+    "canonical_problem": "マイピク申請で前回不備があり、適切な謝罪文と文面作成に困っている",
+    "canonical_user": "その他",
+    "canonical_job": "申請文作成",
+    "canonical_root_cause": "適切な申請文の書き方が不明",
+    "tags": [
+      "document_creation",
+      "one_off"
+    ]
+  },
+  {
+    "pain_id": "2b23515e7ce9",
+    "question_id": "ba13b6db4be5",
+    "canonical_problem": "Surface Pro 5Gで起動後にネット接続が不安定になり都度対処が必要",
+    "canonical_user": "その他",
+    "canonical_job": "ネット環境維持",
+    "canonical_root_cause": "ハード・ソフト・設定の不具合",
+    "tags": [
+      "daily",
+      "recurring_admin_work"
+    ]
+  }
+]
