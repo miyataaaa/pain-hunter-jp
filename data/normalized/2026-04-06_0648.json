@@ -1,0 +1,777 @@
+[
+  {
+    "pain_id": "d1938b33fc23",
+    "question_id": "eaa1489842d9",
+    "canonical_problem": "3期制の保管料計算方法が理解できず、自分なりの計算式との違いが分からない",
+    "canonical_user": "会社員",
+    "canonical_job": "保管料計算",
+    "canonical_root_cause": "計算ロジックの仕組みが理解不足",
+    "tags": [
+      "knowledge_lookup",
+      "monthly"
+    ],
+    "fetched_date": "2026-04-06"
+  },
+  {
+    "pain_id": "6bc563a4e862",
+    "question_id": "9e4f36c3fd2d",
+    "canonical_problem": "福利厚生制度の企画・設計で、既存の情報収集方法では参考事例が不足している",
+    "canonical_user": "会社員",
+    "canonical_job": "福利厚生企画",
+    "canonical_root_cause": "大手企業中心で中小企業の実例が少ない",
+    "tags": [
+      "high_builder_fit",
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-06"
+  },
+  {
+    "pain_id": "73c9392eceeb",
+    "question_id": "ef50228a796f",
+    "canonical_problem": "消費税申告の手続きで、簡易課税制度の適用に必要な届出書類が分からない",
+    "canonical_user": "中小企業",
+    "canonical_job": "確定申告",
+    "canonical_root_cause": "税務手続きの複雑さと情報不足",
+    "tags": [
+      "compliance_confusion",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-06"
+  },
+  {
+    "pain_id": "34655e5cc409",
+    "question_id": "2b854234e42c",
+    "canonical_problem": "請求書の正しい書式がわからず、今まで作成してきたものが適切か不安になっている",
+    "canonical_user": "フリーランス",
+    "canonical_job": "請求書作成",
+    "canonical_root_cause": "請求書の書式ルールが不明確",
+    "tags": [
+      "high_builder_fit",
+      "knowledge_lookup",
+      "monthly",
+      "請求書"
+    ],
+    "fetched_date": "2026-04-06"
+  },
+  {
+    "pain_id": "505afa2a9479",
+    "question_id": "9d29502a1394",
+    "canonical_problem": "単発バイトの経理処理で、相手業者の情報不足により税務上の記録保存に不安がある",
+    "canonical_user": "フリーランス",
+    "canonical_job": "経費精算",
+    "canonical_root_cause": "相手業者の情報管理が不適切",
+    "tags": [
+      "compliance_confusion",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-06"
+  },
+  {
+    "pain_id": "67629f95343d",
+    "question_id": "75469637af61",
+    "canonical_problem": "誤解によるリース契約を解除したいが、民事調停の手続きが適切か判断に困っている",
+    "canonical_user": "中小企業",
+    "canonical_job": "契約書レビュー",
+    "canonical_root_cause": "契約時の説明が不十分で誤解",
+    "tags": [
+      "high_severity",
+      "high_urgency",
+      "high_wtp",
+      "knowledge_lookup",
+      "one_off",
+      "契約書"
+    ],
+    "fetched_date": "2026-04-06"
+  },
+  {
+    "pain_id": "33b77e4f7b85",
+    "question_id": "3b9b685b3715",
+    "canonical_problem": "クラウドワークスで報酬未払いのリスクがあり、対策方法を知りたい",
+    "canonical_user": "フリーランス",
+    "canonical_job": "顧客対応",
+    "canonical_root_cause": "未払いリスクの対策が不明",
+    "tags": [
+      "knowledge_lookup",
+      "weekly"
+    ],
+    "fetched_date": "2026-04-06"
+  },
+  {
+    "pain_id": "cafbfb1195a7",
+    "question_id": "52850681f0a4",
+    "canonical_problem": "62歳で転職活動中だが2か月で10か所受けても内定が取れず、生活費の問題で困っている",
+    "canonical_user": "その他",
+    "canonical_job": "転職活動",
+    "canonical_root_cause": "年齢と経験不足で採用されない",
+    "tags": [
+      "high_severity",
+      "high_urgency",
+      "one_off",
+      "other"
+    ],
+    "fetched_date": "2026-04-06"
+  },
+  {
+    "pain_id": "af843f5ebca7",
+    "question_id": "d773c6923dd2",
+    "canonical_problem": "証明写真機で撮影した就活用写真にメガネの反射が写り込み、何度試しても改善できない",
+    "canonical_user": "その他",
+    "canonical_job": "証明写真撮影",
+    "canonical_root_cause": "メガネ着用時の証明写真機の限界",
+    "tags": [
+      "exception_handling",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-06"
+  },
+  {
+    "pain_id": "50dd09e4f26e",
+    "question_id": "0b43d6f54528",
+    "canonical_problem": "バイト面接の折り返し電話で何を言えばいいか分からず困っている",
+    "canonical_user": "その他",
+    "canonical_job": "面接電話対応",
+    "canonical_root_cause": "初回経験で適切な話し方不明",
+    "tags": [
+      "high_urgency",
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-06"
+  },
+  {
+    "pain_id": "e8014d07415e",
+    "question_id": "a6f0479031e8",
+    "canonical_problem": "ウエルシアのレジでクーポン処理の手順が分からず業務に支障",
+    "canonical_user": "会社員",
+    "canonical_job": "レジ操作",
+    "canonical_root_cause": "業務マニュアルが不十分",
+    "tags": [
+      "daily",
+      "knowledge_lookup"
+    ],
+    "fetched_date": "2026-04-06"
+  },
+  {
+    "pain_id": "c6c3b8950e8a",
+    "question_id": "8a71580e348e",
+    "canonical_problem": "会計年度職員退職後の手続きが複雑で、自分で各種書類請求や年金切り替えをしなければならない。",
+    "canonical_user": "会社員",
+    "canonical_job": "退職手続",
+    "canonical_root_cause": "属人化・引き継ぎ不足",
+    "tags": [
+      "high_severity",
+      "high_urgency",
+      "manual_reentry",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-06"
+  },
+  {
+    "pain_id": "ab7651b87e1a",
+    "question_id": "eb3c2ffd1700",
+    "canonical_problem": "保育園バイトで精神的に辛い状況だが、契約上の責任感と職場への配慮で勤務時間削減や退職を言い出せない。",
+    "canonical_user": "会社員",
+    "canonical_job": "労働条件変更",
+    "canonical_root_cause": "契約責任と職場配慮で言い出せない",
+    "tags": [
+      "approval_bottleneck",
+      "daily",
+      "high_severity",
+      "high_urgency"
+    ],
+    "fetched_date": "2026-04-06"
+  },
+  {
+    "pain_id": "6f122159b8b4",
+    "question_id": "0af82a071d23",
+    "canonical_problem": "安楽亭バイト初出勤で制服や業務内容の説明が不十分で、初日の流れが不明で不安。",
+    "canonical_user": "会社員",
+    "canonical_job": "新人研修",
+    "canonical_root_cause": "採用時の説明が不十分",
+    "tags": [
+      "high_urgency",
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-06"
+  },
+  {
+    "pain_id": "699d54e22102",
+    "question_id": "952c93d1a521",
+    "canonical_problem": "給料が予定日を過ぎても振り込まれず、対処法がわからない状況",
+    "canonical_user": "会社員",
+    "canonical_job": "給料受取",
+    "canonical_root_cause": "会社の給与支払い遅延",
+    "tags": [
+      "approval_bottleneck",
+      "high_severity",
+      "high_urgency",
+      "monthly"
+    ],
+    "fetched_date": "2026-04-06"
+  },
+  {
+    "pain_id": "c3698f52372f",
+    "question_id": "04ef849d163d",
+    "canonical_problem": "転勤帯同で前職を辞めたが、新土地でやりがいある仕事が見つからずメンタル不安定",
+    "canonical_user": "その他",
+    "canonical_job": "転職活動",
+    "canonical_root_cause": "地方で専門性を活かせる職場が限定的",
+    "tags": [
+      "high_severity",
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-06"
+  },
+  {
+    "pain_id": "1a70376cbf94",
+    "question_id": "576b265fc4b0",
+    "canonical_problem": "釣り求人でミスマッチな職種に就き、スキル詐称状態で稼働することへの罪悪感と将来不安",
+    "canonical_user": "会社員",
+    "canonical_job": "キャリア転換",
+    "canonical_root_cause": "釣り求人と会社の詐称体質",
+    "tags": [
+      "one_off",
+      "other"
+    ],
+    "fetched_date": "2026-04-06"
+  },
+  {
+    "pain_id": "0c65a4e7a4c4",
+    "question_id": "7d7fc64fb3bd",
+    "canonical_problem": "転職先で約束と異なる長時間残業が続き、不十分な引継により業務が終わらず体調不良に",
+    "canonical_user": "会社員",
+    "canonical_job": "業務引継",
+    "canonical_root_cause": "引継が不十分で業務量が不明確",
+    "tags": [
+      "daily",
+      "handoff_loss",
+      "high_severity",
+      "high_urgency"
+    ],
+    "fetched_date": "2026-04-06"
+  },
+  {
+    "pain_id": "10cc6868e855",
+    "question_id": "f49672f04a9a",
+    "canonical_problem": "労災事故後の退職手続きで、労災書類の確保と円満退職の両立に困っている。",
+    "canonical_user": "会社員",
+    "canonical_job": "退職手続き",
+    "canonical_root_cause": "労災手続きと退職タイミング調整",
+    "tags": [
+      "approval_bottleneck",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-06"
+  },
+  {
+    "pain_id": "c56439bba6f9",
+    "question_id": "a5dbdf9f9267",
+    "canonical_problem": "労災治療での書類手続きが複雑で、職場とのやり取りが憂鬱",
+    "canonical_user": "会社員",
+    "canonical_job": "労災書類申請",
+    "canonical_root_cause": "制度の複雑さ",
+    "tags": [
+      "compliance_confusion",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-06"
+  },
+  {
+    "pain_id": "0d8b32b882ad",
+    "question_id": "152d7e208bbd",
+    "canonical_problem": "建退共制度や退職金について会社から情報提供されず、権利を行使できない",
+    "canonical_user": "会社員",
+    "canonical_job": "退職金請求",
+    "canonical_root_cause": "会社が制度を説明せず情報不足",
+    "tags": [
+      "high_severity",
+      "high_wtp",
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-06"
+  },
+  {
+    "pain_id": "577e5ad302b6",
+    "question_id": "9fee639b469c",
+    "canonical_problem": "時短勤務により業務配置転換され、キャリアと人間関係の構築で悩んでいる",
+    "canonical_user": "会社員",
+    "canonical_job": "キャリア継続",
+    "canonical_root_cause": "時短制約と業務特性が合わない",
+    "tags": [
+      "handoff_loss",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-06"
+  },
+  {
+    "pain_id": "cbe186274789",
+    "question_id": "52c632bb77db",
+    "canonical_problem": "副業禁止の会社員がFXで利益を得た際の確定申告方法と、会社にバレない申告手順が分からない",
+    "canonical_user": "フリーランス",
+    "canonical_job": "確定申告",
+    "canonical_root_cause": "副業禁止規定と税務申告義務の両立方法が不明",
+    "tags": [
+      "compliance_confusion",
+      "high_severity",
+      "monthly",
+      "確定申告"
+    ],
+    "fetched_date": "2026-04-06"
+  },
+  {
+    "pain_id": "1f0193411f07",
+    "question_id": "56d484716229",
+    "canonical_problem": "準確定申告で遺産分割割合を記載する必要があるが、遺産額確定前で適切な記載方法と後の変更リスクが不明",
+    "canonical_user": "その他",
+    "canonical_job": "確定申告",
+    "canonical_root_cause": "遺産額未確定時の申告書記載ルールが不明",
+    "tags": [
+      "compliance_confusion",
+      "high_urgency",
+      "high_wtp",
+      "one_off",
+      "確定申告"
+    ],
+    "fetched_date": "2026-04-06"
+  },
+  {
+    "pain_id": "f32d6b9169c9",
+    "question_id": "46e7483b1a0d",
+    "canonical_problem": "転職時の住民税支払い手続きが複雑で理解困難。期限内支払いが必要な状況。",
+    "canonical_user": "会社員",
+    "canonical_job": "住民税手続き",
+    "canonical_root_cause": "制度の複雑さ",
+    "tags": [
+      "compliance_confusion",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-06"
+  },
+  {
+    "pain_id": "c8e6048c56a9",
+    "question_id": "0cc808c019de",
+    "canonical_problem": "クライアントによる源泉徴収処理の違いで、法的問題の有無を判断できない。",
+    "canonical_user": "フリーランス",
+    "canonical_job": "源泉徴収確認",
+    "canonical_root_cause": "源泉徴収ルールが複雑",
+    "tags": [
+      "compliance_confusion",
+      "unknown"
+    ],
+    "fetched_date": "2026-04-06"
+  },
+  {
+    "pain_id": "654dcf6484f4",
+    "question_id": "3f93dbf1bbb5",
+    "canonical_problem": "贈与税非課税申告での証明書要件が不明で、税務署での承認可否を判断できない。",
+    "canonical_user": "その他",
+    "canonical_job": "贈与税申告",
+    "canonical_root_cause": "税務要件の詳細が不明確",
+    "tags": [
+      "compliance_confusion",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-06"
+  },
+  {
+    "pain_id": "cc935c0f8f31",
+    "question_id": "0ac16569fba8",
+    "canonical_problem": "年金保険料滞納で催告状が来て、支払いか免除申請かの判断に困っている。",
+    "canonical_user": "その他",
+    "canonical_job": "年金保険料納付",
+    "canonical_root_cause": "免除制度と納付の損得が不明",
+    "tags": [
+      "compliance_confusion",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-06"
+  },
+  {
+    "pain_id": "8d8940069f5f",
+    "question_id": "3a741a84ca27",
+    "canonical_problem": "海外FX年間取引報告書でボーナス分が損益に含まれており、確定申告時に適切に分離する方法がわからない",
+    "canonical_user": "その他",
+    "canonical_job": "確定申告",
+    "canonical_root_cause": "海外FX報告書の項目が複雑",
+    "tags": [
+      "compliance_confusion",
+      "high_severity",
+      "one_off",
+      "確定申告"
+    ],
+    "fetched_date": "2026-04-06"
+  },
+  {
+    "pain_id": "53453e27d04d",
+    "question_id": "c5ec14f56a4f",
+    "canonical_problem": "支援措置申請後に確定申告の手続きや必要対応が不明で、フリーランス特有の注意点もわからない",
+    "canonical_user": "フリーランス",
+    "canonical_job": "確定申告",
+    "canonical_root_cause": "支援措置と税務の関係が不明",
+    "tags": [
+      "compliance_confusion",
+      "high_severity",
+      "high_urgency",
+      "one_off",
+      "確定申告"
+    ],
+    "fetched_date": "2026-04-06"
+  },
+  {
+    "pain_id": "094736e14eed",
+    "question_id": "f2a086e98265",
+    "canonical_problem": "原付保険加入時に家族の身分証明書が必要と言われたが、何を用意すべきかわからず手続きが止まっている",
+    "canonical_user": "その他",
+    "canonical_job": "保険加入",
+    "canonical_root_cause": "保険会社の要求が不明確",
+    "tags": [
+      "document_creation",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-06"
+  },
+  {
+    "pain_id": "7cf96cfbe4d3",
+    "question_id": "5789177cacff",
+    "canonical_problem": "傷病手当金の申請書類が会社と保険組合間で紛失し、退職後も申請できずに困っている",
+    "canonical_user": "会社員",
+    "canonical_job": "傷病手当申請",
+    "canonical_root_cause": "会社と保険組合間の連携不備",
+    "tags": [
+      "handoff_loss",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-06"
+  },
+  {
+    "pain_id": "b7372d13fb0c",
+    "question_id": "b8e59a001362",
+    "canonical_problem": "セクハラ加害者への慰謝料請求時の法的リスク判定に困っている",
+    "canonical_user": "会社員",
+    "canonical_job": "慰謝料請求",
+    "canonical_root_cause": "法的境界線の知識が不足",
+    "tags": [
+      "compliance_confusion",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-06"
+  },
+  {
+    "pain_id": "67db9a04a600",
+    "question_id": "672149ad63a7",
+    "canonical_problem": "詐欺的なネット広告に騙され、同様の被害防止策を求めている",
+    "canonical_user": "その他",
+    "canonical_job": "詐欺広告対策",
+    "canonical_root_cause": "広告審査システムが不十分",
+    "tags": [
+      "other",
+      "unknown"
+    ],
+    "fetched_date": "2026-04-06"
+  },
+  {
+    "pain_id": "3817419d1b67",
+    "question_id": "518a96f60008",
+    "canonical_problem": "一人暮らしで電気料金が急激に高額になり、適切な電力会社選択に困っている",
+    "canonical_user": "その他",
+    "canonical_job": "電力会社選定",
+    "canonical_root_cause": "電力プラン比較の知識不足",
+    "tags": [
+      "high_builder_fit",
+      "high_urgency",
+      "knowledge_lookup",
+      "monthly"
+    ],
+    "fetched_date": "2026-04-06"
+  },
+  {
+    "pain_id": "e0f6905e27eb",
+    "question_id": "623dd7963c7d",
+    "canonical_problem": "空港拡張による強制収用で台風修復費用の補償可否を知りたい",
+    "canonical_user": "その他",
+    "canonical_job": "補償申請",
+    "canonical_root_cause": "収用補償制度の情報不足",
+    "tags": [
+      "high_severity",
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-06"
+  },
+  {
+    "pain_id": "9e50880a61ef",
+    "question_id": "e24dcd4e8908",
+    "canonical_problem": "生活保護申請時に慰謝料が収入扱いになるかの制度理解が困難で、手続きに不安を抱えている",
+    "canonical_user": "その他",
+    "canonical_job": "生活保護申請",
+    "canonical_root_cause": "制度の複雑さ",
+    "tags": [
+      "compliance_confusion",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-06"
+  },
+  {
+    "pain_id": "bb9b3c04ddc6",
+    "question_id": "4162ba8c77ba",
+    "canonical_problem": "Live2Dモデリングでデフォーマの構造が破綻し、作業が進まない状況",
+    "canonical_user": "フリーランス",
+    "canonical_job": "Live2D制作",
+    "canonical_root_cause": "デフォーマ階層管理の複雑さ",
+    "tags": [
+      "exception_handling",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-06"
+  },
+  {
+    "pain_id": "3f8d712bcec8",
+    "question_id": "83ca0af8a0fa",
+    "canonical_problem": "Unityでキャラクターが正常に動かず、コマ送りでしか動作しない不具合",
+    "canonical_user": "その他",
+    "canonical_job": "Unity開発",
+    "canonical_root_cause": "フレームレート処理の実装問題",
+    "tags": [
+      "exception_handling",
+      "unknown"
+    ],
+    "fetched_date": "2026-04-06"
+  },
+  {
+    "pain_id": "79872b907bfc",
+    "question_id": "d13c4e353ebe",
+    "canonical_problem": "VRChatでアバターアップロードが成功したがゲーム内で反映されない。テスト環境では表示される。",
+    "canonical_user": "その他",
+    "canonical_job": "アバター公開",
+    "canonical_root_cause": "本番とテスト環境の同期問題",
+    "tags": [
+      "one_off",
+      "tool_fragmentation"
+    ],
+    "fetched_date": "2026-04-06"
+  },
+  {
+    "pain_id": "f18ed3dfe331",
+    "question_id": "1a6c5c2a4b18",
+    "canonical_problem": "プリンタのヘッド互換移植で印刷品質は改善したが、エラーが出て停止し手動リセットが必要。",
+    "canonical_user": "その他",
+    "canonical_job": "印刷作業",
+    "canonical_root_cause": "機種認識システムの厳密チェック",
+    "tags": [
+      "daily",
+      "exception_handling",
+      "high_severity"
+    ],
+    "fetched_date": "2026-04-06"
+  },
+  {
+    "pain_id": "e4c05e2d33a4",
+    "question_id": "2a9ae22a6858",
+    "canonical_problem": "PCの電源をよく入り切りするため、英字入力モードを忘れて英字を打ってしまい、日本語に変換し直したい。",
+    "canonical_user": "その他",
+    "canonical_job": "文字入力",
+    "canonical_root_cause": "入力モード切替の忘れやすさ",
+    "tags": [
+      "daily",
+      "high_builder_fit",
+      "manual_reentry"
+    ],
+    "fetched_date": "2026-04-06"
+  },
+  {
+    "pain_id": "91ce56c8fc24",
+    "question_id": "e776720c7502",
+    "canonical_problem": "PC起動時にOutlookの接続エラーやソフト起動不良が発生し、シャットダウン・再起動が必要になる。",
+    "canonical_user": "その他",
+    "canonical_job": "PC起動",
+    "canonical_root_cause": "SSDまたはシステムの劣化",
+    "tags": [
+      "exception_handling",
+      "weekly"
+    ],
+    "fetched_date": "2026-04-06"
+  },
+  {
+    "pain_id": "13b32bd3f763",
+    "question_id": "4a5f764dc810",
+    "canonical_problem": "PCが突然故障し画面が映らず、17万円の修理見積もりと2.5年前42万円の元値で修理か買替かの判断に困っている",
+    "canonical_user": "その他",
+    "canonical_job": "PC故障対処",
+    "canonical_root_cause": "PCハードウェア知識不足で判断困難",
+    "tags": [
+      "exception_handling",
+      "high_severity",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-06"
+  },
+  {
+    "pain_id": "3ccdf4e4f7f6",
+    "question_id": "9e7982b6ae03",
+    "canonical_problem": "仕事用・個人用の2台PCで別々のモニターを使う際、マウス・キーボードの切り替えが面倒で効率が悪い",
+    "canonical_user": "その他",
+    "canonical_job": "PC環境構築",
+    "canonical_root_cause": "複数PC間の入力機器共有方法不明",
+    "tags": [
+      "daily",
+      "high_builder_fit",
+      "tool_fragmentation"
+    ],
+    "fetched_date": "2026-04-06"
+  },
+  {
+    "pain_id": "290100d34536",
+    "question_id": "d32dd12944c5",
+    "canonical_problem": "高性能ゲーミングPCでも期待したフレームレートが出ず、ゲーム体験が損なわれている",
+    "canonical_user": "その他",
+    "canonical_job": "ゲーム環境調整",
+    "canonical_root_cause": "原因不明でトラブルシュート困難",
+    "tags": [
+      "daily",
+      "exception_handling"
+    ],
+    "fetched_date": "2026-04-06"
+  },
+  {
+    "pain_id": "0b99373b1c4c",
+    "question_id": "368135039c15",
+    "canonical_problem": "プリンターのファームウェア更新手順が分からず、調べても理解できずに作業が進まない",
+    "canonical_user": "その他",
+    "canonical_job": "機器更新作業",
+    "canonical_root_cause": "手順書が複雑で理解が困難",
+    "tags": [
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-06"
+  },
+  {
+    "pain_id": "f5217c3eb1d5",
+    "question_id": "16b400f67f8c",
+    "canonical_problem": "ゲーミングPCに横線が入る表示異常が発生し、再起動やケーブル交換でも解決できない",
+    "canonical_user": "その他",
+    "canonical_job": "PC修理",
+    "canonical_root_cause": "ハードウェア故障の診断困難",
+    "tags": [
+      "exception_handling",
+      "high_severity",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-06"
+  },
+  {
+    "pain_id": "3e703a0301f3",
+    "question_id": "0621299577b9",
+    "canonical_problem": "PDF houseサイトが英語のみで解約方法が理解できず手続きができない",
+    "canonical_user": "その他",
+    "canonical_job": "解約処理",
+    "canonical_root_cause": "英語サイトで言語障壁",
+    "tags": [
+      "document_creation",
+      "high_builder_fit",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-06"
+  },
+  {
+    "pain_id": "cdfcb7b39d55",
+    "question_id": "f76799f0b57b",
+    "canonical_problem": "Amazon登録時に他人のアカウントが表示され、そのまま使用していいか分からず問い合わせも困難",
+    "canonical_user": "その他",
+    "canonical_job": "アカウント管理",
+    "canonical_root_cause": "カスタマーサポート接続困難",
+    "tags": [
+      "customer_followup",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-06"
+  },
+  {
+    "pain_id": "20a4bc6f4aae",
+    "question_id": "eda2ffb89d6b",
+    "canonical_problem": "電話番号変更に伴い、多数のサービス・連絡先への変更手続きを効率的に進められない",
+    "canonical_user": "その他",
+    "canonical_job": "連絡先変更",
+    "canonical_root_cause": "変更対象の整理と効率化困難",
+    "tags": [
+      "high_builder_fit",
+      "high_severity",
+      "high_urgency",
+      "manual_reentry",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-06"
+  },
+  {
+    "pain_id": "fd91445502b6",
+    "question_id": "20e0137ed9a8",
+    "canonical_problem": "OutlookメールでSharePointファイル更新の自動化を作りたいが、エラーコード200が発生し手間取っている。",
+    "canonical_user": "会社員",
+    "canonical_job": "ツール選定",
+    "canonical_root_cause": "自動化ツールの設定ノウハウ不足",
+    "tags": [
+      "high_builder_fit",
+      "one_off",
+      "tool_fragmentation",
+      "自動化"
+    ],
+    "fetched_date": "2026-04-06"
+  },
+  {
+    "pain_id": "f920593d4819",
+    "question_id": "537d6d089da5",
+    "canonical_problem": "Qoo10のメールアドレス認証URLが開けず、アカウント登録が完了できない。",
+    "canonical_user": "その他",
+    "canonical_job": "会員登録",
+    "canonical_root_cause": "認証システムまたは端末環境問題",
+    "tags": [
+      "exception_handling",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-06"
+  },
+  {
+    "pain_id": "5c9f753636ca",
+    "question_id": "12d56e0b80f0",
+    "canonical_problem": "Twitterアカウント大量作成により既存アカウントもロックされ、電話番号制限で新規作成も復旧もできない状態が1ヶ月以上継続している",
+    "canonical_user": "その他",
+    "canonical_job": "アカウント復旧",
+    "canonical_root_cause": "プラットフォーム側の自動制限システム",
+    "tags": [
+      "exception_handling",
+      "high_severity",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-06"
+  }
+]
