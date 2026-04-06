@@ -1,0 +1,38 @@
+[
+  {
+    "source": "chiebukuro",
+    "category_major": "ビジネス、経済とお金",
+    "category_minor": "企業と経営",
+    "title": "請求書の管理が煩雑で困っています",
+    "body": "個人事業主として3年ほど活動しています。毎月10〜15枚の請求書をExcelで作成しているのですが、顧客ごとにフォーマットが異なり、入金確認もバラバラで管理が大変です。Freeeを試したのですが、自分のケースに合わず使いこなせませんでした。何かよいツールや方法はありますか？",
+    "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q999000001",
+    "answers_count": 2,
+    "views": 150,
+    "posted_at": "2026-04-04T22:00:00Z",
+    "scraped_at": "2026-04-05T14:52:18.540332+00:00"
+  },
+  {
+    "source": "chiebukuro",
+    "category_major": "ビジネス、経済とお金",
+    "category_minor": "税金、年金",
+    "title": "確定申告でインボイスの処理が複雑すぎる",
+    "body": "フリーランスのエンジニアです。昨年からインボイス制度が始まり、仕入れ額控除の計算が非常に複雑になりました。経理ソフトを使っていますが、免税事業者からの仕入れの処理方法が分からず、毎回税理士に確認しています。もっと簡単に処理できる方法はないでしょうか。",
+    "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q999000002",
+    "answers_count": 3,
+    "views": 320,
+    "posted_at": "2026-04-04T20:00:00Z",
+    "scraped_at": "2026-04-05T14:52:18.540332+00:00"
+  },
+  {
+    "source": "chiebukuro",
+    "category_major": "職業とキャリア",
+    "category_minor": "仕事効率化・ノウハウ",
+    "title": "議事録を毎回手動で作るのが辛い",
+    "body": "社内会議が週5〜6回あり、そのたびに議事録を手動で作成しています。Zoomの文字起こし機能を使っても誤字が多く、結局手直しに30分以上かかります。AIを使って自動化している方いますか？おすすめのツールがあれば教えてください。",
+    "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q999000003",
+    "answers_count": 5,
+    "views": 480,
+    "posted_at": "2026-04-03T18:00:00Z",
+    "scraped_at": "2026-04-05T14:52:18.540332+00:00"
+  }
+]

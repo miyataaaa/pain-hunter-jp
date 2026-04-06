@@ -1,0 +1,25 @@
+[
+  {
+    "cluster_id": "cl_53b9251862",
+    "idea_title": "[dry-run] ツール選定Bot",
+    "one_liner": "ツール選定を自動化するツール",
+    "target_user": "フリーランス",
+    "problem_statement": "[dry-run] 請求書の管理が煩雑で困っています",
+    "solution": "LLM APIと連携して自動処理を実現",
+    "mvp_scope": "基本機能のみ",
+    "revenue_model": "月額SaaS",
+    "estimated_price": "月額3,000円",
+    "tech_stack": [
+      "Python",
+      "FastAPI",
+      "Claude API"
+    ],
+    "mvp_days": 14,
+    "moat": "ドメイン特化による精度",
+    "key_risks": [
+      "既存SaaS競合",
+      "法規制変更"
+    ],
+    "why_now": "LLM APIが安価になった今が好機"
+  }
+]

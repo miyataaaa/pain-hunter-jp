@@ -1,0 +1,47 @@
+[
+  {
+    "pain_id": "d0bdf9d8ebc6",
+    "question_id": "3474c98bdaba",
+    "canonical_problem": "[dry-run] 請求書の管理が煩雑で困っています",
+    "canonical_user": "フリーランス",
+    "canonical_job": "ツール選定",
+    "canonical_root_cause": "ツールが業務フローに対応していない",
+    "tags": [
+      "Excel",
+      "high_builder_fit",
+      "recurring_admin_work",
+      "weekly"
+    ],
+    "fetched_date": "2026-04-05"
+  },
+  {
+    "pain_id": "f470e3c36c59",
+    "question_id": "ac30ba1095db",
+    "canonical_problem": "[dry-run] 確定申告でインボイスの処理が複雑すぎる",
+    "canonical_user": "フリーランス",
+    "canonical_job": "ツール選定",
+    "canonical_root_cause": "ツールが業務フローに対応していない",
+    "tags": [
+      "Excel",
+      "high_builder_fit",
+      "recurring_admin_work",
+      "weekly"
+    ],
+    "fetched_date": "2026-04-05"
+  },
+  {
+    "pain_id": "5bb2ccbdfe55",
+    "question_id": "13fbedf4cf99",
+    "canonical_problem": "[dry-run] 議事録を毎回手動で作るのが辛い",
+    "canonical_user": "フリーランス",
+    "canonical_job": "ツール選定",
+    "canonical_root_cause": "ツールが業務フローに対応していない",
+    "tags": [
+      "Excel",
+      "high_builder_fit",
+      "recurring_admin_work",
+      "weekly"
+    ],
+    "fetched_date": "2026-04-05"
+  }
+]

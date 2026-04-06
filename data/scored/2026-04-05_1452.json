@@ -1,0 +1,30 @@
+[
+  {
+    "cluster_id": "cl_53b9251862",
+    "cluster_label": "ツール選定",
+    "canonical_problem": "[dry-run] 請求書の管理が煩雑で困っています",
+    "representative_user": "フリーランス",
+    "representative_job": "ツール選定",
+    "root_cause_summary": "ツールが業務フローに対応していない",
+    "question_ids": [
+      "ac30ba1095db",
+      "13fbedf4cf99",
+      "3474c98bdaba"
+    ],
+    "pain_ids": [
+      "d0bdf9d8ebc6",
+      "f470e3c36c59",
+      "5bb2ccbdfe55"
+    ],
+    "cluster_size": 3,
+    "date_count": 1,
+    "avg_severity": 3.0,
+    "avg_urgency": 3.0,
+    "avg_wtp_proxy": 3.0,
+    "avg_builder_fit": 4.0,
+    "recurrence_score": 0.253,
+    "solution_gap_score": 0.9,
+    "productability_score": 0.8,
+    "opportunity_score": 0.598
+  }
+]
