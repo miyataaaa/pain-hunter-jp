@@ -42,6 +42,10 @@ class Config:
     REPORTS_DIR: str = "reports"
     LOGS_DIR: str = "logs"
 
+    # ココナラ
+    COCONALA_MAX_LISTINGS_PER_CATEGORY: int = int(os.getenv("COCONALA_MAX_LISTINGS_PER_CATEGORY", "30"))
+    COCONALA_DATA_DIR: str = "data/coconala"
+
     # User-Agent（スクレイピング）
     USER_AGENT: str = (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "

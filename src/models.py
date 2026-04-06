@@ -80,6 +80,47 @@ class PainCluster:
 
 
 @dataclass
+class CoconalaListing:
+    """ココナラの出品データ。"""
+
+    listing_id: str
+    title: str
+    description: str            # 出品の説明文（500文字まで）
+    category_major: str         # 大カテゴリ
+    category_minor: str         # 中カテゴリ
+    price: int                  # 最低価格（円）
+    sales_count: int            # 販売実績件数
+    review_count: int           # レビュー件数
+    rating: float               # 平均評価（0.0〜5.0）
+    seller_name: str            # 出品者名（表示名のみ）
+    url: str
+    scraped_at: str             # ISO形式
+
+
+@dataclass
+class AnalyzedListing:
+    """自動化可能性を分析済みの出品データ。"""
+
+    listing_id: str
+    title: str
+    category_major: str
+    category_minor: str
+    price: int
+    sales_count: int
+    review_count: int
+    rating: float
+    url: str
+    # --- 分析結果（Claude APIで付与） ---
+    is_automatable: bool        # Python/LLM/APIで自動化可能か
+    automation_summary: str     # どう自動化できるか（1〜2文）
+    task_type: str              # 10文字以内の作業名（知恵袋のjob_to_be_doneと揃える）
+    automation_difficulty: int  # 1=簡単 3=中程度 5=専門知識必要
+    builder_fit: int            # 1-5（Python/LLM/APIで作れる度）
+    monthly_demand_estimate: str   # high / medium / low
+    saas_price_suggestion: int     # 月額SaaS化した場合の推定価格（円）
+
+
+@dataclass
 class IdeaCandidate:
     """アイデア候補。"""
 

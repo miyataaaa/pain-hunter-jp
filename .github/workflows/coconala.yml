@@ -1,0 +1,60 @@
+name: Coconala Demand Analysis
+
+on:
+  schedule:
+    # 毎週日曜 AM 3:00 JST = 土曜 UTC 18:00
+    - cron: '0 18 * * 6'
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: '1カテゴリあたりの取得件数（空欄=全件）'
+        required: false
+        default: ''
+      dry_run:
+        description: 'ドライラン（ファイル保存・通知なし）'
+        required: false
+        default: 'false'
+
+permissions:
+  contents: write  # data/coconala/ をコミットするため
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Coconala Analysis
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: |
+          ARGS=""
+          if [ -n "${{ github.event.inputs.limit }}" ]; then
+            ARGS="$ARGS --limit ${{ github.event.inputs.limit }}"
+          fi
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            ARGS="$ARGS --dry-run"
+          fi
+          python -m src.coconala.main $ARGS
+
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/coconala/
+          # 差分がなければコミットしない
+          git diff --staged --quiet || git commit -m "coconala: $(date -u +%Y-%m-%d)"
+          git push
