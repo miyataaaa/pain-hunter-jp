@@ -2,10 +2,29 @@
 
 import json
 import logging
+from datetime import date, timedelta
 from pathlib import Path
 
 from src.config import config
 from src.models import ExtractedPain, NormalizedPain, PainCluster
+
+
+def _load_past_extracted(today: date) -> list[ExtractedPain]:
+    """過去LOOKBACK_DAYS日分のExtractedPainを読み込む。"""
+    ext_dir = Path(config.DATA_DIR) / "extracted"
+    results: list[ExtractedPain] = []
+    logger = logging.getLogger(__name__)
+    for i in range(1, config.LOOKBACK_DAYS + 1):
+        past_date = today - timedelta(days=i)
+        for past_file in sorted(ext_dir.glob(f"{past_date.isoformat()}*.json")):
+            try:
+                with open(past_file, encoding="utf-8") as f:
+                    items = json.load(f)
+                for item in items:
+                    results.append(ExtractedPain(**item))
+            except Exception as e:
+                logger.warning("過去extractedデータ読み込みエラー: %s  error=%s", past_file, e)
+    return results
 
 
 # recurrence_hint → スコア変換テーブル
@@ -176,7 +195,12 @@ class Scorer:
         Returns:
             スコア更新済みPainClusterリスト（opportunity_score降順）
         """
-        pain_lookup = self._build_pain_lookup(extracted)
+        today = date.fromisoformat(date_str[:10])
+        past_extracted = _load_past_extracted(today)
+        all_extracted = extracted + past_extracted
+        self.logger.info("extracted: 当日%d件 + 過去%d件", len(extracted), len(past_extracted))
+
+        pain_lookup = self._build_pain_lookup(all_extracted)
         self.logger.info("スコアリング対象: %dクラスタ", len(clusters))
 
         scored: list[PainCluster] = []
