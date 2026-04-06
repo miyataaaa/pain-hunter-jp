@@ -207,8 +207,8 @@ def _parse_listings_from_html(
             seller_el = card.select_one(layout["seller"])
             seller_name = seller_el.get_text(strip=True) if seller_el else ""
 
-            # sales_countはHTML上に直接なし（review_countで代用）
-            sales_count = 0
+            # カード上に独立した販売件数フィールドはなく、評価数(review_count)で代用
+            sales_count = review_count
 
             listings.append(
                 CoconalaListing(
