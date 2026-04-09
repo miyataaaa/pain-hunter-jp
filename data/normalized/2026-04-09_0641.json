@@ -1,0 +1,636 @@
+[
+  {
+    "pain_id": "507e4fd55601",
+    "question_id": "b0fbf6cb1e3a",
+    "canonical_problem": "面接前に髪色やネイルの基準が不明で、どう準備すべきか判断できない",
+    "canonical_user": "その他",
+    "canonical_job": "面接準備",
+    "canonical_root_cause": "公式基準が曖昧で情報が不足",
+    "tags": [
+      "high_urgency",
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-09"
+  },
+  {
+    "pain_id": "87c28649e4b4",
+    "question_id": "686e6530ebf3",
+    "canonical_problem": "就職面接とシフトが重複し、店長が休みを認めず代替手段を見つける必要がある",
+    "canonical_user": "その他",
+    "canonical_job": "シフト調整",
+    "canonical_root_cause": "シフト後の急な予定変更への対応不足",
+    "tags": [
+      "approval_bottleneck",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-09"
+  },
+  {
+    "pain_id": "92c95cb2fa7e",
+    "question_id": "aaace4593db9",
+    "canonical_problem": "港湾従業員からIT転職時の不安と情報不足で転職活動が停滞している",
+    "canonical_user": "会社員",
+    "canonical_job": "転職活動",
+    "canonical_root_cause": "未経験分野の転職成功例情報不足",
+    "tags": [
+      "high_severity",
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-09"
+  },
+  {
+    "pain_id": "d1428d804512",
+    "question_id": "bcc994433f5b",
+    "canonical_problem": "海外研修後のバイト復帰タイミング調整で、申し訳なさと不安から相談しづらい状況にある",
+    "canonical_user": "その他",
+    "canonical_job": "シフト調整",
+    "canonical_root_cause": "新人で立場が弱く相談しづらい",
+    "tags": [
+      "approval_bottleneck",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-09"
+  },
+  {
+    "pain_id": "be2e60a27905",
+    "question_id": "84d3254a604d",
+    "canonical_problem": "転入届の期限を守れず、虚偽申告を検討するほど手続きに困っている",
+    "canonical_user": "その他",
+    "canonical_job": "住民票移転",
+    "canonical_root_cause": "期限管理ができず罰則が不明",
+    "tags": [
+      "compliance_confusion",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-09"
+  },
+  {
+    "pain_id": "19d6cf5b89eb",
+    "question_id": "fff0ecfa9466",
+    "canonical_problem": "入籍・退職・引っ越し・扶養加入の複数手続きが重なり、何をいつすべきか整理できない",
+    "canonical_user": "その他",
+    "canonical_job": "各種手続き",
+    "canonical_root_cause": "複数手続きの優先順位が不明",
+    "tags": [
+      "high_builder_fit",
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-09"
+  },
+  {
+    "pain_id": "ef00be40ba20",
+    "question_id": "d2985b162638",
+    "canonical_problem": "98歳の父の長期入院で遠方に住む子供が郵便物を受け取る必要があるが、転送届の手続きが不明で困っている",
+    "canonical_user": "その他",
+    "canonical_job": "郵便物転送",
+    "canonical_root_cause": "家族代理での転送手続きルール不明",
+    "tags": [
+      "compliance_confusion",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-09"
+  },
+  {
+    "pain_id": "6b47330db953",
+    "question_id": "a15edb23a614",
+    "canonical_problem": "保育園入園待機中だが、毎月の申込手続きが必要かどうか分からず、平日に役所に確認する時間もない",
+    "canonical_user": "会社員",
+    "canonical_job": "保育園申込",
+    "canonical_root_cause": "自治体手続きの情報が曖昧",
+    "tags": [
+      "compliance_confusion",
+      "monthly"
+    ],
+    "fetched_date": "2026-04-09"
+  },
+  {
+    "pain_id": "a138aac0b829",
+    "question_id": "3eb575bf09b9",
+    "canonical_problem": "友人が失業手当の認定日を勘違いして待機期間やり直しと言われ、既にバイトを始めているため対処法を探している",
+    "canonical_user": "その他",
+    "canonical_job": "失業手当手続",
+    "canonical_root_cause": "認定日勘違いの救済措置不明",
+    "tags": [
+      "exception_handling",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-09"
+  },
+  {
+    "pain_id": "ff0ba1ddb0ab",
+    "question_id": "81c78dfb4398",
+    "canonical_problem": "自治会会計で振込手数料を下げるために複数の金融機関を回る手間と時間がかかる",
+    "canonical_user": "その他",
+    "canonical_job": "月次決算",
+    "canonical_root_cause": "銀行カードがなく窓口処理限定",
+    "tags": [
+      "manual_reentry",
+      "monthly"
+    ],
+    "fetched_date": "2026-04-09"
+  },
+  {
+    "pain_id": "494ea215b457",
+    "question_id": "bab4c78e97b3",
+    "canonical_problem": "Googleビジネスプロフィールで誤って喫茶店のオーナーになってしまい、解除方法がわからない。",
+    "canonical_user": "その他",
+    "canonical_job": "設定解除",
+    "canonical_root_cause": "操作が複雑で誤操作しやすい",
+    "tags": [
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-09"
+  },
+  {
+    "pain_id": "5a2983fd23bc",
+    "question_id": "b7e417a6dfc3",
+    "canonical_problem": "フルリモートでの経理業務の進め方や教育方法が不明で、業務開始に不安を抱えている。",
+    "canonical_user": "会社員",
+    "canonical_job": "月次決算",
+    "canonical_root_cause": "リモート業務の教育体制が不明",
+    "tags": [
+      "high_urgency",
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-09"
+  },
+  {
+    "pain_id": "bb2164f3c323",
+    "question_id": "79ef68765dea",
+    "canonical_problem": "年度末決算でコーポレートカードの経費申請と精算の突合ができておらず、期ズレリスクがある",
+    "canonical_user": "会社員",
+    "canonical_job": "経費精算",
+    "canonical_root_cause": "システム替わりで運用が未確立",
+    "tags": [
+      "high_severity",
+      "high_urgency",
+      "high_wtp",
+      "manual_reentry",
+      "monthly",
+      "請求書"
+    ],
+    "fetched_date": "2026-04-09"
+  },
+  {
+    "pain_id": "495d8c0d8808",
+    "question_id": "7384079d6e7c",
+    "canonical_problem": "家族経営店舗の赤字で自己破産危機、集客方法が分からず家族の生活を守れない状況",
+    "canonical_user": "中小企業",
+    "canonical_job": "店舗集客",
+    "canonical_root_cause": "効果的な集客手法の知識・経験不足",
+    "tags": [
+      "customer_followup",
+      "high_builder_fit",
+      "high_severity",
+      "high_urgency",
+      "monthly"
+    ],
+    "fetched_date": "2026-04-09"
+  },
+  {
+    "pain_id": "6e6c041e5a7e",
+    "question_id": "40ce486beba5",
+    "canonical_problem": "郵便局の時間指定配達が毎回1時間以上遅れ、予定が立てられない",
+    "canonical_user": "その他",
+    "canonical_job": "荷物受取",
+    "canonical_root_cause": "配達業者の時間管理が不正確",
+    "tags": [
+      "customer_followup",
+      "weekly"
+    ],
+    "fetched_date": "2026-04-09"
+  },
+  {
+    "pain_id": "07d886510294",
+    "question_id": "a7b728bff511",
+    "canonical_problem": "ゆうパケットポストで規格オーバーの荷物を投函してしまい、返送の不安を抱えている",
+    "canonical_user": "その他",
+    "canonical_job": "荷物発送",
+    "canonical_root_cause": "サイズ規格の事前確認不足",
+    "tags": [
+      "exception_handling",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-09"
+  },
+  {
+    "pain_id": "41ff80028414",
+    "question_id": "8b5f5fd1771d",
+    "canonical_problem": "購入サイトでの決済時エラーで焦って間違った住所を入力してしまい、商品が届かないリスクを抱えている",
+    "canonical_user": "その他",
+    "canonical_job": "住所修正",
+    "canonical_root_cause": "決済エラー時の焦りで確認不足",
+    "tags": [
+      "exception_handling",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-09"
+  },
+  {
+    "pain_id": "99700334c70a",
+    "question_id": "e2237d4e6852",
+    "canonical_problem": "配送業者からの返答が遅く、予定通り商品を受け取れない状況",
+    "canonical_user": "その他",
+    "canonical_job": "商品受取",
+    "canonical_root_cause": "配送業者の対応が遅い",
+    "tags": [
+      "customer_followup",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-09"
+  },
+  {
+    "pain_id": "56b90076d98f",
+    "question_id": "32f9dcaf58a3",
+    "canonical_problem": "メルカリで重量物の発送方法が分からず困っている",
+    "canonical_user": "その他",
+    "canonical_job": "重量物発送",
+    "canonical_root_cause": "重量制限の知識不足で手順不明",
+    "tags": [
+      "high_builder_fit",
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-09"
+  },
+  {
+    "pain_id": "e84314b89d0d",
+    "question_id": "adf075ea73df",
+    "canonical_problem": "旅行先で移った不快な匂いを持ち物から除去したいが完全に取り切れない",
+    "canonical_user": "その他",
+    "canonical_job": "匂い除去",
+    "canonical_root_cause": "匂い除去の効果的手順が不明",
+    "tags": [
+      "exception_handling",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-09"
+  },
+  {
+    "pain_id": "c9429c1b9d14",
+    "question_id": "e52cbbfca8d8",
+    "canonical_problem": "アイロン失敗で袋物が変形したが修復方法が分からない",
+    "canonical_user": "その他",
+    "canonical_job": "衣類修復",
+    "canonical_root_cause": "失敗時の修復手順が不明",
+    "tags": [
+      "exception_handling",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-09"
+  },
+  {
+    "pain_id": "ef1f78e94da9",
+    "question_id": "57c0b9e58da2",
+    "canonical_problem": "同僚の強い柔軟剤の匂いで頭痛等が生じるが適切な伝え方が分からない",
+    "canonical_user": "会社員",
+    "canonical_job": "職場対人問題解決",
+    "canonical_root_cause": "デリケートな話題の伝達方法が不明",
+    "tags": [
+      "daily",
+      "high_severity",
+      "other"
+    ],
+    "fetched_date": "2026-04-09"
+  },
+  {
+    "pain_id": "72bf859560ca",
+    "question_id": "a221eb18e494",
+    "canonical_problem": "除湿衣類乾燥機で洗濯物が十分に乾かず、効率的な乾燥方法が分からない困りごと",
+    "canonical_user": "その他",
+    "canonical_job": "洗濯物乾燥",
+    "canonical_root_cause": "適切な使用方法が不明",
+    "tags": [
+      "daily",
+      "manual_reentry"
+    ],
+    "fetched_date": "2026-04-09"
+  },
+  {
+    "pain_id": "bd705f1552bf",
+    "question_id": "695f4d5d5e0c",
+    "canonical_problem": "賃貸住宅で部屋干しスペースがなく、雨天時の洗濯物処理に困っている状況",
+    "canonical_user": "その他",
+    "canonical_job": "洗濯物乾燥",
+    "canonical_root_cause": "賃貸で部屋干し場所が確保不可",
+    "tags": [
+      "exception_handling",
+      "high_severity",
+      "high_urgency",
+      "weekly"
+    ],
+    "fetched_date": "2026-04-09"
+  },
+  {
+    "pain_id": "63a87edc7e88",
+    "question_id": "c454c564cbe1",
+    "canonical_problem": "朝の家事が多すぎて時間に追われ、出かける準備が大変で疲れ切ってしまう状況。",
+    "canonical_user": "その他",
+    "canonical_job": "朝の家事管理",
+    "canonical_root_cause": "朝の家事が集中し効率化されていない",
+    "tags": [
+      "daily",
+      "high_builder_fit",
+      "high_severity",
+      "recurring_admin_work"
+    ],
+    "fetched_date": "2026-04-09"
+  },
+  {
+    "pain_id": "58bdfd78375d",
+    "question_id": "5ded2eb3c5ce",
+    "canonical_problem": "潔癖症のため夫の家族が作った料理が食べられず、避けられない食事の場面で困っている状況。",
+    "canonical_user": "その他",
+    "canonical_job": "家族関係維持",
+    "canonical_root_cause": "潔癖症の症状と家族関係の板挟み",
+    "tags": [
+      "exception_handling",
+      "high_severity",
+      "high_wtp",
+      "monthly"
+    ],
+    "fetched_date": "2026-04-09"
+  },
+  {
+    "pain_id": "c0705208882b",
+    "question_id": "403fe27c4b2c",
+    "canonical_problem": "コークオンアプリの接続不良でドリンクチケットだけ消費される問題を抱えている",
+    "canonical_user": "その他",
+    "canonical_job": "飲み物購入",
+    "canonical_root_cause": "アプリと自販機の通信が不安定",
+    "tags": [
+      "exception_handling",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-09"
+  },
+  {
+    "pain_id": "5f77eb3821af",
+    "question_id": "7f2c092c0287",
+    "canonical_problem": "家賃値上げへの対応で経済的負担が増加し、交渉方法が分からない",
+    "canonical_user": "その他",
+    "canonical_job": "家賃交渉",
+    "canonical_root_cause": "交渉手順や可能性が不明",
+    "tags": [
+      "high_severity",
+      "high_urgency",
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-09"
+  },
+  {
+    "pain_id": "79f5bd731dd7",
+    "question_id": "0e22f2c7cbbb",
+    "canonical_problem": "不動産取得税の軽減申請手続きが複雑で還付を受ける方法が不明",
+    "canonical_user": "その他",
+    "canonical_job": "税務申請",
+    "canonical_root_cause": "軽減申請の手続きが複雑",
+    "tags": [
+      "compliance_confusion",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-09"
+  },
+  {
+    "pain_id": "676a20e3ed4c",
+    "question_id": "f64b360c1e47",
+    "canonical_problem": "自己破産後の住宅ローン審査通過の可能性が不明で、現在の住環境維持に不安を抱えている。",
+    "canonical_user": "その他",
+    "canonical_job": "住宅購入",
+    "canonical_root_cause": "自己破産歴で信用情報に問題",
+    "tags": [
+      "compliance_confusion",
+      "high_severity",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-09"
+  },
+  {
+    "pain_id": "35be448ed54a",
+    "question_id": "69f29ca14b7e",
+    "canonical_problem": "不動産購入で一番手がいる状況で、現金購入の優位性が売主に伝わっているか不安。",
+    "canonical_user": "その他",
+    "canonical_job": "不動産購入",
+    "canonical_root_cause": "不動産取引の情報伝達が不透明",
+    "tags": [
+      "handoff_loss",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-09"
+  },
+  {
+    "pain_id": "c5d93e7f2d38",
+    "question_id": "a85a58d64572",
+    "canonical_problem": "30年使用した土地の原状回復で新地主の要求が多く、終了の見通しが立たない。",
+    "canonical_user": "中小企業",
+    "canonical_job": "土地返却",
+    "canonical_root_cause": "30年前の状態が不明で基準曖昧",
+    "tags": [
+      "compliance_confusion",
+      "high_severity",
+      "high_wtp",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-09"
+  },
+  {
+    "pain_id": "07a4c32a2e7b",
+    "question_id": "b0d736de758e",
+    "canonical_problem": "個人間不動産売買で補助申請に必要な内訳書の作成方法と費用が不明で困っている。",
+    "canonical_user": "その他",
+    "canonical_job": "補助申請書類作成",
+    "canonical_root_cause": "個人間売買の書類作成手順が不明",
+    "tags": [
+      "compliance_confusion",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-09"
+  },
+  {
+    "pain_id": "a8bec2ba871f",
+    "question_id": "4feaf86e47cb",
+    "canonical_problem": "コザクラインコの体調不良で病院が空いておらず、緊急時の対処法を探している。",
+    "canonical_user": "その他",
+    "canonical_job": "ペット緊急対応",
+    "canonical_root_cause": "休日夜間の動物病院不足",
+    "tags": [
+      "exception_handling",
+      "high_severity",
+      "high_urgency",
+      "high_wtp",
+      "unknown"
+    ],
+    "fetched_date": "2026-04-09"
+  },
+  {
+    "pain_id": "c1d65d7e5cf2",
+    "question_id": "87334406f753",
+    "canonical_problem": "魚発送用の酸素ボンベの充填場所が分からず、神奈川から依頼できる業者を探している。",
+    "canonical_user": "その他",
+    "canonical_job": "酸素ボンベ充填",
+    "canonical_root_cause": "専門業者の情報が不足",
+    "tags": [
+      "knowledge_lookup",
+      "monthly"
+    ],
+    "fetched_date": "2026-04-09"
+  },
+  {
+    "pain_id": "7b7f8bbb9121",
+    "question_id": "540a3389d014",
+    "canonical_problem": "散歩中に犬がリードを噛み続け、様々な対処法を試しても改善されずイライラしてしまう",
+    "canonical_user": "その他",
+    "canonical_job": "犬の散歩",
+    "canonical_root_cause": "子犬の行動パターンが不安定で対処法不明",
+    "tags": [
+      "daily",
+      "exception_handling",
+      "high_severity"
+    ],
+    "fetched_date": "2026-04-09"
+  },
+  {
+    "pain_id": "6e09de801636",
+    "question_id": "510aaeebef31",
+    "canonical_problem": "飼い始めたハムスターが巣に埋もれて出てこなくなり、原因が分からず不安",
+    "canonical_user": "その他",
+    "canonical_job": "ペット飼育",
+    "canonical_root_cause": "ペット行動の専門知識が不足",
+    "tags": [
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-09"
+  },
+  {
+    "pain_id": "c384aff452bd",
+    "question_id": "512ee3e8e0e8",
+    "canonical_problem": "寒暖差の激しい時期に高齢猫2匹の適切な寒さ対策が分からず悩んでいる",
+    "canonical_user": "その他",
+    "canonical_job": "ペット温度管理",
+    "canonical_root_cause": "高齢ペットの適切な温度管理法が不明",
+    "tags": [
+      "knowledge_lookup",
+      "unknown"
+    ],
+    "fetched_date": "2026-04-09"
+  },
+  {
+    "pain_id": "ceac45718c3b",
+    "question_id": "1398af4ebef2",
+    "canonical_problem": "ペットの医療診断で複数病院から異なる見解を受け、どの治療方針を選ぶべきか判断に困っている状況",
+    "canonical_user": "その他",
+    "canonical_job": "医療方針決定",
+    "canonical_root_cause": "病院間で診断手法と見解が異なる",
+    "tags": [
+      "exception_handling",
+      "high_severity",
+      "high_urgency",
+      "high_wtp",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-09"
+  },
+  {
+    "pain_id": "80a6ce384b2e",
+    "question_id": "57d1d9ad18d3",
+    "canonical_problem": "海水水槽でコケ対策のマガキガイが餓死してしまい、適切な餌の選定や代替手段に困っている状況",
+    "canonical_user": "その他",
+    "canonical_job": "コケ対策",
+    "canonical_root_cause": "RO水使用でコケ発生量が不足",
+    "tags": [
+      "exception_handling",
+      "monthly"
+    ],
+    "fetched_date": "2026-04-09"
+  },
+  {
+    "pain_id": "cfef658ccc51",
+    "question_id": "5f401b62d75e",
+    "canonical_problem": "腎臓病の愛犬が薬に敏感で、色々な物に混ぜても薬だけ出してしまい、薬を飲ませることができない。",
+    "canonical_user": "その他",
+    "canonical_job": "投薬管理",
+    "canonical_root_cause": "犬が薬に敏感で見分ける能力",
+    "tags": [
+      "daily",
+      "exception_handling",
+      "high_severity",
+      "high_urgency"
+    ],
+    "fetched_date": "2026-04-09"
+  },
+  {
+    "pain_id": "9d404636bd93",
+    "question_id": "6e66d63f8be6",
+    "canonical_problem": "美容院で頼んでいない施術を勝手にされ、予定より多い金額を請求される。断るタイミングがなく困っている。",
+    "canonical_user": "その他",
+    "canonical_job": "美容院利用",
+    "canonical_root_cause": "事前同意なしに施術が進む店舗",
+    "tags": [
+      "exception_handling",
+      "monthly"
+    ],
+    "fetched_date": "2026-04-09"
+  },
+  {
+    "pain_id": "61420ad900e9",
+    "question_id": "a88b8b0efc1e",
+    "canonical_problem": "休みが取れず、ヘアカラーとネイルを別日にできない時間制約の問題",
+    "canonical_user": "会社員",
+    "canonical_job": "美容施術",
+    "canonical_root_cause": "休日が取りにくい勤務環境",
+    "tags": [
+      "monthly",
+      "recurring_admin_work"
+    ],
+    "fetched_date": "2026-04-09"
+  },
+  {
+    "pain_id": "c57e740b4fbf",
+    "question_id": "c5533d48e7fe",
+    "canonical_problem": "脱毛サロンスタッフからの友人紹介要請を断る方法が分からない",
+    "canonical_user": "その他",
+    "canonical_job": "勧誘対応",
+    "canonical_root_cause": "断り方の知識・経験不足",
+    "tags": [
+      "customer_followup",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-09"
+  },
+  {
+    "pain_id": "6a8e6ec14c5d",
+    "question_id": "73f959e08fc9",
+    "canonical_problem": "セルフジェルネイル施術時に気泡が入ってしまう技術的問題",
+    "canonical_user": "その他",
+    "canonical_job": "ネイル施術",
+    "canonical_root_cause": "正しい技術・手順の知識不足",
+    "tags": [
+      "manual_reentry",
+      "weekly"
+    ],
+    "fetched_date": "2026-04-09"
+  }
+]
