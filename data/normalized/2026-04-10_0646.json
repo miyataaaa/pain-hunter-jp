@@ -1,0 +1,749 @@
+[
+  {
+    "pain_id": "8249e9cba635",
+    "question_id": "13fb06eda5ec",
+    "canonical_problem": "学校からバイト先への移動で制服から私服への着替えが必要で片道1時間の移動が発生する",
+    "canonical_user": "その他",
+    "canonical_job": "バイト移動",
+    "canonical_root_cause": "職場に更衣室や制服がない",
+    "tags": [
+      "daily",
+      "recurring_admin_work"
+    ],
+    "fetched_date": "2026-04-10"
+  },
+  {
+    "pain_id": "9a26ed8e6da8",
+    "question_id": "0ca742f1bf85",
+    "canonical_problem": "求人応募後、約束された連絡が来ず、担当者の電話番号も不通で応募の進行状況が把握できない",
+    "canonical_user": "その他",
+    "canonical_job": "求人応募",
+    "canonical_root_cause": "企業側の採用プロセス管理不備",
+    "tags": [
+      "customer_followup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-10"
+  },
+  {
+    "pain_id": "e8ed3562b4b1",
+    "question_id": "93ce885ffb45",
+    "canonical_problem": "就活に向けたガクチカ（学生時代に力を入れたこと）が不足しており、周りと比べて競争力がないと感じている",
+    "canonical_user": "その他",
+    "canonical_job": "就活準備",
+    "canonical_root_cause": "計画的な活動参加機会を逸失",
+    "tags": [
+      "high_severity",
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-10"
+  },
+  {
+    "pain_id": "1513e3d919ab",
+    "question_id": "64cadd167ad6",
+    "canonical_problem": "マイナンバーカード申請で撮影された写真に不満があり、取り消しや再申請の手続きが必要",
+    "canonical_user": "その他",
+    "canonical_job": "カード再申請",
+    "canonical_root_cause": "写真撮影時の確認・修正機会なし",
+    "tags": [
+      "document_creation",
+      "high_urgency",
+      "high_wtp",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-10"
+  },
+  {
+    "pain_id": "e503bc5a6ac7",
+    "question_id": "60b26f44232d",
+    "canonical_problem": "医療費負担軽減のため難病申請したいが、手続きの進め方や医師との相談方法が不明",
+    "canonical_user": "その他",
+    "canonical_job": "難病申請",
+    "canonical_root_cause": "申請手順・医師との相談方法不明",
+    "tags": [
+      "high_severity",
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-10"
+  },
+  {
+    "pain_id": "0a3de2d202b4",
+    "question_id": "b79eeb6203c0",
+    "canonical_problem": "車検証の住所変更手続きが1年間放置され、罰金リスクを抱えている状態",
+    "canonical_user": "その他",
+    "canonical_job": "住所変更",
+    "canonical_root_cause": "手続き方法や必要性が不明確",
+    "tags": [
+      "compliance_confusion",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-10"
+  },
+  {
+    "pain_id": "9e8a36ee9da4",
+    "question_id": "ba1136f1e6a1",
+    "canonical_problem": "保健所文書の開示請求で4年待たされ、必要な情報が墨塗りされている状況",
+    "canonical_user": "その他",
+    "canonical_job": "情報開示請求",
+    "canonical_root_cause": "開示基準が複雑で判断に時間要",
+    "tags": [
+      "approval_bottleneck",
+      "high_severity",
+      "high_wtp",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-10"
+  },
+  {
+    "pain_id": "4570ae893c90",
+    "question_id": "c56f94eee968",
+    "canonical_problem": "転入手続きを完了したはずが住所登録されておらず、手続き状況が不明で困っている",
+    "canonical_user": "その他",
+    "canonical_job": "転入手続き",
+    "canonical_root_cause": "複数手続きの連携不備や確認不足",
+    "tags": [
+      "exception_handling",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-10"
+  },
+  {
+    "pain_id": "306750ceb3cf",
+    "question_id": "d012fbde093d",
+    "canonical_problem": "親族からの嫌がらせを避けるため引越し・支援措置を行ったが、他に必要な対策が分からず不安を抱えている。",
+    "canonical_user": "その他",
+    "canonical_job": "身元隠匿",
+    "canonical_root_cause": "身元隠匿の包括的手順が不明",
+    "tags": [
+      "high_severity",
+      "high_urgency",
+      "high_wtp",
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-10"
+  },
+  {
+    "pain_id": "0e98f8a515a7",
+    "question_id": "0dee7042c016",
+    "canonical_problem": "入院中で住居がなく身分証もない状態で、新しい施設入居に必要な各種手続きができるか分からない。",
+    "canonical_user": "その他",
+    "canonical_job": "住民票手続",
+    "canonical_root_cause": "身分証なしでの手続き可否不明",
+    "tags": [
+      "compliance_confusion",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-10"
+  },
+  {
+    "pain_id": "41c4addf12e9",
+    "question_id": "79ff31987355",
+    "canonical_problem": "運転免許証に追加の紙が貼られており、本人確認書類として必要な前住所と現住所を適切にコピーする方法が分からない。",
+    "canonical_user": "その他",
+    "canonical_job": "本人確認書類作成",
+    "canonical_root_cause": "追加紙付き免許証の複写方法不明",
+    "tags": [
+      "document_creation",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-10"
+  },
+  {
+    "pain_id": "9e511c3fbaf4",
+    "question_id": "83cd25c6de77",
+    "canonical_problem": "院長の不適切な経費処理に気づいてしまい、今後の対応や関係維持に悩んでいる",
+    "canonical_user": "会社員",
+    "canonical_job": "経費管理",
+    "canonical_root_cause": "不正処理の対応手順が不明",
+    "tags": [
+      "exception_handling",
+      "high_severity",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-10"
+  },
+  {
+    "pain_id": "e44de2018342",
+    "question_id": "5fe1cfb8e4aa",
+    "canonical_problem": "領収書の内訳金額を間違って記入してしまい、書き直し対応が必要かどうか不安",
+    "canonical_user": "会社員",
+    "canonical_job": "領収書作成",
+    "canonical_root_cause": "記入ミス時の対応手順が不明",
+    "tags": [
+      "exception_handling",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-10"
+  },
+  {
+    "pain_id": "ad7157945cf5",
+    "question_id": "48eab9b18ded",
+    "canonical_problem": "新住職が宗教法人のお布施の適切な会計処理方法がわからず、現在は個人給与として処理している状態",
+    "canonical_user": "その他",
+    "canonical_job": "月次決算",
+    "canonical_root_cause": "宗教法人会計制度の知識不足",
+    "tags": [
+      "compliance_confusion",
+      "high_severity",
+      "monthly"
+    ],
+    "fetched_date": "2026-04-10"
+  },
+  {
+    "pain_id": "bc804f5ff5cf",
+    "question_id": "882e70897e69",
+    "canonical_problem": "消費税の制度変更により今後の申告方法（2割特例、簡易課税）の選択と手続き期限がわからない",
+    "canonical_user": "中小企業",
+    "canonical_job": "確定申告",
+    "canonical_root_cause": "税制変更時の適用条件が複雑",
+    "tags": [
+      "compliance_confusion",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-10"
+  },
+  {
+    "pain_id": "939a3fa346af",
+    "question_id": "90168acd2458",
+    "canonical_problem": "手書き帳簿からPC化への移行で適切なツール選択ができず、税理士への資料提出方法に困っている",
+    "canonical_user": "中小企業",
+    "canonical_job": "月次決算",
+    "canonical_root_cause": "会計ソフトの知識が全くない",
+    "tags": [
+      "monthly",
+      "tool_fragmentation"
+    ],
+    "fetched_date": "2026-04-10"
+  },
+  {
+    "pain_id": "9dc5f3dee295",
+    "question_id": "7dbe8bb80b72",
+    "canonical_problem": "住民票閲覧制限（支援措置）が確定申告手続きに与える影響がわからず、申告方法の変更が必要かもしれない状況",
+    "canonical_user": "フリーランス",
+    "canonical_job": "確定申告",
+    "canonical_root_cause": "支援措置と税務手続きの関係不明",
+    "tags": [
+      "compliance_confusion",
+      "one_off",
+      "確定申告"
+    ],
+    "fetched_date": "2026-04-10"
+  },
+  {
+    "pain_id": "156109fb9849",
+    "question_id": "4ead47faded2",
+    "canonical_problem": "取引先からインボイス番号を求められたが適格請求書発行事業者登録が未完了で請求業務に支障",
+    "canonical_user": "中小企業",
+    "canonical_job": "請求書作成",
+    "canonical_root_cause": "インボイス制度の手続き知識不足",
+    "tags": [
+      "compliance_confusion",
+      "high_severity",
+      "high_urgency",
+      "monthly",
+      "請求書"
+    ],
+    "fetched_date": "2026-04-10"
+  },
+  {
+    "pain_id": "90476cc22e6b",
+    "question_id": "f549e1d2a4da",
+    "canonical_problem": "バイク用品販売事業拡大時の資格・屋号・補助金申請要件が不明で進められない",
+    "canonical_user": "フリーランス",
+    "canonical_job": "事業拡大",
+    "canonical_root_cause": "資格要件と屋号登録ルールが不明",
+    "tags": [
+      "compliance_confusion",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-10"
+  },
+  {
+    "pain_id": "529c902422ad",
+    "question_id": "54dd593f2631",
+    "canonical_problem": "新事業提案スキルの習得方法とプロセスが分からず進め方に迷っている",
+    "canonical_user": "会社員",
+    "canonical_job": "新事業提案",
+    "canonical_root_cause": "新事業開発の具体的手順が不明",
+    "tags": [
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-10"
+  },
+  {
+    "pain_id": "461ca09490a5",
+    "question_id": "220d98b80ec3",
+    "canonical_problem": "荷物の送り方が分からず、適切な配送方法を選択できない状況",
+    "canonical_user": "その他",
+    "canonical_job": "荷物発送",
+    "canonical_root_cause": "配送サービスの選択基準が不明",
+    "tags": [
+      "high_builder_fit",
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-10"
+  },
+  {
+    "pain_id": "2a0fe6012229",
+    "question_id": "46a506eaf613",
+    "canonical_problem": "SNSでのトレカ交換で郵送事故が起きた際の責任範囲や対応方法がわからない",
+    "canonical_user": "その他",
+    "canonical_job": "交換対応",
+    "canonical_root_cause": "事故時の責任ルールが不明確",
+    "tags": [
+      "exception_handling",
+      "high_severity",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-10"
+  },
+  {
+    "pain_id": "dfcee622948b",
+    "question_id": "8300fa64a327",
+    "canonical_problem": "配達員の不適切行為への対処方法がわからず不安を感じている",
+    "canonical_user": "その他",
+    "canonical_job": "苦情対応",
+    "canonical_root_cause": "苦情手順や妥当性判断が不明",
+    "tags": [
+      "exception_handling",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-10"
+  },
+  {
+    "pain_id": "b37f647b940f",
+    "question_id": "d2e35f40b1c2",
+    "canonical_problem": "会社の後納郵便で料金印を押し忘れた可能性があり、送り先に請求がいかないか心配している",
+    "canonical_user": "会社員",
+    "canonical_job": "郵送業務",
+    "canonical_root_cause": "手動作業の残存",
+    "tags": [
+      "high_builder_fit",
+      "high_urgency",
+      "manual_reentry",
+      "weekly"
+    ],
+    "fetched_date": "2026-04-10"
+  },
+  {
+    "pain_id": "65f658f9e816",
+    "question_id": "3393ca810fb7",
+    "canonical_problem": "県外の人から資料をデジタルで受け取りたいが、郵送以外の効率的な方法が分からない",
+    "canonical_user": "その他",
+    "canonical_job": "資料収集",
+    "canonical_root_cause": "遠隔でのファイル共有方法不明",
+    "tags": [
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-10"
+  },
+  {
+    "pain_id": "115987e9c243",
+    "question_id": "07dfdedf715f",
+    "canonical_problem": "メロジョイで住所を間違えて注文してしまい、変更が可能かどうか不安に感じている",
+    "canonical_user": "その他",
+    "canonical_job": "注文変更",
+    "canonical_root_cause": "注文確定前のチェック不足",
+    "tags": [
+      "exception_handling",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-10"
+  },
+  {
+    "pain_id": "cd9db67c6241",
+    "question_id": "3bd8f46c9447",
+    "canonical_problem": "Yahooフリマで商品が27日経っても届かず、追跡番号も無効で返金申請が通るか心配している",
+    "canonical_user": "その他",
+    "canonical_job": "返金申請",
+    "canonical_root_cause": "配送状況の透明性不足",
+    "tags": [
+      "exception_handling",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-10"
+  },
+  {
+    "pain_id": "6212c53fc73c",
+    "question_id": "478b1045fc8c",
+    "canonical_problem": "ニックネーム宛名で配達され本人確認できず受け取れない状況への対処法が分からない",
+    "canonical_user": "その他",
+    "canonical_job": "荷物受取",
+    "canonical_root_cause": "自動設定でニックネームが使用",
+    "tags": [
+      "exception_handling",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-10"
+  },
+  {
+    "pain_id": "fdbef418813b",
+    "question_id": "20821cf90ea6",
+    "canonical_problem": "お風呂の水栓が硬くて温度調整が困難、力を入れすぎて取っ手にヒビが入る状況",
+    "canonical_user": "その他",
+    "canonical_job": "温度調整",
+    "canonical_root_cause": "水栓の経年劣化による固着",
+    "tags": [
+      "daily",
+      "high_severity",
+      "manual_reentry"
+    ],
+    "fetched_date": "2026-04-10"
+  },
+  {
+    "pain_id": "b67840bb607e",
+    "question_id": "24e0e18e91b9",
+    "canonical_problem": "歯ブラシの着色汚れを完全に取る方法が分からず困っている",
+    "canonical_user": "その他",
+    "canonical_job": "歯ブラシ掃除",
+    "canonical_root_cause": "効果的な清掃方法の知識不足",
+    "tags": [
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-10"
+  },
+  {
+    "pain_id": "b124a86fff85",
+    "question_id": "00bbc996d928",
+    "canonical_problem": "高級ショールの適切なクリーニング先が分からず困っている",
+    "canonical_user": "その他",
+    "canonical_job": "衣類クリーニング",
+    "canonical_root_cause": "高級素材対応店の情報不足",
+    "tags": [
+      "high_wtp",
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-10"
+  },
+  {
+    "pain_id": "66f6c3c5cd77",
+    "question_id": "ecccbc1d44f5",
+    "canonical_problem": "家事知識不足により夫婦間で衝突が頻発し困っている",
+    "canonical_user": "その他",
+    "canonical_job": "家事学習",
+    "canonical_root_cause": "基礎的家事知識の習得機会なし",
+    "tags": [
+      "daily",
+      "high_builder_fit",
+      "high_severity",
+      "high_urgency",
+      "knowledge_lookup"
+    ],
+    "fetched_date": "2026-04-10"
+  },
+  {
+    "pain_id": "280a76391e5f",
+    "question_id": "4420205f706b",
+    "canonical_problem": "面接用スーツの携帯保管でシワが心配",
+    "canonical_user": "その他",
+    "canonical_job": "スーツ保管",
+    "canonical_root_cause": "携帯保管時の影響が不明",
+    "tags": [
+      "high_urgency",
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-10"
+  },
+  {
+    "pain_id": "2d5eca36b6c2",
+    "question_id": "b73b451c391f",
+    "canonical_problem": "抹茶入り玄米茶が主流になり、普通の玄米茶を入手するのに手間がかかる",
+    "canonical_user": "その他",
+    "canonical_job": "玄米茶購入",
+    "canonical_root_cause": "市場で抹茶入りが主流化",
+    "tags": [
+      "knowledge_lookup",
+      "weekly"
+    ],
+    "fetched_date": "2026-04-10"
+  },
+  {
+    "pain_id": "8ca59e1c19be",
+    "question_id": "2d5a52041a1a",
+    "canonical_problem": "不動産営業電話の対応に時間を取られ、業務を中断される",
+    "canonical_user": "会社員",
+    "canonical_job": "営業電話対応",
+    "canonical_root_cause": "営業電話の識別方法が確立されていない",
+    "tags": [
+      "daily",
+      "high_builder_fit",
+      "recurring_admin_work"
+    ],
+    "fetched_date": "2026-04-10"
+  },
+  {
+    "pain_id": "58185ff29b7a",
+    "question_id": "24b8417d695d",
+    "canonical_problem": "相続税申告で土地評価額を適正に下げる必要がある",
+    "canonical_user": "その他",
+    "canonical_job": "相続税申告",
+    "canonical_root_cause": "制度の複雑さ",
+    "tags": [
+      "compliance_confusion",
+      "high_severity",
+      "high_urgency",
+      "high_wtp",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-10"
+  },
+  {
+    "pain_id": "6b1b01ca96f9",
+    "question_id": "903ba1e344e8",
+    "canonical_problem": "賃貸申込後の審査状況が不透明で次の行動を決められない",
+    "canonical_user": "その他",
+    "canonical_job": "賃貸契約",
+    "canonical_root_cause": "審査進捗の可視化システムなし",
+    "tags": [
+      "approval_bottleneck",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-10"
+  },
+  {
+    "pain_id": "6ac5934c4b04",
+    "question_id": "90d4312fce26",
+    "canonical_problem": "演劇サークル用の古民家を個人交渉で購入したいが、適切なプラットフォームが見つからない",
+    "canonical_user": "その他",
+    "canonical_job": "物件探し",
+    "canonical_root_cause": "個人間不動産取引の情報が少ない",
+    "tags": [
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-10"
+  },
+  {
+    "pain_id": "9707a50ebf41",
+    "question_id": "d45e2cbefc08",
+    "canonical_problem": "極めて詳細な条件の不動産を効率的に探したいが、不動産サイトでの検索では限界がある",
+    "canonical_user": "その他",
+    "canonical_job": "物件探し",
+    "canonical_root_cause": "複合条件の一括検索機能がない",
+    "tags": [
+      "one_off",
+      "tool_fragmentation"
+    ],
+    "fetched_date": "2026-04-10"
+  },
+  {
+    "pain_id": "da1d0717c250",
+    "question_id": "78df82cd6697",
+    "canonical_problem": "宅建試験の効率的な勉強方法が分からず、就活との両立で時間が限られている",
+    "canonical_user": "その他",
+    "canonical_job": "試験勉強",
+    "canonical_root_cause": "勉強方法の情報が多すぎて選択困難",
+    "tags": [
+      "high_severity",
+      "high_urgency",
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-10"
+  },
+  {
+    "pain_id": "14be18007431",
+    "question_id": "be8ad26000ed",
+    "canonical_problem": "不動産価格査定の経験がなく、景観の悪い特殊物件の適正価格設定に困っている",
+    "canonical_user": "会社員",
+    "canonical_job": "価格査定",
+    "canonical_root_cause": "特殊物件の査定経験と知識不足",
+    "tags": [
+      "high_severity",
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-10"
+  },
+  {
+    "pain_id": "38363e15162e",
+    "question_id": "95689c010e98",
+    "canonical_problem": "債務整理中で賃貸審査への不安があり、適切な物件探しの方法が分からない",
+    "canonical_user": "会社員",
+    "canonical_job": "賃貸物件探し",
+    "canonical_root_cause": "債務整理中の賃貸審査の知識不足",
+    "tags": [
+      "high_severity",
+      "high_urgency",
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-10"
+  },
+  {
+    "pain_id": "86791c45a3f7",
+    "question_id": "b7d07a81c75d",
+    "canonical_problem": "レオパの適切な温度環境構築で、パネヒだけでは温度不足で機器選択に迷っている",
+    "canonical_user": "その他",
+    "canonical_job": "PC環境構築",
+    "canonical_root_cause": "適切な機器選択の情報が不足",
+    "tags": [
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-10"
+  },
+  {
+    "pain_id": "fac7bd0a38dc",
+    "question_id": "98d4bec39b2f",
+    "canonical_problem": "ベランダでのメダカ飼育で、ボウフラ対策と虫除け剤の安全性を両立させる必要がある",
+    "canonical_user": "その他",
+    "canonical_job": "害虫対策",
+    "canonical_root_cause": "薬剤の水槽への影響が不明",
+    "tags": [
+      "high_urgency",
+      "knowledge_lookup",
+      "monthly"
+    ],
+    "fetched_date": "2026-04-10"
+  },
+  {
+    "pain_id": "a67f99e2f2a2",
+    "question_id": "20d61c2c22be",
+    "canonical_problem": "アウトドア活動が多い環境でのサモエドのワクチン選択で、犬の負担と感染リスクのバランスに悩んでいる",
+    "canonical_user": "その他",
+    "canonical_job": "ワクチン選択",
+    "canonical_root_cause": "専門的判断が必要で情報が錯綜",
+    "tags": [
+      "high_severity",
+      "high_urgency",
+      "high_wtp",
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-10"
+  },
+  {
+    "pain_id": "5d1cd5778383",
+    "question_id": "a92f32deb063",
+    "canonical_problem": "部活で保護中のイシガメが足底炎になり、従来の治療法で改善せず環境改善方法を模索している",
+    "canonical_user": "その他",
+    "canonical_job": "疾病治療",
+    "canonical_root_cause": "適切な治療環境設計の知識不足",
+    "tags": [
+      "exception_handling",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-10"
+  },
+  {
+    "pain_id": "9b88a53fb998",
+    "question_id": "780cb23ac8c9",
+    "canonical_problem": "虐待歴のある犬の問題行動（食糞・飲尿）を改善したいが効果的な対処法がわからない",
+    "canonical_user": "その他",
+    "canonical_job": "犬のしつけ",
+    "canonical_root_cause": "虐待トラウマで適切な方法不明",
+    "tags": [
+      "daily",
+      "knowledge_lookup"
+    ],
+    "fetched_date": "2026-04-10"
+  },
+  {
+    "pain_id": "76f6b3e59f72",
+    "question_id": "9bec70e39236",
+    "canonical_problem": "大きな窓のある部屋でインコを安全に飼いたいが、窓衝突リスクの対策方法がわからない",
+    "canonical_user": "その他",
+    "canonical_job": "ペット飼育",
+    "canonical_root_cause": "窓衝突防止の具体的方法が不明",
+    "tags": [
+      "high_severity",
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-10"
+  },
+  {
+    "pain_id": "737fff484f29",
+    "question_id": "920a01ed9f0d",
+    "canonical_problem": "17歳老犬の肺炎治療中に給餌・投薬方法で迷い、獣医に何度も電話確認する負担",
+    "canonical_user": "その他",
+    "canonical_job": "ペット介護",
+    "canonical_root_cause": "複雑な介護手順の理解不足",
+    "tags": [
+      "daily",
+      "high_severity",
+      "high_urgency",
+      "high_wtp",
+      "knowledge_lookup"
+    ],
+    "fetched_date": "2026-04-10"
+  },
+  {
+    "pain_id": "de7096e6eb48",
+    "question_id": "c3baf8801a57",
+    "canonical_problem": "一重でアイラインを左右対称に自然に引けない。現在の引き方だと不自然に見えてしまう。",
+    "canonical_user": "その他",
+    "canonical_job": "アイライン",
+    "canonical_root_cause": "一重向けの正しい技術を知らない",
+    "tags": [
+      "daily",
+      "knowledge_lookup"
+    ],
+    "fetched_date": "2026-04-10"
+  },
+  {
+    "pain_id": "9f940ffad609",
+    "question_id": "0a965045d523",
+    "canonical_problem": "現在使用中のフェイスパウダーではTゾーンのテカリが抑えられず、夏に向けてより効果的な商品を見つけたい。",
+    "canonical_user": "その他",
+    "canonical_job": "メイク用品選定",
+    "canonical_root_cause": "肌質に完全に合う製品が見つからない",
+    "tags": [
+      "daily",
+      "high_urgency",
+      "high_wtp",
+      "other"
+    ],
+    "fetched_date": "2026-04-10"
+  },
+  {
+    "pain_id": "534aa154f7c7",
+    "question_id": "1acf8e65263b",
+    "canonical_problem": "ファンデーション使用時にTゾーンが毎回粉っぽくなり、メイクが崩れる",
+    "canonical_user": "その他",
+    "canonical_job": "メイク",
+    "canonical_root_cause": "肌質に合わない手順・製品使用",
+    "tags": [
+      "daily",
+      "recurring_admin_work"
+    ],
+    "fetched_date": "2026-04-10"
+  },
+  {
+    "pain_id": "3c8f3355fe2a",
+    "question_id": "19ce45f2dfec",
+    "canonical_problem": "混合肌で汗かきのため、春夏秋のメイクが終わってしまい適切な商品選択で困っている",
+    "canonical_user": "その他",
+    "canonical_job": "メイク",
+    "canonical_root_cause": "季節・肌質に対応した製品情報不足",
+    "tags": [
+      "monthly",
+      "tool_fragmentation"
+    ],
+    "fetched_date": "2026-04-10"
+  }
+]
