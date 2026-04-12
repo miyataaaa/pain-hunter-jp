@@ -1,0 +1,649 @@
+[
+  {
+    "pain_id": "9158459393c9",
+    "question_id": "46b6ff78366b",
+    "canonical_problem": "中卒でシフトが削減され収入が不安定、月20万稼げる仕事を探している",
+    "canonical_user": "その他",
+    "canonical_job": "収入確保",
+    "canonical_root_cause": "学歴・資格不足で選択肢限定",
+    "tags": [
+      "high_severity",
+      "high_urgency",
+      "monthly",
+      "recurring_admin_work"
+    ],
+    "fetched_date": "2026-04-12"
+  },
+  {
+    "pain_id": "1416aaa82320",
+    "question_id": "6d36bd5009eb",
+    "canonical_problem": "バイト契約で勤務時間が一方的に延長され、法的妥当性が不明",
+    "canonical_user": "会社員",
+    "canonical_job": "労働条件確認",
+    "canonical_root_cause": "労働法の知識不足と相談先不明",
+    "tags": [
+      "compliance_confusion",
+      "monthly"
+    ],
+    "fetched_date": "2026-04-12"
+  },
+  {
+    "pain_id": "c2dcfa09eb14",
+    "question_id": "456fe07efdf2",
+    "canonical_problem": "教員採用試験まで2ヶ月しかないのに一般・教職の勉強が全く進んでいない。9割必要な自治体で時間不足による学習効率の悪さに困っている。",
+    "canonical_user": "その他",
+    "canonical_job": "試験対策",
+    "canonical_root_cause": "計画的な学習スケジュール未策定",
+    "tags": [
+      "high_severity",
+      "high_urgency",
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-12"
+  },
+  {
+    "pain_id": "363693736265",
+    "question_id": "b79ec5bfbe04",
+    "canonical_problem": "戸籍謄本の取得方法・料金・手続きの複雑さに困っている",
+    "canonical_user": "その他",
+    "canonical_job": "戸籍調査",
+    "canonical_root_cause": "制度の複雑さ",
+    "tags": [
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-12"
+  },
+  {
+    "pain_id": "a14998c40b43",
+    "question_id": "0d4b71b735f2",
+    "canonical_problem": "ご当地デザインの婚姻届をコンビニで印刷すると余白ができ紙質が悪いため、印刷屋で印刷したいがトンボがない",
+    "canonical_user": "その他",
+    "canonical_job": "婚姻届印刷",
+    "canonical_root_cause": "配布データが印刷仕様に未対応",
+    "tags": [
+      "high_urgency",
+      "high_wtp",
+      "one_off",
+      "tool_fragmentation"
+    ],
+    "fetched_date": "2026-04-12"
+  },
+  {
+    "pain_id": "f4c92e3d2294",
+    "question_id": "92a0bd9fc1a4",
+    "canonical_problem": "婚姻届提出後にマイナンバーの電子証明書が失効し、遠方での手続きが必要になった",
+    "canonical_user": "その他",
+    "canonical_job": "転出届提出",
+    "canonical_root_cause": "婚姻による情報変更で証明書失効",
+    "tags": [
+      "exception_handling",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-12"
+  },
+  {
+    "pain_id": "e5e7b985da97",
+    "question_id": "d64eaca5661a",
+    "canonical_problem": "失業保険申請でクラウドワークスの収入申告について、仮払い日と支払確定日のどちらを記載すべきか分からない",
+    "canonical_user": "フリーランス",
+    "canonical_job": "失業保険申告",
+    "canonical_root_cause": "制度とプラットフォーム仕様の齟齬",
+    "tags": [
+      "compliance_confusion",
+      "high_severity",
+      "monthly"
+    ],
+    "fetched_date": "2026-04-12"
+  },
+  {
+    "pain_id": "6890186f0eb4",
+    "question_id": "d4c90041b115",
+    "canonical_problem": "18歳で精神科通院が必要だが、親にバレずに自立支援医療を申請したいが手続きや書類要件が分からず困っている。",
+    "canonical_user": "その他",
+    "canonical_job": "医療費助成申請",
+    "canonical_root_cause": "制度の複雑さ",
+    "tags": [
+      "compliance_confusion",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-12"
+  },
+  {
+    "pain_id": "750171a6f464",
+    "question_id": "eb5a46302c6a",
+    "canonical_problem": "5親等の血族関係証明で戸籍謄本取得が必要だが、複雑な親族関係で誰が何を取得すべきか分からず大至急で困っている。",
+    "canonical_user": "その他",
+    "canonical_job": "血族証明書取得",
+    "canonical_root_cause": "複雑な親族関係で取得権限が不明",
+    "tags": [
+      "compliance_confusion",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-12"
+  },
+  {
+    "pain_id": "d660b159a71c",
+    "question_id": "d579cb233b31",
+    "canonical_problem": "クライアントの確認が遅く、報酬受取りまでの期間が長期化している",
+    "canonical_user": "フリーランス",
+    "canonical_job": "報酬回収",
+    "canonical_root_cause": "クライアント側の確認フロー遅延",
+    "tags": [
+      "approval_bottleneck",
+      "weekly"
+    ],
+    "fetched_date": "2026-04-12"
+  },
+  {
+    "pain_id": "cf2e125f8d79",
+    "question_id": "b26239d06134",
+    "canonical_problem": "UP-TでPCから商品順序をドラッグ&ドロップで変更できず、スマホでの作業を強いられている",
+    "canonical_user": "中小企業",
+    "canonical_job": "商品並替",
+    "canonical_root_cause": "プラットフォーム不具合でPC機能停止",
+    "tags": [
+      "daily",
+      "tool_fragmentation"
+    ],
+    "fetched_date": "2026-04-12"
+  },
+  {
+    "pain_id": "c0f7097234a6",
+    "question_id": "8bcfef442baf",
+    "canonical_problem": "文字起こし案件でクライアントの修正指示が曖昧で1フレーム単位の細かすぎる要求により効率が悪化している",
+    "canonical_user": "フリーランス",
+    "canonical_job": "文字起こし",
+    "canonical_root_cause": "フィードバックが曖昧で基準が不明",
+    "tags": [
+      "exception_handling",
+      "high_severity",
+      "high_urgency",
+      "weekly"
+    ],
+    "fetched_date": "2026-04-12"
+  },
+  {
+    "pain_id": "2f3a2f9e8d61",
+    "question_id": "cafc2d29b938",
+    "canonical_problem": "経理アシスタントとして多工程の請求書処理業務が1週間450件という量で実現可能か不安を抱えている",
+    "canonical_user": "会社員",
+    "canonical_job": "請求書処理",
+    "canonical_root_cause": "手動作業の残存",
+    "tags": [
+      "high_builder_fit",
+      "high_severity",
+      "manual_reentry",
+      "weekly",
+      "請求書"
+    ],
+    "fetched_date": "2026-04-12"
+  },
+  {
+    "pain_id": "e7a087b9ca66",
+    "question_id": "bb3a5dc7314d",
+    "canonical_problem": "上司の知識レベルが分からず、決算説明をどの程度の詳しさで行うべきか判断できない",
+    "canonical_user": "会社員",
+    "canonical_job": "決算説明",
+    "canonical_root_cause": "上司の専門知識レベルが不明",
+    "tags": [
+      "knowledge_lookup",
+      "monthly"
+    ],
+    "fetched_date": "2026-04-12"
+  },
+  {
+    "pain_id": "17ded7fdfcb2",
+    "question_id": "3e7c2d90d121",
+    "canonical_problem": "経理事務のダブルワーク求人探しに制約が多く、週3勤務や副業可能な職場が見つからない困りごと",
+    "canonical_user": "会社員",
+    "canonical_job": "求人探し",
+    "canonical_root_cause": "同業種副業禁止が業界慣習で浸透",
+    "tags": [
+      "compliance_confusion",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-12"
+  },
+  {
+    "pain_id": "ed5e9a291497",
+    "question_id": "11f13033b59c",
+    "canonical_problem": "創業融資の面接対策で何を準備すべきか分からず不安を抱えている",
+    "canonical_user": "その他",
+    "canonical_job": "融資申請",
+    "canonical_root_cause": "面接の具体的な流れや対策が不明",
+    "tags": [
+      "high_severity",
+      "high_urgency",
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-12"
+  },
+  {
+    "pain_id": "7a4c12ef1443",
+    "question_id": "45c2473d052f",
+    "canonical_problem": "ラーメン屋開業に必要な3000万円の資金調達方法が分からない",
+    "canonical_user": "その他",
+    "canonical_job": "資金調達",
+    "canonical_root_cause": "資金調達の選択肢や手法が不明",
+    "tags": [
+      "high_severity",
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-12"
+  },
+  {
+    "pain_id": "ad15a34b5a1e",
+    "question_id": "ed40ecac87c1",
+    "canonical_problem": "介護職の低収入から脱却したいが具体的な方法や手順が分からない",
+    "canonical_user": "会社員",
+    "canonical_job": "転職準備",
+    "canonical_root_cause": "高収入業種や起業手順が不明",
+    "tags": [
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-12"
+  },
+  {
+    "pain_id": "99b59073a331",
+    "question_id": "f91b93e26b30",
+    "canonical_problem": "会社買収の約束が破られ、雇われ社長として成長させた会社の所有権を得られない状況で転職を検討している",
+    "canonical_user": "中小企業",
+    "canonical_job": "会社経営権獲得",
+    "canonical_root_cause": "株式100%を親会社が保有",
+    "tags": [
+      "approval_bottleneck",
+      "high_severity",
+      "high_wtp",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-12"
+  },
+  {
+    "pain_id": "72aabb0137db",
+    "question_id": "d9ba3dfb11f5",
+    "canonical_problem": "初回勤務でハンコが必要だが手元にない状況で困っている",
+    "canonical_user": "その他",
+    "canonical_job": "アルバイト開始",
+    "canonical_root_cause": "一人暮らし開始で必要書類の準備不足",
+    "tags": [
+      "document_creation",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-12"
+  },
+  {
+    "pain_id": "6f6c93e667eb",
+    "question_id": "2b8d35adcfdf",
+    "canonical_problem": "海外通販での配送遅延により商品が届かず、対応方法が分からない困りごと",
+    "canonical_user": "その他",
+    "canonical_job": "配送状況確認",
+    "canonical_root_cause": "配送業者の信頼性が低く追跡困難",
+    "tags": [
+      "customer_followup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-12"
+  },
+  {
+    "pain_id": "6e097eba26dd",
+    "question_id": "90f7bbf2fc80",
+    "canonical_problem": "配送通知の真偽判定ができず、詐欺か正当な連絡か判断に困っている",
+    "canonical_user": "その他",
+    "canonical_job": "詐欺判定",
+    "canonical_root_cause": "配送連絡の真偽判定方法が不明",
+    "tags": [
+      "high_urgency",
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-12"
+  },
+  {
+    "pain_id": "e52764718584",
+    "question_id": "f09c9e99928f",
+    "canonical_problem": "メルカリで発送が複数回延長され、適切な催促方法が分からない",
+    "canonical_user": "その他",
+    "canonical_job": "出品者催促",
+    "canonical_root_cause": "適切な催促文面の知識不足",
+    "tags": [
+      "customer_followup",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-12"
+  },
+  {
+    "pain_id": "6a0c72427b01",
+    "question_id": "50e146875bd2",
+    "canonical_problem": "Amazon返品の荷物が10日経ってもヤマト運輸から配送されず、返品期日に間に合わない可能性がある",
+    "canonical_user": "その他",
+    "canonical_job": "返品処理",
+    "canonical_root_cause": "属人化・引き継ぎ不足",
+    "tags": [
+      "approval_bottleneck",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-12"
+  },
+  {
+    "pain_id": "cea9f37422a4",
+    "question_id": "55033f832f8b",
+    "canonical_problem": "メルカリ出品で価格設定を低くしすぎたため、利益確保のため安価な配送方法で梱包する必要がある",
+    "canonical_user": "その他",
+    "canonical_job": "商品梱包",
+    "canonical_root_cause": "価格設定時の配送コスト見積もり不足",
+    "tags": [
+      "exception_handling",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-12"
+  },
+  {
+    "pain_id": "a968a7a33ec5",
+    "question_id": "576ad7bbefbd",
+    "canonical_problem": "引っ越し先のポストが開かず、火曜日までに必要な商品が受け取れない緊急事態",
+    "canonical_user": "その他",
+    "canonical_job": "荷物受取",
+    "canonical_root_cause": "属人化・引き継ぎ不足",
+    "tags": [
+      "exception_handling",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-12"
+  },
+  {
+    "pain_id": "bd5a51c61d1b",
+    "question_id": "56d95d0df696",
+    "canonical_problem": "ウーバー配達で商品不足時の適切な対応方法がわからず、BAD評価を受けてしまう。",
+    "canonical_user": "フリーランス",
+    "canonical_job": "顧客対応",
+    "canonical_root_cause": "トラブル対応の標準手順が不明確",
+    "tags": [
+      "exception_handling",
+      "high_severity",
+      "high_urgency",
+      "weekly"
+    ],
+    "fetched_date": "2026-04-12"
+  },
+  {
+    "pain_id": "2a3675990639",
+    "question_id": "1690f9be03e5",
+    "canonical_problem": "カルキ取り剤で浴槽を磨いた結果、細かい傷がついて艶がなくなってしまった。",
+    "canonical_user": "その他",
+    "canonical_job": "浴槽清掃",
+    "canonical_root_cause": "清掃用品の材質適合性が不明確",
+    "tags": [
+      "exception_handling",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-12"
+  },
+  {
+    "pain_id": "44c99593d295",
+    "question_id": "b81f3e97afa3",
+    "canonical_problem": "ウール100%カーディガンについた嘔吐物の臭いが洗濯しても取れない。",
+    "canonical_user": "その他",
+    "canonical_job": "衣類清掃",
+    "canonical_root_cause": "特殊素材の臭い除去方法が不明",
+    "tags": [
+      "exception_handling",
+      "high_wtp",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-12"
+  },
+  {
+    "pain_id": "e78fabb18772",
+    "question_id": "49683e1eb0e4",
+    "canonical_problem": "換気機能がない古い寮のお風呂で、従来の清掃方法では対応できずカビが発生し続ける。水切り作業も寒くて続けられない。",
+    "canonical_user": "その他",
+    "canonical_job": "カビ予防",
+    "canonical_root_cause": "換気設備不足で湿度制御不可",
+    "tags": [
+      "daily",
+      "exception_handling",
+      "high_severity",
+      "high_urgency"
+    ],
+    "fetched_date": "2026-04-12"
+  },
+  {
+    "pain_id": "61e4ad678b98",
+    "question_id": "7b6a971352f0",
+    "canonical_problem": "お気に入りのナイロンカバンにルームフレグランスの液体が染み込み半分変色してしまった。",
+    "canonical_user": "その他",
+    "canonical_job": "汚れ除去",
+    "canonical_root_cause": "予期しない事故で復旧方法不明",
+    "tags": [
+      "exception_handling",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-12"
+  },
+  {
+    "pain_id": "fab2ef44d7d0",
+    "question_id": "ea1e22a6e22f",
+    "canonical_problem": "大容量洗濯機で洗濯物が多いと柔軟剤の匂いが十分につかない。適切な配分量も分からない。",
+    "canonical_user": "その他",
+    "canonical_job": "洗濯",
+    "canonical_root_cause": "大容量時の適切な使用法不明",
+    "tags": [
+      "daily",
+      "knowledge_lookup"
+    ],
+    "fetched_date": "2026-04-12"
+  },
+  {
+    "pain_id": "ddb782c8f845",
+    "question_id": "482ebfc8f7dc",
+    "canonical_problem": "家族がトイレにティッシュを流し続けており、つまりを予防したいが対処法が分からない",
+    "canonical_user": "その他",
+    "canonical_job": "つまり予防",
+    "canonical_root_cause": "専門知識不足",
+    "tags": [
+      "exception_handling",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-12"
+  },
+  {
+    "pain_id": "5e0d489d1d05",
+    "question_id": "15abfe18915a",
+    "canonical_problem": "共働きで精神障害を抱える中、朝の弁当作りに時間と体力をかけられない困りごと",
+    "canonical_user": "会社員",
+    "canonical_job": "弁当作り",
+    "canonical_root_cause": "体力・時間制約で手作り困難",
+    "tags": [
+      "daily",
+      "recurring_admin_work"
+    ],
+    "fetched_date": "2026-04-12"
+  },
+  {
+    "pain_id": "5da8b806655d",
+    "question_id": "8c883f0ccdb1",
+    "canonical_problem": "賃貸物件の排水詰まり問題で、修理費用負担者の判断に困っている",
+    "canonical_user": "その他",
+    "canonical_job": "排水修理判断",
+    "canonical_root_cause": "賃貸責任範囲が不明確",
+    "tags": [
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-12"
+  },
+  {
+    "pain_id": "39a43bf6cd08",
+    "question_id": "becf4f12b210",
+    "canonical_problem": "建材入荷遅れ時に断熱材が入れられずに工事が進む不安。消費者として施工品質を監視する負担がある。",
+    "canonical_user": "その他",
+    "canonical_job": "施工監視",
+    "canonical_root_cause": "見えない部分の手抜き検証困難",
+    "tags": [
+      "compliance_confusion",
+      "high_severity",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-12"
+  },
+  {
+    "pain_id": "c4a8dda948cc",
+    "question_id": "64115a6a0643",
+    "canonical_problem": "都心老朽マンション建替えの経験談や費用感の情報収集が困難。デベロッパー以外の知見が不足。",
+    "canonical_user": "その他",
+    "canonical_job": "建替検討",
+    "canonical_root_cause": "同様事例の経験談が入手困難",
+    "tags": [
+      "high_wtp",
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-12"
+  },
+  {
+    "pain_id": "f6e81fb916c8",
+    "question_id": "3a89cbc37317",
+    "canonical_problem": "築50年のRC造住宅でアスベスト含有の可能性があり、将来の解体費用や相続判断に不安を抱えている",
+    "canonical_user": "その他",
+    "canonical_job": "相続判断",
+    "canonical_root_cause": "アスベスト調査や解体費用の実態不明",
+    "tags": [
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-12"
+  },
+  {
+    "pain_id": "4dcf776ec492",
+    "question_id": "f8e1c6573f53",
+    "canonical_problem": "不動産仲介業者の連絡漏れや進捗管理不備により、土地購入の引き渡しが遅延し、住宅ローン等に支障が出ている",
+    "canonical_user": "その他",
+    "canonical_job": "土地購入",
+    "canonical_root_cause": "仲介業者の進捗管理体制不備",
+    "tags": [
+      "handoff_loss",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-12"
+  },
+  {
+    "pain_id": "3a00ace4bdad",
+    "question_id": "2a5c4f4bd388",
+    "canonical_problem": "審査に通りにくい状況での部屋探しで、不動産業者の対応が二転三転し、どの業者に依頼すべきか判断に迷っている",
+    "canonical_user": "その他",
+    "canonical_job": "賃貸探し",
+    "canonical_root_cause": "審査困難なケースの対応業者限定",
+    "tags": [
+      "exception_handling",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-12"
+  },
+  {
+    "pain_id": "b55b04537266",
+    "question_id": "68f9e5921740",
+    "canonical_problem": "管理会社が3回変わったアパートで敷金20万円の引き継ぎ状況が不明で確認方法に悩んでいる",
+    "canonical_user": "その他",
+    "canonical_job": "敷金状況確認",
+    "canonical_root_cause": "管理会社変更で権利関係が不明",
+    "tags": [
+      "document_creation",
+      "high_severity",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-12"
+  },
+  {
+    "pain_id": "f28925c3d56a",
+    "question_id": "c81e680c8ca9",
+    "canonical_problem": "人工香料による頭痛や不快感があるが家族の使用を止められず対処に困っている",
+    "canonical_user": "その他",
+    "canonical_job": "室内空気改善",
+    "canonical_root_cause": "家族の理解不足と代替品情報不足",
+    "tags": [
+      "daily",
+      "exception_handling"
+    ],
+    "fetched_date": "2026-04-12"
+  },
+  {
+    "pain_id": "e91fbf428429",
+    "question_id": "944f669d5574",
+    "canonical_problem": "顔タイプがフレッシュで濃いメイクが似合わず好みと現実のギャップに悩んでいる",
+    "canonical_user": "その他",
+    "canonical_job": "似合うメイク探し",
+    "canonical_root_cause": "顔タイプ別メイク情報が少ない",
+    "tags": [
+      "daily",
+      "high_builder_fit",
+      "knowledge_lookup"
+    ],
+    "fetched_date": "2026-04-12"
+  },
+  {
+    "pain_id": "085020ea7268",
+    "question_id": "e472798d700c",
+    "canonical_problem": "ボブヘアでゆるふわウェーブを作るために、毎回コテで巻く手間がかかる。",
+    "canonical_user": "その他",
+    "canonical_job": "ヘアセット",
+    "canonical_root_cause": "ボブではパーマが理想通りにならない",
+    "tags": [
+      "daily",
+      "recurring_admin_work"
+    ],
+    "fetched_date": "2026-04-12"
+  },
+  {
+    "pain_id": "fd32db3f1941",
+    "question_id": "250c7fe4dc81",
+    "canonical_problem": "初対面に向けて短期間でメイクスキルを習得し、ダイエットも並行して行う必要がある。",
+    "canonical_user": "その他",
+    "canonical_job": "美容改善",
+    "canonical_root_cause": "メイク経験がなく短期集中が必要",
+    "tags": [
+      "high_severity",
+      "high_urgency",
+      "high_wtp",
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-12"
+  },
+  {
+    "pain_id": "faf9311d6587",
+    "question_id": "36f25d88d875",
+    "canonical_problem": "糸リフト術後の保護テープが切れ、適切なアフターケア方法がわからず不安を抱えている。",
+    "canonical_user": "その他",
+    "canonical_job": "術後ケア",
+    "canonical_root_cause": "海外施術で適切な指導不足",
+    "tags": [
+      "high_severity",
+      "high_urgency",
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-12"
+  }
+]
