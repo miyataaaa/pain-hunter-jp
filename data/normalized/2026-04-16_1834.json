@@ -1,0 +1,771 @@
+[
+  {
+    "pain_id": "8af6116ed280",
+    "question_id": "ec77d86652cf",
+    "canonical_problem": "転職活動で職務経歴書の記載方法が分からず手が止まっている",
+    "canonical_user": "会社員",
+    "canonical_job": "職務経歴書作成",
+    "canonical_root_cause": "職歴の記載ルールが不明確",
+    "tags": [
+      "document_creation",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "08b4c48ef86d",
+    "question_id": "13dad4999798",
+    "canonical_problem": "控除申請の失念により奨学金区分変更のリスクがあり、対処方法が不明",
+    "canonical_user": "その他",
+    "canonical_job": "税務手続き",
+    "canonical_root_cause": "税制と奨学金制度の連携が複雑",
+    "tags": [
+      "compliance_confusion",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "e291ecd7d1e3",
+    "question_id": "212c4fe9b095",
+    "canonical_problem": "掛け持ちバイトの面接に11連敗し、原因が分からず困っている",
+    "canonical_user": "その他",
+    "canonical_job": "面接対策",
+    "canonical_root_cause": "不採用理由が不明で改善点が特定できない",
+    "tags": [
+      "high_severity",
+      "high_urgency",
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "21a98a805ecf",
+    "question_id": "c57069b9b56a",
+    "canonical_problem": "新店舗での研修・引き継ぎ体制が不備で業務に支障をきたしている",
+    "canonical_user": "会社員",
+    "canonical_job": "業務習得",
+    "canonical_root_cause": "新店舗で研修体制が未整備",
+    "tags": [
+      "handoff_loss",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "ff610c71e341",
+    "question_id": "5779f3041c8d",
+    "canonical_problem": "銀行口座開設に必要な書類が手元に揃わず手続きが進められない",
+    "canonical_user": "その他",
+    "canonical_job": "口座開設",
+    "canonical_root_cause": "必要書類が実家にあり取得困難",
+    "tags": [
+      "document_creation",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "79ac60e8b478",
+    "question_id": "4c4cdf4c8c4e",
+    "canonical_problem": "転居届未提出のまま引越し、前住所の役所まで遠方で更新手続きが困難",
+    "canonical_user": "その他",
+    "canonical_job": "証明書更新",
+    "canonical_root_cause": "転居時の手続き忘れで所在地相違",
+    "tags": [
+      "compliance_confusion",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "45678994bb9d",
+    "question_id": "b145db5b8f42",
+    "canonical_problem": "新配属先の業務内容が不明で何を勉強すべきかわからない",
+    "canonical_user": "会社員",
+    "canonical_job": "業務理解",
+    "canonical_root_cause": "体系的な研修制度や教材がない",
+    "tags": [
+      "high_urgency",
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "f4b1c4e23aba",
+    "question_id": "7368a478738b",
+    "canonical_problem": "職場提出書類でプライベート情報をどこまで隠せるかわからず困っている",
+    "canonical_user": "会社員",
+    "canonical_job": "書類提出",
+    "canonical_root_cause": "企業の個人情報取り扱い規定不明",
+    "tags": [
+      "compliance_confusion",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "e0f2d5056a88",
+    "question_id": "4fe1c05151be",
+    "canonical_problem": "マイナカードが身分証として一貫して認められず、手続きで混乱と無駄な往復が発生している",
+    "canonical_user": "その他",
+    "canonical_job": "住所変更手続",
+    "canonical_root_cause": "身分証の有効性基準が曖昧で統一されていない",
+    "tags": [
+      "compliance_confusion",
+      "monthly"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "0b4983529f66",
+    "question_id": "f33a64fa7258",
+    "canonical_problem": "生活保護の移管手続きで必要書類や流れが不明確で、複数回役所に行く負担を心配している",
+    "canonical_user": "その他",
+    "canonical_job": "転居手続",
+    "canonical_root_cause": "手続き情報が事前に明示されていない",
+    "tags": [
+      "high_urgency",
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "899632950d61",
+    "question_id": "9c341c377899",
+    "canonical_problem": "移動式クレーン免許証の再発行中で会社から代替証明を求められているが、どう対応すればよいか分からない",
+    "canonical_user": "会社員",
+    "canonical_job": "免許証再発行",
+    "canonical_root_cause": "制度の複雑さ",
+    "tags": [
+      "document_creation",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "127d5b11785c",
+    "question_id": "13b872e7dff0",
+    "canonical_problem": "生活保護受給中の市外移管をケースワーカーに拒否され続けており、適切な引っ越し先が見つからない状況",
+    "canonical_user": "その他",
+    "canonical_job": "住居移転手続",
+    "canonical_root_cause": "移管承認権限が担当者に集中",
+    "tags": [
+      "approval_bottleneck",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "291a4121b535",
+    "question_id": "56a50cdbb3b7",
+    "canonical_problem": "年金繰上げ受給手続き後、振込通知書が届いたにも関わらず予定日に振込がなく、原因究明に月末まで時間がかかると言われている",
+    "canonical_user": "その他",
+    "canonical_job": "年金受給開始",
+    "canonical_root_cause": "年金システムのトラブル対応体制",
+    "tags": [
+      "exception_handling",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "dd68da175039",
+    "question_id": "5e296688bd47",
+    "canonical_problem": "ASP審査用の記事作成で、商品画像使用の可否が不明で作業が進まない",
+    "canonical_user": "その他",
+    "canonical_job": "記事作成",
+    "canonical_root_cause": "審査前後の利用規約が不明確",
+    "tags": [
+      "compliance_confusion",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "0918d1c51ce8",
+    "question_id": "bddc19cdad8c",
+    "canonical_problem": "複数事業をワンプロフィールで運用し、顧客が目的サービスまで複数段階踏む非効率",
+    "canonical_user": "中小企業",
+    "canonical_job": "集客最適化",
+    "canonical_root_cause": "事業別プロフィール分離方法不明",
+    "tags": [
+      "daily",
+      "tool_fragmentation"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "bdc875f5f065",
+    "question_id": "5c150a22fac0",
+    "canonical_problem": "営業トークで意図しないサービス契約をしてしまい、解約手順が不明",
+    "canonical_user": "中小企業",
+    "canonical_job": "契約解除",
+    "canonical_root_cause": "営業手法と契約内容が不透明",
+    "tags": [
+      "compliance_confusion",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "37b84ac61468",
+    "question_id": "8ec31c1b2e71",
+    "canonical_problem": "開業届作成で手続き方法がわからず困っている。スマホ作成では会計ソフト必須で、税務署での手続きも不明。",
+    "canonical_user": "フリーランス",
+    "canonical_job": "開業届作成",
+    "canonical_root_cause": "手続き情報が分散し不明確",
+    "tags": [
+      "high_builder_fit",
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "29f441e440be",
+    "question_id": "d18327ec5f4a",
+    "canonical_problem": "経理業務の検証・練習のために整合性のあるサンプル会計データが手に入らず、スキル向上や検証作業が進められない",
+    "canonical_user": "会社員",
+    "canonical_job": "月次決算",
+    "canonical_root_cause": "実務レベルのサンプルデータが入手困難",
+    "tags": [
+      "high_builder_fit",
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "54a3c6b6b52e",
+    "question_id": "0275046f8ec0",
+    "canonical_problem": "税理士が帳簿の整合性チェックを適切に行わず、データ隠蔽や改竄が発生。税務調査時の責任分担が不明で不安を抱えている",
+    "canonical_user": "中小企業",
+    "canonical_job": "税務リスク管理",
+    "canonical_root_cause": "税理士のチェック体制不備と責任範囲不明",
+    "tags": [
+      "compliance_confusion",
+      "high_severity",
+      "high_urgency",
+      "high_wtp",
+      "monthly"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "0701c6485ff4",
+    "question_id": "d8fc4a345776",
+    "canonical_problem": "20行の仕訳の反対仕訳を手入力で作成する必要があり非効率。弥生会計で自動化したい。",
+    "canonical_user": "会社員",
+    "canonical_job": "反対仕訳作成",
+    "canonical_root_cause": "ソフトの機能理解不足",
+    "tags": [
+      "high_builder_fit",
+      "manual_reentry",
+      "monthly"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "efe2b4784a73",
+    "question_id": "97b1182cf483",
+    "canonical_problem": "原材料価格高騰により既契約の工事が赤字になる可能性があり、価格変更交渉が困難。",
+    "canonical_user": "中小企業",
+    "canonical_job": "工事価格調整",
+    "canonical_root_cause": "契約条項に価格変更条項なし",
+    "tags": [
+      "exception_handling",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "0aabc9070d64",
+    "question_id": "3332491d4724",
+    "canonical_problem": "個人事業主として開業したが、青色申告のための帳簿付けの具体的方法が分からず困っている。",
+    "canonical_user": "フリーランス",
+    "canonical_job": "月次決算",
+    "canonical_root_cause": "会計知識不足で手順不明",
+    "tags": [
+      "daily",
+      "knowledge_lookup"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "ecd8118d1551",
+    "question_id": "4a42763e2b68",
+    "canonical_problem": "タイムチケットで個人サービスを販売しているが売れない。企業向けにサービスを提供したいが、プラットフォームの制約で難しい。",
+    "canonical_user": "フリーランス",
+    "canonical_job": "サービス販売",
+    "canonical_root_cause": "プラットフォーム制約で企業接点なし",
+    "tags": [
+      "daily",
+      "high_builder_fit",
+      "high_severity",
+      "tool_fragmentation"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "538afddb3d23",
+    "question_id": "f17e134e5802",
+    "canonical_problem": "マイクロ法人設立と銀行融資の申請で、事業計画書の書き方や資金調達の現実的な方法が分からない",
+    "canonical_user": "その他",
+    "canonical_job": "融資申請",
+    "canonical_root_cause": "融資申請の実務経験と知識が不足",
+    "tags": [
+      "high_severity",
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "885f03b7d6df",
+    "question_id": "78bf6544a61f",
+    "canonical_problem": "事業立ち上げ時の法的手続きや従業員管理について、どの専門家に相談すべきか、ネット募集での支払い方法の法的問題が不明",
+    "canonical_user": "中小企業",
+    "canonical_job": "起業準備",
+    "canonical_root_cause": "起業手続きの専門知識が不足",
+    "tags": [
+      "compliance_confusion",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "d810548d2268",
+    "question_id": "11852a7dc0df",
+    "canonical_problem": "副業での個人事業主開業で、青色申告・インボイス登録の必要性や商工会での相談方法が分からない",
+    "canonical_user": "フリーランス",
+    "canonical_job": "開業手続き",
+    "canonical_root_cause": "個人事業主の制度知識が不足",
+    "tags": [
+      "compliance_confusion",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "80e17475c6c3",
+    "question_id": "67ce15b09f46",
+    "canonical_problem": "常連客との関係維持において、適切な接客範囲の判断と関係修復に困っている",
+    "canonical_user": "会社員",
+    "canonical_job": "顧客対応",
+    "canonical_root_cause": "適切な接客範囲の基準が不明確",
+    "tags": [
+      "customer_followup",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "a855ef9713f0",
+    "question_id": "061f730bd5c0",
+    "canonical_problem": "佐川急便のスマートクラブIDの登録状況が不明で、アプリログインができず、荷物通知が一貫しない状態で混乱している。",
+    "canonical_user": "その他",
+    "canonical_job": "荷物追跡",
+    "canonical_root_cause": "登録履歴とアカウント状態が不明",
+    "tags": [
+      "tool_fragmentation",
+      "weekly"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "94f87f6cc720",
+    "question_id": "1ae71b4f5f03",
+    "canonical_problem": "アメリカへの大量商品（500kg・1立方m）の船便発送で、適切なフォワーダー選択と費用最適化に困っている。",
+    "canonical_user": "中小企業",
+    "canonical_job": "国際物流",
+    "canonical_root_cause": "国際物流の業者情報が不足",
+    "tags": [
+      "high_severity",
+      "knowledge_lookup",
+      "monthly"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "d0b135cb2a1e",
+    "question_id": "4b15a4beed67",
+    "canonical_problem": "引越し手続きで居住確認ハガキに「現在居住していない」と回答した後、実際に住み始めたが郵便物配達の復旧手順が分からない。",
+    "canonical_user": "その他",
+    "canonical_job": "転居手続",
+    "canonical_root_cause": "居住確認システムとの整合性不明",
+    "tags": [
+      "compliance_confusion",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "2918f22e4e9c",
+    "question_id": "04e9cc623aea",
+    "canonical_problem": "SHEINでの商品が不在で発送元に戻り、再配達の問い合わせ方法が分からず困っている",
+    "canonical_user": "その他",
+    "canonical_job": "再配達依頼",
+    "canonical_root_cause": "海外サイトの返品手続きが不明",
+    "tags": [
+      "high_urgency",
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "91d49271eb34",
+    "question_id": "da288224480c",
+    "canonical_problem": "ミニレター封印後に重量オーバーが判明し、新品への交換可否で困っている",
+    "canonical_user": "その他",
+    "canonical_job": "郵便発送",
+    "canonical_root_cause": "重量確認を封印前に行わない",
+    "tags": [
+      "exception_handling",
+      "monthly"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "20376be16255",
+    "question_id": "d068f5beebe1",
+    "canonical_problem": "SHEIN商品が旧住所に配達され持戻になり、新住所への転送方法が分からない",
+    "canonical_user": "その他",
+    "canonical_job": "配送先変更",
+    "canonical_root_cause": "配送会社への住所変更未反映",
+    "tags": [
+      "exception_handling",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "a731d8f464da",
+    "question_id": "73f6eb10a7e9",
+    "canonical_problem": "メルカリで梱包後に重量オーバーが判明し、発送方法変更時の箱流用可否で困っている",
+    "canonical_user": "その他",
+    "canonical_job": "商品発送",
+    "canonical_root_cause": "梱包前の重量測定を怠った",
+    "tags": [
+      "exception_handling",
+      "monthly"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "d3a30bbd4dac",
+    "question_id": "ee7d0a6e00ee",
+    "canonical_problem": "お風呂ドアの頑固な水垢が取れずに困っている",
+    "canonical_user": "その他",
+    "canonical_job": "水垢除去",
+    "canonical_root_cause": "適切な洗剤・手法の知識不足",
+    "tags": [
+      "manual_reentry",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "0a139e702d29",
+    "question_id": "5197174adcdb",
+    "canonical_problem": "洗濯機の脱水が正常に機能せず洗濯物がずぶ濡れになる故障",
+    "canonical_user": "その他",
+    "canonical_job": "洗濯機修理",
+    "canonical_root_cause": "排水系統の根本的故障が未解決",
+    "tags": [
+      "daily",
+      "exception_handling",
+      "high_severity",
+      "high_urgency"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "4819c17be5af",
+    "question_id": "c7151bbb84c1",
+    "canonical_problem": "お風呂ドアの正体不明の汚れが既存の洗剤で全く落ちない",
+    "canonical_user": "その他",
+    "canonical_job": "汚れ除去",
+    "canonical_root_cause": "汚れの原因と適切な除去方法不明",
+    "tags": [
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "e0c737a784af",
+    "question_id": "e3b93a99b003",
+    "canonical_problem": "科学床の黒ずみが複数の洗剤で取れず、掃除方法が分からない。",
+    "canonical_user": "その他",
+    "canonical_job": "床掃除",
+    "canonical_root_cause": "床材特性と適切掃除法が不明",
+    "tags": [
+      "knowledge_lookup",
+      "weekly"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "e302d2275c88",
+    "question_id": "e48d5262fcc0",
+    "canonical_problem": "給湯器が突然故障しお湯が出ない。エラーコード121の原因が分からない。",
+    "canonical_user": "その他",
+    "canonical_job": "給湯器修理",
+    "canonical_root_cause": "専門知識不足",
+    "tags": [
+      "exception_handling",
+      "high_severity",
+      "high_urgency",
+      "high_wtp",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "627b335fea47",
+    "question_id": "ad950e572eff",
+    "canonical_problem": "ポリエステル生地にサイン用の適切な白ペンが分からない。",
+    "canonical_user": "その他",
+    "canonical_job": "サイン保存",
+    "canonical_root_cause": "素材別の最適ペン情報不足",
+    "tags": [
+      "high_urgency",
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "9f8b1d0bc727",
+    "question_id": "c15769a3715c",
+    "canonical_problem": "部屋に蛾が発生し、落花生の保管が原因かの確認が必要。",
+    "canonical_user": "その他",
+    "canonical_job": "害虫駆除",
+    "canonical_root_cause": "害虫発生源の知識が不足",
+    "tags": [
+      "exception_handling",
+      "high_severity",
+      "high_urgency",
+      "unknown"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "1939b0cfe2e6",
+    "question_id": "66a406b94c9d",
+    "canonical_problem": "身に覚えのない配達が来て、注文者の特定方法が分からない。",
+    "canonical_user": "その他",
+    "canonical_job": "不正利用調査",
+    "canonical_root_cause": "個人情報悪用の対処法不明",
+    "tags": [
+      "exception_handling",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "168f69699a65",
+    "question_id": "3e2975aae75f",
+    "canonical_problem": "炊飯器での米炊きが面倒で、代替手段を求めている。",
+    "canonical_user": "その他",
+    "canonical_job": "米調理",
+    "canonical_root_cause": "炊飯器の準備・洗浄が面倒",
+    "tags": [
+      "daily",
+      "manual_reentry"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "0482e63d1e71",
+    "question_id": "6c4b0c3c0963",
+    "canonical_problem": "20年間勝手口の鍵がもらえず、不動産会社が電話対応を拒否している。買い物時の動線が不便で毎回玄関まで回らざるを得ない。",
+    "canonical_user": "その他",
+    "canonical_job": "勝手口利用",
+    "canonical_root_cause": "不動産会社が契約後の対応を放棄",
+    "tags": [
+      "customer_followup",
+      "daily"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "b24da8dbc9a1",
+    "question_id": "1ad2e76591ef",
+    "canonical_problem": "不動産屋に鍵を預けたところ事前連絡なしで入室され、プライバシーが侵害された。内覧のたびに部屋の整理が必要なのに準備ができない。",
+    "canonical_user": "その他",
+    "canonical_job": "内覧対応",
+    "canonical_root_cause": "事前連絡の取り決めが明文化されていない",
+    "tags": [
+      "handoff_loss",
+      "high_severity",
+      "weekly"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "c07c40333905",
+    "question_id": "2acf87870980",
+    "canonical_problem": "中古マンション購入検討中だが、担当営業が連絡を怠り不信感がある。担当者変更したいが方法が分からない。",
+    "canonical_user": "その他",
+    "canonical_job": "物件購入",
+    "canonical_root_cause": "担当者の業務品質が低く変更手段が不明",
+    "tags": [
+      "customer_followup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "04f863a8aa4f",
+    "question_id": "25eb49e3ffed",
+    "canonical_problem": "支払い済み家賃が重複請求され、原因不明で困っている",
+    "canonical_user": "その他",
+    "canonical_job": "家賃支払管理",
+    "canonical_root_cause": "管理会社変更で情報連携不備",
+    "tags": [
+      "exception_handling",
+      "high_urgency",
+      "monthly"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "abff4b1435ae",
+    "question_id": "7cff79c6be29",
+    "canonical_problem": "特殊条件での不動産物件検索が複雑で、効率的な情報収集ができない",
+    "canonical_user": "その他",
+    "canonical_job": "物件検索",
+    "canonical_root_cause": "複雑条件での一括検索機能がない",
+    "tags": [
+      "high_builder_fit",
+      "one_off",
+      "tool_fragmentation"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "70fedf7ddfef",
+    "question_id": "f58bc8731a1b",
+    "canonical_problem": "LEDライトのタイマー設定が限定的で、コケ対策と水草育成の両立に悩む",
+    "canonical_user": "その他",
+    "canonical_job": "水槽管理",
+    "canonical_root_cause": "機器の機能制限で細かい調整不可",
+    "tags": [
+      "daily",
+      "tool_fragmentation"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "127e352c76a4",
+    "question_id": "804a22a11991",
+    "canonical_problem": "無断キャンセル後の店舗への対応方法が分からず不安",
+    "canonical_user": "その他",
+    "canonical_job": "店舗予約管理",
+    "canonical_root_cause": "トラブル後の対処手順が不明",
+    "tags": [
+      "customer_followup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "ac774d872d11",
+    "question_id": "8997ec543c10",
+    "canonical_problem": "指毛の処理頻度と毛穴のブツブツ対策が分からない",
+    "canonical_user": "その他",
+    "canonical_job": "ムダ毛処理",
+    "canonical_root_cause": "適切な処理方法が分からない",
+    "tags": [
+      "daily",
+      "knowledge_lookup"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "ca2fe746e02c",
+    "question_id": "2d5fb077543f",
+    "canonical_problem": "美容院メニューが分かりにくく予約方法に困惑",
+    "canonical_user": "その他",
+    "canonical_job": "美容院予約",
+    "canonical_root_cause": "メニュー表記が不明確",
+    "tags": [
+      "high_urgency",
+      "knowledge_lookup",
+      "monthly"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "365abc84214f",
+    "question_id": "6b55c21f3f56",
+    "canonical_problem": "ナチュラルメイクの技術習得に困っており、適切な化粧品選択や技法が分からない",
+    "canonical_user": "その他",
+    "canonical_job": "メイク技術習得",
+    "canonical_root_cause": "学校規則でメイク経験不足",
+    "tags": [
+      "daily",
+      "knowledge_lookup"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "ccff1d23491d",
+    "question_id": "a002e120167f",
+    "canonical_problem": "鼻の黒ずみ治療で1ヶ月経っても効果が実感できず、正しいケア方法が分からない",
+    "canonical_user": "その他",
+    "canonical_job": "肌トラブル改善",
+    "canonical_root_cause": "効果判定基準や手順が不明確",
+    "tags": [
+      "daily",
+      "high_urgency",
+      "high_wtp",
+      "knowledge_lookup"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "6034c8798c73",
+    "question_id": "694e09ac0e91",
+    "canonical_problem": "美容院でのカラーリングが希望と大幅に違う仕上がりになり、やり直しを検討している状況",
+    "canonical_user": "その他",
+    "canonical_job": "髪染め",
+    "canonical_root_cause": "美容師の技術不足または意思疎通の問題",
+    "tags": [
+      "exception_handling",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-16"
+  }
+]
