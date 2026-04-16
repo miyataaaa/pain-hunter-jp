@@ -1,0 +1,593 @@
+[
+  {
+    "pain_id": "baebdca0fe93",
+    "question_id": "69f0e9752c3d",
+    "canonical_problem": "休憩中も指示待機を求められ、真の休憩時間が確保できない労働環境の問題",
+    "canonical_user": "会社員",
+    "canonical_job": "休憩取得",
+    "canonical_root_cause": "会社の休憩時間運用が不適切",
+    "tags": [
+      "compliance_confusion",
+      "daily"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "10c70689b616",
+    "question_id": "7eb4ff834236",
+    "canonical_problem": "希望と異なるヘルプデスク案件への配属で、キャリアップに繋がらない業務を担当する状況",
+    "canonical_user": "会社員",
+    "canonical_job": "案件選択",
+    "canonical_root_cause": "社内での希望伝達手段が不明",
+    "tags": [
+      "approval_bottleneck",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "35692d9402ee",
+    "question_id": "77f40a32396a",
+    "canonical_problem": "引っ越し後の所得証明書取得で手続き場所が分からず困っている",
+    "canonical_user": "その他",
+    "canonical_job": "証明書取得",
+    "canonical_root_cause": "引っ越し後の手続き場所が不明確",
+    "tags": [
+      "high_urgency",
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "6c595df0c12d",
+    "question_id": "11b5f2e07e91",
+    "canonical_problem": "特定理由離職申請で必要書類の準備に不安があり、1回で確実に済ませたい",
+    "canonical_user": "その他",
+    "canonical_job": "失業給付申請",
+    "canonical_root_cause": "必要書類の正確性が不明確",
+    "tags": [
+      "compliance_confusion",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "e44f33ce3cc3",
+    "question_id": "472451f8cd07",
+    "canonical_problem": "市民税滞納で差押え通告を受け、支払い方法が分からず困っている",
+    "canonical_user": "その他",
+    "canonical_job": "税金納付",
+    "canonical_root_cause": "期限切れ後の支払い手順が不明",
+    "tags": [
+      "exception_handling",
+      "high_severity",
+      "high_urgency",
+      "high_wtp",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "590ff1f266dc",
+    "question_id": "97a1f268391f",
+    "canonical_problem": "高額講座申込み時に契約条件や詳細が不明確で、講師とのコミュニケーションも不適切な対応を受けている",
+    "canonical_user": "会社員",
+    "canonical_job": "講座選定",
+    "canonical_root_cause": "講師側の契約プロセスが不透明",
+    "tags": [
+      "high_severity",
+      "high_wtp",
+      "knowledge_lookup",
+      "one_off",
+      "契約書"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "4b11dd661e09",
+    "question_id": "3332491d4724",
+    "canonical_problem": "個人事業主として帳簿付けの方法が分からず、どう記録すればよいか悩んでいる",
+    "canonical_user": "フリーランス",
+    "canonical_job": "月次決算",
+    "canonical_root_cause": "帳簿付けの具体的手順を知らない",
+    "tags": [
+      "knowledge_lookup",
+      "monthly"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "14ab3e1c2c56",
+    "question_id": "d6c051036f4a",
+    "canonical_problem": "弥生会計のレシート取り込み後の摘要・取引先欄の適切な入力方法がわからず、手間をかけるべきか判断に迷っている",
+    "canonical_user": "フリーランス",
+    "canonical_job": "経費入力",
+    "canonical_root_cause": "正しい入力ルールが不明確",
+    "tags": [
+      "compliance_confusion",
+      "daily"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "e7091a97e776",
+    "question_id": "4015fc68d0a4",
+    "canonical_problem": "無償商品に0円納品書が必要だが社内システムで発行不可、手書きでの対応の法的リスクが不明",
+    "canonical_user": "会社員",
+    "canonical_job": "納品書作成",
+    "canonical_root_cause": "社内システムが特殊ケース未対応",
+    "tags": [
+      "exception_handling",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "d58de254c5e2",
+    "question_id": "9c05e3d698df",
+    "canonical_problem": "経理未経験なのに承認業務を任され、専門用語も分からず業務遂行が困難",
+    "canonical_user": "会社員",
+    "canonical_job": "月次決算",
+    "canonical_root_cause": "専門知識習得の仕組みがない",
+    "tags": [
+      "daily",
+      "high_severity",
+      "high_urgency",
+      "knowledge_lookup"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "4a8c9acd75c8",
+    "question_id": "f17e134e5802",
+    "canonical_problem": "マイクロ法人設立のための銀行融資で事業計画書の書き方が分からず、現実的な調達方法を把握できない",
+    "canonical_user": "その他",
+    "canonical_job": "融資申請",
+    "canonical_root_cause": "融資実務の知識と経験不足",
+    "tags": [
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "50f47c4bbced",
+    "question_id": "78bf6544a61f",
+    "canonical_problem": "事業立ち上げ時の法務・労務手続きが複雑で、専門家への相談先や適切な進め方が分からない",
+    "canonical_user": "その他",
+    "canonical_job": "起業手続き",
+    "canonical_root_cause": "起業の法務手続きが複雑で専門性が必要",
+    "tags": [
+      "compliance_confusion",
+      "high_severity",
+      "high_wtp",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "b86d2f615af5",
+    "question_id": "11852a7dc0df",
+    "canonical_problem": "副業での個人事業主開業時の税務手続き（青色申告、インボイス等）の判断基準や相談先が不明",
+    "canonical_user": "フリーランス",
+    "canonical_job": "開業手続き",
+    "canonical_root_cause": "制度の複雑さ",
+    "tags": [
+      "compliance_confusion",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "f9d143701c23",
+    "question_id": "e5e2be7cbcd2",
+    "canonical_problem": "経済センサス調査の回答が複雑で分量が多く、2人体制では負担が大きい。分からない項目があっても不明選択肢がない。",
+    "canonical_user": "中小企業",
+    "canonical_job": "調査回答",
+    "canonical_root_cause": "複雑な調査項目と小規模事業者への配慮不足",
+    "tags": [
+      "compliance_confusion",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "b2f23347c651",
+    "question_id": "04470540ef60",
+    "canonical_problem": "事業継承を控えた零細企業経営者が経営の孤独感に悩み、同じ境遇の人と話せる場所を探している。",
+    "canonical_user": "中小企業",
+    "canonical_job": "経営相談",
+    "canonical_root_cause": "中小企業経営者の交流場所が限定的",
+    "tags": [
+      "daily",
+      "knowledge_lookup"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "e7627df21213",
+    "question_id": "098fbb38b944",
+    "canonical_problem": "ジモッティーでの遠方取引で、家財便の現地支払い制約により決済方法が分からず困っている",
+    "canonical_user": "その他",
+    "canonical_job": "遠方取引",
+    "canonical_root_cause": "プラットフォーム制約と配送制度の齟齬",
+    "tags": [
+      "compliance_confusion",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "fb5a2b759180",
+    "question_id": "32d88dd14a9f",
+    "canonical_problem": "UberEATS配達で住所ピン指定ができず、配達員への迷惑を心配している",
+    "canonical_user": "その他",
+    "canonical_job": "配達依頼",
+    "canonical_root_cause": "配達エリア外でピン指定制限",
+    "tags": [
+      "tool_fragmentation",
+      "weekly"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "ad879b04c2b1",
+    "question_id": "af44f1a6feca",
+    "canonical_problem": "荷物の配送遅延時に有料のナビダイヤルで問い合わせる必要があり、費用負担が発生している",
+    "canonical_user": "その他",
+    "canonical_job": "配送確認",
+    "canonical_root_cause": "配送会社の連絡体制が受動的",
+    "tags": [
+      "customer_followup",
+      "monthly"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "a65ca888a9a3",
+    "question_id": "3238eb838f6b",
+    "canonical_problem": "SHEINで購入した商品が届かず、佐川急便の追跡データもない状況で困っている",
+    "canonical_user": "その他",
+    "canonical_job": "荷物追跡",
+    "canonical_root_cause": "配送業者とECサイト間の連携不備",
+    "tags": [
+      "customer_followup",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "b3006aced5e9",
+    "question_id": "d6b8b3b116f1",
+    "canonical_problem": "1年前の養生テープが劣化してボロボロになり、様々な方法を試しても効率的に剥がせない",
+    "canonical_user": "その他",
+    "canonical_job": "養生テープ除去",
+    "canonical_root_cause": "劣化したテープに対応する除去法がない",
+    "tags": [
+      "manual_reentry",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "29843a623bf3",
+    "question_id": "9e85a7ed44d4",
+    "canonical_problem": "ルンバが充電ステーションから離れるたびに毎回「位置を再調整してください」とアナウンスして煩わしい",
+    "canonical_user": "その他",
+    "canonical_job": "自動掃除",
+    "canonical_root_cause": "マッピング更新後の設定不整合",
+    "tags": [
+      "daily",
+      "exception_handling"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "abdfdf0a801e",
+    "question_id": "9b35541cebcd",
+    "canonical_problem": "メルカリ購入の赤ちゃん服に柔軟剤の匂いが残り、洗濯しても落ちない",
+    "canonical_user": "その他",
+    "canonical_job": "衣服臭い除去",
+    "canonical_root_cause": "中古品の前所有者使用履歴が不明",
+    "tags": [
+      "exception_handling",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "487707637f7f",
+    "question_id": "51b4323d6f08",
+    "canonical_problem": "職場の加齢臭対策で消臭剤を使っているが効果が不明で困っている",
+    "canonical_user": "会社員",
+    "canonical_job": "職場環境改善",
+    "canonical_root_cause": "直接的対策が取れない職場環境",
+    "tags": [
+      "daily",
+      "other"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "04cafb7aa705",
+    "question_id": "689d691a9f7d",
+    "canonical_problem": "キッチン排水溝の頑固な汚れと悪臭が従来の清掃方法では落ちない",
+    "canonical_user": "その他",
+    "canonical_job": "排水溝清掃",
+    "canonical_root_cause": "清掃方法と汚れの種類が不適合",
+    "tags": [
+      "high_severity",
+      "manual_reentry",
+      "monthly"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "ba7e727faa15",
+    "question_id": "62046585d7b1",
+    "canonical_problem": "部屋干し用洗剤・柔軟剤とサーキュレーターを使用しても、毎回生乾き臭が発生し柔軟剤の香りも消えてしまう。",
+    "canonical_user": "その他",
+    "canonical_job": "洗濯物干し",
+    "canonical_root_cause": "乾燥環境や手順に根本的問題",
+    "tags": [
+      "daily",
+      "recurring_admin_work"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "4884938707d5",
+    "question_id": "9c8c842153fa",
+    "canonical_problem": "思い出の額縁を処分したいが躊躇してしまい、部屋の整理が進まない状況。",
+    "canonical_user": "その他",
+    "canonical_job": "思い出品整理",
+    "canonical_root_cause": "感情的価値と実用性の判断困難",
+    "tags": [
+      "one_off",
+      "other"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "0f2adfd0096b",
+    "question_id": "83534aef0c28",
+    "canonical_problem": "彼氏の弁当作りでガッツリでヘルシーなレパートリー不足に困っている",
+    "canonical_user": "その他",
+    "canonical_job": "弁当作成",
+    "canonical_root_cause": "レパートリーが豊富じゃない",
+    "tags": [
+      "daily",
+      "knowledge_lookup"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "f6a93d09025c",
+    "question_id": "de69fdc5d6ae",
+    "canonical_problem": "相続物件が未登記で将来の相続手続きが複雑化する不安を抱えている",
+    "canonical_user": "その他",
+    "canonical_job": "表題登記",
+    "canonical_root_cause": "登記手続きが複雑で費用も不明",
+    "tags": [
+      "compliance_confusion",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "c0469461ef9d",
+    "question_id": "7c6a0e1edbf8",
+    "canonical_problem": "離婚後も元夫名義の家に住んでいるが、将来の住居確保に不安を抱えている",
+    "canonical_user": "その他",
+    "canonical_job": "住居確保",
+    "canonical_root_cause": "法的な住居権の仕組みが不明",
+    "tags": [
+      "compliance_confusion",
+      "high_severity",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "c7727600b459",
+    "question_id": "812558ecef7b",
+    "canonical_problem": "位置指定道路がある物件売却時の複雑な権利関係処理に困っている",
+    "canonical_user": "その他",
+    "canonical_job": "物件売却",
+    "canonical_root_cause": "道路権利の法的仕組みが複雑",
+    "tags": [
+      "compliance_confusion",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "5d8b0e46cd38",
+    "question_id": "a4b28cd8ddd3",
+    "canonical_problem": "遺産分割協議書の作成で具体的な記載方法が分からず困っている。",
+    "canonical_user": "その他",
+    "canonical_job": "協議書作成",
+    "canonical_root_cause": "専門文書の書式や記載要件が複雑",
+    "tags": [
+      "document_creation",
+      "high_builder_fit",
+      "high_severity",
+      "high_urgency",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "85d28fc9c01d",
+    "question_id": "61f658a1d096",
+    "canonical_problem": "土地から投資用アパートを新築する際の各種費用（融資手数料、登記費用、取得税、杭保証金など）の適切な経費処理方法が不明で困っている。",
+    "canonical_user": "中小企業",
+    "canonical_job": "経費精算",
+    "canonical_root_cause": "不動産投資の税務処理が複雑",
+    "tags": [
+      "compliance_confusion",
+      "high_severity",
+      "high_wtp",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "cb3851a80c4c",
+    "question_id": "3a1a824ac161",
+    "canonical_problem": "シュリンプ飼育で水草（ウィローモス）が変色し、原因や対処法が分からず困っている。",
+    "canonical_user": "その他",
+    "canonical_job": "水草管理",
+    "canonical_root_cause": "適切な水草管理知識が不足",
+    "tags": [
+      "knowledge_lookup",
+      "monthly"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "611d419ba6b8",
+    "question_id": "1dbe99118ad1",
+    "canonical_problem": "豆柴の定期的な体調不良（週1回の下痢・嘔吐）の原因究明と対処に困っている",
+    "canonical_user": "その他",
+    "canonical_job": "ペット体調管理",
+    "canonical_root_cause": "食事内容と体調の因果関係が不明",
+    "tags": [
+      "high_severity",
+      "high_urgency",
+      "knowledge_lookup",
+      "weekly"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "f48ba75d8d5c",
+    "question_id": "79ef388b440d",
+    "canonical_problem": "脱毛サロンの広告情報の真偽確認と選択に困っている",
+    "canonical_user": "その他",
+    "canonical_job": "脱毛サロン選定",
+    "canonical_root_cause": "広告内容の信憑性が判断困難",
+    "tags": [
+      "knowledge_lookup",
+      "one_off"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "4613112945e3",
+    "question_id": "14aa2cc3a59a",
+    "canonical_problem": "背中・肩ニキビが繰り返しでき跡になり、半袖が着られず夏の服装に困っている",
+    "canonical_user": "その他",
+    "canonical_job": "ニキビケア",
+    "canonical_root_cause": "既存治療法では根本解決せず",
+    "tags": [
+      "daily",
+      "high_severity",
+      "high_urgency",
+      "recurring_admin_work"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "fc0f96607567",
+    "question_id": "e79cd1ef2d91",
+    "canonical_problem": "ラロッシュポゼUV下地が白い塊やムラになり使用できない",
+    "canonical_user": "その他",
+    "canonical_job": "化粧下地塗布",
+    "canonical_root_cause": "スキンケアとの相性が悪い",
+    "tags": [
+      "daily",
+      "tool_fragmentation"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "d43b37dd83d0",
+    "question_id": "47ef73251302",
+    "canonical_problem": "ニキビは改善したが毛穴の目立ちが気になり、脱毛は費用面で先延ばし",
+    "canonical_user": "その他",
+    "canonical_job": "毛穴ケア",
+    "canonical_root_cause": "費用制約で根本治療が延期",
+    "tags": [
+      "daily",
+      "recurring_admin_work"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "98c59d13eb0d",
+    "question_id": "a935d4840e17",
+    "canonical_problem": "メイク直後でも肌が汚く見えて現在の化粧品では満足できない",
+    "canonical_user": "その他",
+    "canonical_job": "ベースメイク",
+    "canonical_root_cause": "現在の化粧品が肌質に不適合",
+    "tags": [
+      "daily",
+      "tool_fragmentation"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "06bc0fa24a50",
+    "question_id": "ca0aaeee17c5",
+    "canonical_problem": "フケと皮脂詰まりケアで逆撫でをすると毛が抜け、正しい方法が分からない",
+    "canonical_user": "その他",
+    "canonical_job": "頭皮ケア",
+    "canonical_root_cause": "正しいケア方法の専門知識不足",
+    "tags": [
+      "daily",
+      "knowledge_lookup"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "b006a26d8ee8",
+    "question_id": "09fbcd9367e0",
+    "canonical_problem": "美容院で美容師との会話が疲れるが、関係悪化を避けつつ負担軽減したい",
+    "canonical_user": "その他",
+    "canonical_job": "美容院利用",
+    "canonical_root_cause": "コミュニケーション負担の回避方法不明",
+    "tags": [
+      "customer_followup",
+      "monthly"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "c70a33b01b65",
+    "question_id": "e75f00a6b196",
+    "canonical_problem": "爪回りの皮膚むしり癖があり、手削りツールでは届かない箇所のケアができない",
+    "canonical_user": "その他",
+    "canonical_job": "ネイルケア",
+    "canonical_root_cause": "従来ツールでは細部にアクセス不可",
+    "tags": [
+      "tool_fragmentation",
+      "weekly"
+    ],
+    "fetched_date": "2026-04-16"
+  },
+  {
+    "pain_id": "a1c328452064",
+    "question_id": "4f44829e9cbf",
+    "canonical_problem": "髭を残したいが剃ると青髭になり外見が気になる",
+    "canonical_user": "その他",
+    "canonical_job": "青髭隠し",
+    "canonical_root_cause": "髭の太さと肌色のコントラスト",
+    "tags": [
+      "daily",
+      "other"
+    ],
+    "fetched_date": "2026-04-16"
+  }
+]
