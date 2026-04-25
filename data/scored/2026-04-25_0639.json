@@ -1,0 +1,432 @@
+[
+  {
+    "cluster_id": "cl_11f8eca28b",
+    "cluster_label": "荷物受け取り",
+    "canonical_problem": "夫の仕事関係の荷物を毎日代理受け取りしており、事前連絡もなく業務が中断される状況",
+    "representative_user": "会社員",
+    "representative_job": "荷物受け取り",
+    "root_cause_summary": "夫が受取方法を変更せず連絡なし",
+    "question_ids": [
+      "57d5d6dbfa06",
+      "da3f8c0fab81",
+      "3f20bc0f4e10",
+      "e0a0a1590246",
+      "32a854731a13",
+      "3238372e90a2",
+      "99242647bd26",
+      "1e248d9dc6cb",
+      "28517c576138",
+      "9d69257c31f3",
+      "1a10693f5c57",
+      "20ea0c41f87d",
+      "76670ec2002b",
+      "bbe68c5ce898",
+      "b5de0b2ee6e6",
+      "144dcfbd8a82",
+      "0654dfd03f8e",
+      "b54668839e3e",
+      "272eee1ce2f0",
+      "5c08981f72ac",
+      "9f56f8fe7501",
+      "92ce869752b6",
+      "74f47fe48478",
+      "415436d18f4f"
+    ],
+    "pain_ids": [
+      "f8531a9c877a",
+      "2a093caa1c9b",
+      "f82c075f640b",
+      "cc8e01cc58c4",
+      "f5bbbd04f4d3",
+      "4ae3adc2473a",
+      "9631f2dbc853",
+      "44bbdd436336",
+      "d715cff83ae5",
+      "9c12dd3df2d7",
+      "12006a941e56",
+      "0c1e9363e9d2",
+      "dd9831147f1e",
+      "138d0e98f40a",
+      "4d5491247180",
+      "c4a60eee7978",
+      "dc24775e856e",
+      "6bb2fa3408b2",
+      "11be0bec54fa",
+      "b2f3d963684f",
+      "4ea0e8072fb3",
+      "39b41f5738d1",
+      "adbfca6d966e",
+      "650adf0fc191"
+    ],
+    "cluster_size": 24,
+    "date_count": 1,
+    "avg_severity": 3.88,
+    "avg_urgency": 3.83,
+    "avg_wtp_proxy": 2.62,
+    "avg_builder_fit": 2.04,
+    "recurrence_score": 0.743,
+    "solution_gap_score": 0.9,
+    "productability_score": 0.508,
+    "opportunity_score": 0.623
+  },
+  {
+    "cluster_id": "cl_bf4f46b79d",
+    "cluster_label": "荷物梱包",
+    "canonical_problem": "梱包時に必要な紙屑の入手方法が分からず梱包作業が困難",
+    "representative_user": "その他",
+    "representative_job": "荷物梱包",
+    "root_cause_summary": "梱包材入手方法の情報不足",
+    "question_ids": [
+      "a8791d2767ca"
+    ],
+    "pain_ids": [
+      "e9e745eecf88"
+    ],
+    "cluster_size": 1,
+    "date_count": 1,
+    "avg_severity": 2.0,
+    "avg_urgency": 2.0,
+    "avg_wtp_proxy": 2.0,
+    "avg_builder_fit": 4.0,
+    "recurrence_score": 0.113,
+    "solution_gap_score": 0.9,
+    "productability_score": 0.4,
+    "opportunity_score": 0.443
+  },
+  {
+    "cluster_id": "cl_581436d9b5",
+    "cluster_label": "返品記帳",
+    "canonical_problem": "商品返品時の記帳方法が複雑で、決算時に実地棚卸と帳簿残高の差額確認が面倒",
+    "representative_user": "その他",
+    "representative_job": "返品記帳",
+    "root_cause_summary": "記帳ルールが複雑で整合性取りにくい",
+    "question_ids": [
+      "a6cb53c93a3e"
+    ],
+    "pain_ids": [
+      "37bb824e1a65"
+    ],
+    "cluster_size": 1,
+    "date_count": 1,
+    "avg_severity": 3.0,
+    "avg_urgency": 2.0,
+    "avg_wtp_proxy": 2.0,
+    "avg_builder_fit": 3.0,
+    "recurrence_score": 0.113,
+    "solution_gap_score": 0.5,
+    "productability_score": 0.8,
+    "opportunity_score": 0.415
+  },
+  {
+    "cluster_id": "cl_12a3cdf2b0",
+    "cluster_label": "トリミング注文",
+    "canonical_problem": "トリミング注文通りにならず、失敗を避ける方法を知りたい",
+    "representative_user": "その他",
+    "representative_job": "トリミング注文",
+    "root_cause_summary": "要望の伝達方法が曖昧",
+    "question_ids": [
+      "64b16dde6061"
+    ],
+    "pain_ids": [
+      "0aa7b59f2689"
+    ],
+    "cluster_size": 1,
+    "date_count": 1,
+    "avg_severity": 3.0,
+    "avg_urgency": 2.0,
+    "avg_wtp_proxy": 3.0,
+    "avg_builder_fit": 2.0,
+    "recurrence_score": 0.113,
+    "solution_gap_score": 0.5,
+    "productability_score": 0.6,
+    "opportunity_score": 0.395
+  },
+  {
+    "cluster_id": "cl_e9af6edd82",
+    "cluster_label": "面接準備",
+    "canonical_problem": "バイト面接の準備不足により、必要な持ち物を忘れて焦っている状況",
+    "representative_user": "その他",
+    "representative_job": "面接準備",
+    "root_cause_summary": "面接準備のチェックリストがない",
+    "question_ids": [
+      "048a4764345c"
+    ],
+    "pain_ids": [
+      "927d356d7df2"
+    ],
+    "cluster_size": 1,
+    "date_count": 1,
+    "avg_severity": 3.0,
+    "avg_urgency": 5.0,
+    "avg_wtp_proxy": 2.0,
+    "avg_builder_fit": 4.0,
+    "recurrence_score": 0.113,
+    "solution_gap_score": 0.5,
+    "productability_score": 0.2,
+    "opportunity_score": 0.393
+  },
+  {
+    "cluster_id": "cl_f58ddce49f",
+    "cluster_label": "顧客対応",
+    "canonical_problem": "不動産業務で顧客対応に備えた情報収集の必要性と準備不足への不安",
+    "representative_user": "会社員",
+    "representative_job": "顧客対応",
+    "root_cause_summary": "業務に必要な情報の体系化不足",
+    "question_ids": [
+      "1097fc9ace8a"
+    ],
+    "pain_ids": [
+      "372cc458559b"
+    ],
+    "cluster_size": 1,
+    "date_count": 1,
+    "avg_severity": 3.0,
+    "avg_urgency": 3.0,
+    "avg_wtp_proxy": 2.0,
+    "avg_builder_fit": 4.0,
+    "recurrence_score": 0.113,
+    "solution_gap_score": 0.5,
+    "productability_score": 0.2,
+    "opportunity_score": 0.393
+  },
+  {
+    "cluster_id": "cl_2ed432bc36",
+    "cluster_label": "書類準備",
+    "canonical_problem": "実家の家族のマイナンバーコピーが必要だが、写真データでコピーする方法の適法性が不明。",
+    "representative_user": "その他",
+    "representative_job": "書類準備",
+    "root_cause_summary": "遠隔での書類準備制約",
+    "question_ids": [
+      "10d7529d3f54"
+    ],
+    "pain_ids": [
+      "6db12f265900"
+    ],
+    "cluster_size": 1,
+    "date_count": 1,
+    "avg_severity": 3.0,
+    "avg_urgency": 3.0,
+    "avg_wtp_proxy": 2.0,
+    "avg_builder_fit": 3.0,
+    "recurrence_score": 0.113,
+    "solution_gap_score": 0.5,
+    "productability_score": 0.4,
+    "opportunity_score": 0.375
+  },
+  {
+    "cluster_id": "cl_a9c1a4d147",
+    "cluster_label": "衣服汚れ除去",
+    "canonical_problem": "学生シャツの摩擦による黒い汚れがクリーニングでも落ちず、複数の方法を試したが除去できない。",
+    "representative_user": "その他",
+    "representative_job": "衣服汚れ除去",
+    "root_cause_summary": "摩擦汚れに対する適切な方法不明",
+    "question_ids": [
+      "d985aa7a8e86"
+    ],
+    "pain_ids": [
+      "f78e11dfffd6"
+    ],
+    "cluster_size": 1,
+    "date_count": 1,
+    "avg_severity": 3.0,
+    "avg_urgency": 3.0,
+    "avg_wtp_proxy": 3.0,
+    "avg_builder_fit": 2.0,
+    "recurrence_score": 0.113,
+    "solution_gap_score": 0.5,
+    "productability_score": 0.4,
+    "opportunity_score": 0.375
+  },
+  {
+    "cluster_id": "cl_5c1831b33e",
+    "cluster_label": "住所取得",
+    "canonical_problem": "メルカリの配送設定変更で住所情報が消失し、購入者に失礼なく住所を再取得したい",
+    "representative_user": "その他",
+    "representative_job": "住所取得",
+    "root_cause_summary": "プラットフォーム仕様を理解不足",
+    "question_ids": [
+      "d90df0599331"
+    ],
+    "pain_ids": [
+      "de2e0097b352"
+    ],
+    "cluster_size": 1,
+    "date_count": 1,
+    "avg_severity": 3.0,
+    "avg_urgency": 4.0,
+    "avg_wtp_proxy": 2.0,
+    "avg_builder_fit": 3.0,
+    "recurrence_score": 0.113,
+    "solution_gap_score": 0.5,
+    "productability_score": 0.2,
+    "opportunity_score": 0.355
+  },
+  {
+    "cluster_id": "cl_a0dd7f8a3e",
+    "cluster_label": "シール清拭",
+    "canonical_problem": "娘のお気に入りシールの粘着面に付着した汚れが、テープやアルコールでも除去できずに困っている。",
+    "representative_user": "その他",
+    "representative_job": "シール清拭",
+    "root_cause_summary": "細かい汚れに対応する手段がない",
+    "question_ids": [
+      "3e1989161bae"
+    ],
+    "pain_ids": [
+      "3ab87694a614"
+    ],
+    "cluster_size": 1,
+    "date_count": 1,
+    "avg_severity": 3.0,
+    "avg_urgency": 2.0,
+    "avg_wtp_proxy": 2.0,
+    "avg_builder_fit": 3.0,
+    "recurrence_score": 0.113,
+    "solution_gap_score": 0.5,
+    "productability_score": 0.2,
+    "opportunity_score": 0.355
+  },
+  {
+    "cluster_id": "cl_3a868ff229",
+    "cluster_label": "臭い除去処理",
+    "canonical_problem": "おねしょ後のマット臭い除去で親にバレずに処理したい",
+    "representative_user": "その他",
+    "representative_job": "臭い除去処理",
+    "root_cause_summary": "効果的な臭い除去方法不明",
+    "question_ids": [
+      "bc379b8a483f"
+    ],
+    "pain_ids": [
+      "b84e99223ce5"
+    ],
+    "cluster_size": 1,
+    "date_count": 1,
+    "avg_severity": 3.0,
+    "avg_urgency": 4.0,
+    "avg_wtp_proxy": 2.0,
+    "avg_builder_fit": 3.0,
+    "recurrence_score": 0.113,
+    "solution_gap_score": 0.5,
+    "productability_score": 0.2,
+    "opportunity_score": 0.355
+  },
+  {
+    "cluster_id": "cl_4d14e0b269",
+    "cluster_label": "ネイル除去",
+    "canonical_problem": "ジェルネイルのベースコート除去が困難で手間と時間がかかる",
+    "representative_user": "その他",
+    "representative_job": "ネイル除去",
+    "root_cause_summary": "適切な除去手順や技術が不明",
+    "question_ids": [
+      "6b98cf48f86f"
+    ],
+    "pain_ids": [
+      "cb7a0f0a2485"
+    ],
+    "cluster_size": 1,
+    "date_count": 1,
+    "avg_severity": 2.0,
+    "avg_urgency": 2.0,
+    "avg_wtp_proxy": 2.0,
+    "avg_builder_fit": 1.0,
+    "recurrence_score": 0.113,
+    "solution_gap_score": 0.7,
+    "productability_score": 0.8,
+    "opportunity_score": 0.33
+  },
+  {
+    "cluster_id": "cl_cacbde9082",
+    "cluster_label": "住所変更判断",
+    "canonical_problem": "甥っ子の住所変更により医療証が使えなくなる可能性があり、判断に迷っている。",
+    "representative_user": "その他",
+    "representative_job": "住所変更判断",
+    "root_cause_summary": "制度の複雑さ",
+    "question_ids": [
+      "12ec4230f090"
+    ],
+    "pain_ids": [
+      "4ce93662d789"
+    ],
+    "cluster_size": 1,
+    "date_count": 1,
+    "avg_severity": 3.0,
+    "avg_urgency": 3.0,
+    "avg_wtp_proxy": 2.0,
+    "avg_builder_fit": 2.0,
+    "recurrence_score": 0.113,
+    "solution_gap_score": 0.5,
+    "productability_score": 0.2,
+    "opportunity_score": 0.318
+  },
+  {
+    "cluster_id": "cl_029bdcf3c2",
+    "cluster_label": "ポートフォリオ作成",
+    "canonical_problem": "ウェブデザインの学習でポートフォリオ作成時に、著作権・商標の判断に困っている。",
+    "representative_user": "その他",
+    "representative_job": "ポートフォリオ作成",
+    "root_cause_summary": "著作権・商標の境界線が不明確",
+    "question_ids": [
+      "448aeda51a7a"
+    ],
+    "pain_ids": [
+      "23fd01f6317d"
+    ],
+    "cluster_size": 1,
+    "date_count": 1,
+    "avg_severity": 3.0,
+    "avg_urgency": 2.0,
+    "avg_wtp_proxy": 2.0,
+    "avg_builder_fit": 2.0,
+    "recurrence_score": 0.113,
+    "solution_gap_score": 0.5,
+    "productability_score": 0.2,
+    "opportunity_score": 0.318
+  },
+  {
+    "cluster_id": "cl_f441196d14",
+    "cluster_label": "賃貸審査",
+    "canonical_problem": "不動産審査結果の連絡がなく、進捗が分からず不安な状況",
+    "representative_user": "その他",
+    "representative_job": "賃貸審査",
+    "root_cause_summary": "不動産会社からの進捗報告がない",
+    "question_ids": [
+      "23928713aa85"
+    ],
+    "pain_ids": [
+      "4663d3f09871"
+    ],
+    "cluster_size": 1,
+    "date_count": 1,
+    "avg_severity": 3.0,
+    "avg_urgency": 3.0,
+    "avg_wtp_proxy": 1.0,
+    "avg_builder_fit": 1.0,
+    "recurrence_score": 0.113,
+    "solution_gap_score": 0.5,
+    "productability_score": 0.2,
+    "opportunity_score": 0.243
+  },
+  {
+    "cluster_id": "cl_9b155a1546",
+    "cluster_label": "求人応募",
+    "canonical_problem": "求人情報と実際の条件が異なり、面接で断る勇気がなく採用連絡への対応に困っている",
+    "representative_user": "その他",
+    "representative_job": "求人応募",
+    "root_cause_summary": "面接時の断り方が分からない",
+    "question_ids": [
+      "dae178ee3f6f"
+    ],
+    "pain_ids": [
+      "bbf6de07e0bb"
+    ],
+    "cluster_size": 1,
+    "date_count": 1,
+    "avg_severity": 2.0,
+    "avg_urgency": 4.0,
+    "avg_wtp_proxy": 1.0,
+    "avg_builder_fit": 1.0,
+    "recurrence_score": 0.113,
+    "solution_gap_score": 0.7,
+    "productability_score": 0.2,
+    "opportunity_score": 0.233
+  }
+]
